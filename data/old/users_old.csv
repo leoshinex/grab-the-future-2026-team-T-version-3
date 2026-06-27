@@ -1,0 +1,501 @@
+user_id,area_cluster,ward,account_age_days,avg_order_value,voucher_usage_rate_90d,order_frequency_per_week,peak_order_hour,evening_order_frequency,evening_order_recency_days,price_sensitivity_score,deal_seeking_score,activity_score,time_match_score,giovang_score,segment,notify_priority
+U0000,Công nhân,Phường Lái Thiêu,1086,31000,0.87,5,19,5.0,4,0.893,0.665,0.614,1.0,0.823,Deal Hunter,High
+U0001,Ngoại ô,Xã Bình Chánh,1371,52000,0.41,2,16,0.1,89,0.582,0.303,0.486,0.505,0.469,Casual User,Medium
+U0002,Dân cư đông,Phường Tân Hòa,79,39000,0.71,10,17,4.2,1,0.782,0.712,0.515,1.0,0.789,Deal Hunter,High
+U0003,Công nhân,Phường Đông Hòa,1542,35000,0.88,4,17,4.4,7,0.882,0.642,0.571,1.0,0.808,Deal Hunter,High
+U0004,Sinh viên,Phường Hiệp Bình,48,44000,0.7,9,19,3.3,10,0.758,0.677,0.438,1.0,0.762,Deal Hunter,High
+U0005,Sinh viên,Phường Tăng Nhơn Phú,755,48000,0.62,8,11,1.4,21,0.702,0.601,0.743,0.329,0.583,Casual User,Medium
+U0006,Trung tâm,Phường Bến Thành,226,78000,0.38,6,18,1.9,61,0.467,0.399,0.505,1.0,0.584,Evening Regular,Medium
+U0007,Dân cư đông,Phường An Hội Tây,1503,80000,0.27,5,16,0.8,41,0.404,0.305,0.614,0.584,0.44,Casual User,Low
+U0008,Công nhân,Phường Dĩ An,588,35000,0.92,13,18,3.2,6,0.902,0.923,0.957,1.0,0.938,Deal Hunter,High
+U0009,Dân cư đông,Phường Thông Tây Hội,1732,68000,0.28,2,22,0.3,20,0.455,0.225,0.486,0.289,0.348,Casual User,Low
+U0010,Trung tâm,Phường Cầu Kiệu,481,128000,0.05,7,10,0.0,55,0.11,0.23,0.7,0.239,0.237,Casual User,Low
+U0011,Ngoại ô,Xã Hưng Long,318,62000,0.57,3,22,0.7,89,0.623,0.428,0.477,0.227,0.451,Casual User,Medium
+U0012,Dân cư đông,Phường Bảy Hiền,1194,52000,0.69,4,9,0.9,13,0.722,0.528,0.571,0.319,0.548,Casual User,Medium
+U0013,Sinh viên,Phường An Khánh,1137,47000,0.74,4,6,1.3,36,0.766,0.558,0.571,0.309,0.57,Casual User,Medium
+U0014,Sinh viên,Phường Linh Xuân,1747,35000,0.95,11,8,1.9,89,0.917,0.884,0.871,0.272,0.741,High Value Target,High
+U0015,Sinh viên,Phường Hiệp Bình,420,25000,0.95,12,11,1.4,55,0.956,0.913,0.914,0.291,0.773,Deal Hunter,High
+U0016,Sinh viên,Phường Phước Long,1644,47000,0.72,3,17,4.2,5,0.756,0.518,0.529,1.0,0.723,High Value Target,High
+U0017,Công nhân,Phường Thuận Giao,244,30000,0.85,1,9,2.0,7,0.887,0.539,0.31,0.367,0.595,Casual User,Medium
+U0018,Công nhân,Phường Đông Hòa,1579,38000,0.87,7,6,2.7,13,0.866,0.722,0.7,0.387,0.686,High Value Target,High
+U0019,Sinh viên,Phường Long Bình,244,35000,0.77,4,20,4.5,1,0.827,0.576,0.439,1.0,0.756,Deal Hunter,High
+U0020,Công nhân,Phường Đông Hòa,1456,41000,0.77,2,19,4.9,10,0.804,0.519,0.486,1.0,0.736,High Value Target,High
+U0021,Sinh viên,Phường Linh Xuân,157,31000,0.79,7,19,3.9,10,0.853,0.674,0.472,1.0,0.798,Deal Hunter,High
+U0022,Sinh viên,Phường Thủ Đức,1530,55000,0.88,5,20,2.7,7,0.805,0.671,0.614,1.0,0.794,Deal Hunter,High
+U0023,Công nhân,Phường Bình Hòa,789,39000,0.92,13,17,4.9,10,0.887,0.923,0.957,1.0,0.933,Deal Hunter,High
+U0024,Công nhân,Phường Hòa Lợi,433,26000,0.87,3,9,2.0,13,0.912,0.608,0.529,0.361,0.645,Casual User,Medium
+U0025,Dân cư đông,Phường Khánh Hội,1082,62000,0.28,4,13,0.5,51,0.478,0.282,0.571,0.262,0.374,Casual User,Low
+U0026,Sinh viên,Phường Thủ Đức,367,56000,0.55,5,18,4.4,6,0.637,0.473,0.614,1.0,0.676,Evening Regular,Medium
+U0027,Công nhân,Phường Dĩ An,860,32000,0.94,8,11,2.2,12,0.924,0.793,0.743,0.369,0.728,High Value Target,High
+U0028,Công nhân,Phường Tân Khánh,743,27000,0.7,5,17,4.3,8,0.823,0.563,0.614,1.0,0.768,Deal Hunter,High
+U0029,Trung tâm,Phường Bến Thành,390,97000,0.16,6,7,0.8,16,0.284,0.267,0.657,0.312,0.323,Casual User,Low
+U0030,Công nhân,Phường Đông Hòa,598,33000,0.77,3,11,1.8,40,0.835,0.548,0.529,0.323,0.59,Casual User,Medium
+U0031,Sinh viên,Phường Hiệp Bình,1445,44000,0.78,9,16,1.6,42,0.798,0.725,0.786,0.613,0.729,High Value Target,High
+U0032,Trung tâm,Phường Nhiêu Lộc,247,110000,0.07,4,17,2.9,5,0.189,0.156,0.442,1.0,0.407,Casual User,Low
+U0033,Ngoại ô,Xã Đông Thạnh,1627,55000,0.52,2,16,0.9,12,0.625,0.369,0.486,0.62,0.533,Casual User,Medium
+U0034,Ngoại ô,Phường An Lạc,1722,48000,0.51,6,17,1.7,30,0.647,0.477,0.657,1.0,0.685,Budget Conscious,High
+U0035,Dân cư đông,Phường Khánh Hội,231,65000,0.46,3,6,0.9,24,0.557,0.362,0.382,0.307,0.418,Casual User,Low
+U0036,Sinh viên,Phường Hiệp Bình,46,36000,0.74,2,9,1.5,12,0.808,0.501,0.136,0.343,0.532,New User,Medium
+U0037,Trung tâm,Phường Bàn Cờ,351,79000,0.28,9,19,3.3,1,0.413,0.425,0.77,1.0,0.599,Evening Regular,Medium
+U0038,Dân cư đông,Phường An Hội Tây,547,82000,0.5,5,17,3.6,10,0.512,0.443,0.614,1.0,0.624,Evening Regular,Medium
+U0039,Công nhân,Phường Tân Đông Hiệp,1623,36000,0.74,7,9,2.9,5,0.808,0.644,0.7,0.403,0.647,Casual User,Medium
+U0040,Sinh viên,Phường Hiệp Bình,1378,42000,0.78,3,19,4.1,12,0.805,0.554,0.529,1.0,0.751,High Value Target,High
+U0041,Công nhân,Phường Thuận An,1465,40000,0.86,8,10,2.3,6,0.853,0.745,0.743,0.38,0.691,High Value Target,High
+U0042,Trung tâm,Phường Bàn Cờ,1371,100000,0.14,2,15,0.0,30,0.262,0.141,0.486,0.267,0.249,Casual User,Low
+U0043,Ngoại ô,Xã Tân Nhựt,710,70000,0.45,4,10,0.4,81,0.533,0.384,0.571,0.225,0.415,Casual User,Low
+U0044,Sinh viên,Phường Hiệp Bình,1135,38000,0.76,13,18,2.9,9,0.811,0.827,0.957,1.0,0.878,Deal Hunter,High
+U0045,Dân cư đông,Phường Bảy Hiền,1527,37000,0.69,8,17,2.9,6,0.78,0.643,0.743,1.0,0.79,Budget Conscious,High
+U0046,Sinh viên,Phường Cát Lái,1521,36000,0.88,5,10,2.0,5,0.878,0.671,0.614,0.369,0.662,Casual User,Medium
+U0047,Công nhân,Phường Tân Đông Hiệp,454,33000,0.89,4,19,3.7,12,0.895,0.648,0.571,1.0,0.815,Deal Hunter,High
+U0048,Công nhân,Phường Đông Hòa,1784,37000,0.91,9,13,2.3,7,0.89,0.803,0.786,0.378,0.726,High Value Target,High
+U0049,Sinh viên,Phường Hiệp Bình,1742,28000,0.95,5,11,2.1,13,0.944,0.713,0.614,0.364,0.697,High Value Target,High
+U0050,Ngoại ô,Phường Bình Trị Đông,1257,44000,0.39,8,10,0.0,84,0.603,0.463,0.743,0.207,0.476,Casual User,Medium
+U0051,Dân cư đông,Phường Tân Hòa,1636,49000,0.69,8,11,0.8,57,0.733,0.643,0.743,0.267,0.59,Casual User,Medium
+U0052,Ngoại ô,Phường Bình Trị Đông,1048,50000,0.57,1,7,0.0,54,0.67,0.371,0.443,0.24,0.45,Casual User,Medium
+U0053,Dân cư đông,Phường Hạnh Thông,416,70000,0.37,2,16,1.1,27,0.493,0.279,0.486,0.611,0.458,Casual User,Medium
+U0054,Công nhân,Phường Tân Đông Hiệp,807,29000,0.95,6,19,4.3,4,0.94,0.741,0.657,1.0,0.867,Deal Hunter,High
+U0055,Ngoại ô,Phường Bình Tân,127,62000,0.43,3,16,0.7,62,0.553,0.344,0.268,0.557,0.463,Casual User,Medium
+U0056,Trung tâm,Phường Cầu Ông Lãnh,1398,98000,0.1,3,10,0.0,65,0.25,0.146,0.529,0.228,0.241,Casual User,Low
+U0057,Sinh viên,Phường Thủ Đức,237,39000,0.75,11,8,1.5,78,0.802,0.764,0.731,0.27,0.651,Casual User,Medium
+U0058,Trung tâm,Phường Sài Gòn,1567,120000,0.05,5,10,0.3,57,0.14,0.173,0.614,0.248,0.224,Casual User,Low
+U0059,Sinh viên,Phường An Khánh,1689,36000,0.74,8,13,1.6,26,0.808,0.673,0.743,0.331,0.642,Casual User,Medium
+U0060,Công nhân,Phường Dĩ An,615,38000,0.94,5,18,4.6,3,0.901,0.707,0.614,1.0,0.839,Deal Hunter,High
+U0061,Sinh viên,Phường An Khánh,195,36000,0.8,5,10,2.2,7,0.838,0.623,0.428,0.375,0.617,Casual User,Medium
+U0062,Dân cư đông,Phường Tân Sơn Hòa,51,53000,0.54,2,18,2.4,11,0.643,0.381,0.142,1.0,0.604,Evening Regular,Medium
+U0063,Công nhân,Phường Hòa Lợi,183,45000,0.89,4,19,4.7,2,0.849,0.648,0.372,1.0,0.779,Deal Hunter,High
+U0064,Sinh viên,Phường Cát Lái,1492,31000,0.81,3,14,1.4,35,0.863,0.572,0.529,0.314,0.605,Casual User,Medium
+U0065,Công nhân,Phường Dĩ An,1348,25000,0.95,4,19,5.3,6,0.956,0.684,0.571,1.0,0.847,Deal Hunter,High
+U0066,Sinh viên,Phường Long Bình,248,45000,0.86,8,16,1.5,78,0.834,0.745,0.615,0.57,0.719,High Value Target,High
+U0067,Dân cư đông,Phường Gò Vấp,698,37000,0.52,4,17,2.5,10,0.695,0.426,0.571,1.0,0.678,Evening Regular,Medium
+U0068,Trung tâm,Phường Tân Định,1548,120000,0.12,5,16,0.5,74,0.175,0.215,0.614,0.537,0.321,Casual User,Low
+U0069,Ngoại ô,Phường An Lạc,259,56000,0.36,4,15,0.7,41,0.542,0.33,0.455,0.281,0.404,Casual User,Low
+U0070,Dân cư đông,Phường Hạnh Thông,49,83000,0.53,2,10,0.3,9,0.523,0.375,0.139,0.301,0.385,New User,Low
+U0071,Sinh viên,Phường Long Bình,582,43000,0.95,4,11,1.6,13,0.887,0.684,0.571,0.346,0.659,Casual User,Medium
+U0072,Trung tâm,Phường Bàn Cờ,979,104000,0.19,3,11,0.0,33,0.272,0.2,0.529,0.263,0.274,Casual User,Low
+U0073,Dân cư đông,Phường Khánh Hội,177,87000,0.17,3,16,0.4,7,0.327,0.188,0.323,0.607,0.355,Casual User,Low
+U0074,Dân cư đông,Phường Xóm Chiếu,1161,55000,0.67,2,9,1.4,86,0.7,0.459,0.486,0.257,0.496,Casual User,Medium
+U0075,Dân cư đông,Phường Thạnh Mỹ Tây,432,88000,0.61,4,20,3.7,2,0.543,0.48,0.571,1.0,0.641,Evening Regular,Medium
+U0076,Dân cư đông,Phường Thạnh Mỹ Tây,625,42000,0.6,8,18,3.6,4,0.715,0.589,0.743,1.0,0.751,Budget Conscious,High
+U0077,Trung tâm,Phường Bàn Cờ,1536,97000,0.13,3,13,0.0,47,0.269,0.164,0.529,0.248,0.258,Casual User,Low
+U0078,Công nhân,Phường Bình Hòa,396,29000,0.78,4,10,2.8,2,0.855,0.582,0.571,0.403,0.632,Casual User,Medium
+U0079,Sinh viên,Phường Linh Xuân,1467,39000,0.83,6,20,2.7,13,0.842,0.669,0.657,1.0,0.811,Deal Hunter,High
+U0080,Dân cư đông,Phường Tân Bình,1362,44000,0.75,3,19,3.4,8,0.783,0.536,0.529,1.0,0.738,High Value Target,High
+U0081,Công nhân,Phường Tân Đông Hiệp,831,40000,0.91,10,18,3.9,6,0.878,0.832,0.829,1.0,0.89,Deal Hunter,High
+U0082,Sinh viên,Phường Phước Long,947,48000,0.95,5,11,2.1,2,0.867,0.713,0.614,0.377,0.673,Casual User,Medium
+U0083,Trung tâm,Phường Xuân Hòa,1187,134000,0.05,4,13,0.9,43,0.087,0.144,0.571,0.286,0.202,Casual User,Low
+U0084,Sinh viên,Phường Linh Xuân,1772,30000,0.68,5,9,1.3,65,0.802,0.551,0.614,0.277,0.577,Casual User,Medium
+U0085,Sinh viên,Phường Long Bình,1336,41000,0.8,3,10,2.3,10,0.819,0.566,0.529,0.375,0.603,Casual User,Medium
+U0086,Dân cư đông,Phường Vĩnh Hội,102,58000,0.3,6,18,3.9,9,0.504,0.351,0.369,1.0,0.569,Evening Regular,Medium
+U0087,Công nhân,Phường Dĩ An,510,30000,0.84,4,18,3.6,7,0.882,0.618,0.571,1.0,0.801,Deal Hunter,High
+U0088,Dân cư đông,Phường Vĩnh Hội,1405,53000,0.73,10,17,3.1,9,0.738,0.724,0.829,1.0,0.808,Deal Hunter,High
+U0089,Công nhân,Phường Tân Đông Hiệp,589,31000,0.92,3,20,3.1,5,0.918,0.638,0.529,1.0,0.816,High Value Target,High
+U0090,Sinh viên,Phường Linh Xuân,1379,43000,0.79,5,16,1.6,53,0.807,0.617,0.614,0.601,0.679,Casual User,Medium
+U0091,Dân cư đông,Phường An Hội Tây,774,63000,0.7,6,15,1.3,68,0.685,0.591,0.657,0.273,0.551,Casual User,Medium
+U0092,Dân cư đông,Phường Hạnh Thông,1496,57000,0.52,1,11,1.0,20,0.618,0.341,0.443,0.315,0.442,Casual User,Low
+U0093,Công nhân,Phường Thuận Giao,129,25000,0.95,4,20,5.2,12,0.956,0.684,0.313,1.0,0.821,Deal Hunter,High
+U0094,Dân cư đông,Phường Thạnh Mỹ Tây,1112,38000,0.67,7,9,0.8,67,0.766,0.602,0.7,0.256,0.583,Casual User,Medium
+U0095,Công nhân,Phường Thuận An,537,21000,0.95,9,20,5.3,3,0.971,0.827,0.786,1.0,0.917,Deal Hunter,High
+U0096,Công nhân,Phường Hòa Lợi,287,46000,0.69,4,19,5.5,7,0.745,0.528,0.486,1.0,0.718,Budget Conscious,High
+U0097,Công nhân,Phường Tân Đông Hiệp,442,21000,0.9,8,9,1.7,30,0.946,0.769,0.743,0.33,0.719,High Value Target,High
+U0098,Trung tâm,Phường Sài Gòn,1505,77000,0.1,12,16,0.7,29,0.331,0.403,0.914,0.594,0.477,Casual User,Medium
+U0099,Sinh viên,Phường Hiệp Bình,1118,34000,0.82,9,19,3.1,10,0.856,0.749,0.786,1.0,0.853,Deal Hunter,High
+U0100,Trung tâm,Phường Cầu Ông Lãnh,624,118000,0.06,2,16,0.8,56,0.153,0.093,0.486,0.568,0.272,Casual User,Low
+U0101,Công nhân,Phường Hòa Lợi,1207,45000,0.7,7,20,3.2,6,0.754,0.62,0.7,1.0,0.77,Deal Hunter,High
+U0102,Sinh viên,Phường An Khánh,295,46000,0.95,4,21,1.6,85,0.875,0.684,0.495,0.566,0.702,High Value Target,High
+U0103,Công nhân,Phường Đông Hòa,850,36000,0.89,13,13,2.9,7,0.883,0.905,0.957,0.401,0.777,Deal Hunter,High
+U0104,Ngoại ô,Xã Nhà Bè,1132,58000,0.5,5,12,0.1,76,0.604,0.443,0.614,0.219,0.46,Casual User,Medium
+U0105,Sinh viên,Phường Thủ Đức,1368,27000,0.94,2,20,4.4,10,0.943,0.621,0.486,1.0,0.815,High Value Target,High
+U0106,Công nhân,Phường An Phú,691,45000,0.73,7,17,5.0,5,0.769,0.638,0.7,1.0,0.781,Deal Hunter,High
+U0107,Dân cư đông,Phường Thông Tây Hội,976,71000,0.49,4,9,1.0,56,0.549,0.408,0.571,0.275,0.44,Casual User,Low
+U0108,Sinh viên,Phường Linh Xuân,589,41000,0.72,14,8,1.5,42,0.779,0.832,1.0,0.31,0.7,High Value Target,High
+U0109,Trung tâm,Phường Xuân Hòa,946,114000,0.2,13,16,0.4,14,0.238,0.491,0.957,0.599,0.476,Casual User,Medium
+U0110,Sinh viên,Phường Hiệp Bình,920,43000,0.67,6,20,2.6,7,0.747,0.573,0.657,1.0,0.749,Budget Conscious,High
+U0111,Sinh viên,Phường Linh Xuân,1301,41000,0.79,2,19,3.5,10,0.814,0.531,0.486,1.0,0.743,High Value Target,High
+U0112,Ngoại ô,Phường Bình Tân,897,84000,0.39,7,17,1.5,68,0.449,0.434,0.7,1.0,0.607,Evening Regular,Medium
+U0113,Dân cư đông,Phường Tân Bình,639,82000,0.46,2,10,0.2,53,0.492,0.333,0.486,0.249,0.383,Casual User,Low
+U0114,Công nhân,Phường Tân Đông Hiệp,443,35000,0.81,1,10,3.0,11,0.847,0.515,0.443,0.4,0.595,Casual User,Medium
+U0115,Dân cư đông,Phường Thạnh Mỹ Tây,54,68000,0.4,9,19,3.7,3,0.515,0.497,0.445,1.0,0.624,Evening Regular,Medium
+U0116,Dân cư đông,Phường Xóm Chiếu,313,36000,0.61,3,10,0.8,38,0.743,0.452,0.472,0.288,0.515,Casual User,Medium
+U0117,Sinh viên,Phường Long Bình,1502,42000,0.83,4,11,2.1,10,0.83,0.612,0.571,0.368,0.623,Casual User,Medium
+U0118,Dân cư đông,Phường Xóm Chiếu,910,35000,0.65,13,9,0.7,7,0.767,0.761,0.957,0.318,0.672,Casual User,Medium
+U0119,Công nhân,Phường Thuận Giao,330,34000,0.95,4,17,3.6,13,0.921,0.684,0.533,1.0,0.831,Deal Hunter,High
+U0120,Dân cư đông,Phường An Hội Đông,1121,99000,0.37,3,21,1.4,68,0.381,0.308,0.529,0.577,0.423,Casual User,Low
+U0121,Dân cư đông,Phường Tân Sơn Nhất,1060,61000,0.3,10,11,1.6,85,0.492,0.466,0.829,0.266,0.461,Casual User,Medium
+U0122,Sinh viên,Phường Tăng Nhơn Phú,846,37000,0.83,2,15,1.6,84,0.85,0.555,0.486,0.267,0.579,Casual User,Medium
+U0123,Sinh viên,Phường An Khánh,1190,34000,0.95,8,17,4.4,6,0.921,0.799,0.743,1.0,0.886,Deal Hunter,High
+U0124,Sinh viên,Phường Bình Trưng,1217,29000,0.95,13,22,1.4,77,0.94,0.941,0.957,0.267,0.774,Deal Hunter,High
+U0125,Công nhân,Phường Tân Đông Hiệp,112,37000,0.9,10,9,3.0,13,0.885,0.826,0.551,0.398,0.712,High Value Target,High
+U0126,Dân cư đông,Phường Gò Vấp,1703,46000,0.5,6,16,0.2,70,0.65,0.471,0.657,0.53,0.567,Casual User,Medium
+U0127,Dân cư đông,Phường Vĩnh Hội,1473,41000,0.68,4,12,1.1,31,0.759,0.522,0.571,0.307,0.556,Casual User,Medium
+U0128,Trung tâm,Phường Phú Nhuận,1126,94000,0.23,3,19,2.6,8,0.33,0.224,0.529,1.0,0.486,Evening Regular,Medium
+U0129,Công nhân,Phường Tân Đông Hiệp,1290,39000,0.82,8,15,2.5,8,0.837,0.721,0.743,0.385,0.68,High Value Target,High
+U0130,Công nhân,Phường Tân Đông Hiệp,75,38000,0.88,9,9,1.7,14,0.871,0.785,0.468,0.348,0.674,New User,Medium
+U0131,Sinh viên,Phường Hiệp Bình,647,26000,0.95,5,17,4.0,10,0.952,0.713,0.614,1.0,0.858,Deal Hunter,High
+U0132,Sinh viên,Phường Hiệp Bình,957,37000,0.72,3,18,5.0,4,0.795,0.518,0.529,1.0,0.737,High Value Target,High
+U0133,Sinh viên,Phường Linh Xuân,291,38000,0.7,2,6,1.9,87,0.781,0.477,0.405,0.275,0.526,Casual User,Medium
+U0134,Ngoại ô,Phường An Lạc,205,63000,0.54,2,19,2.3,3,0.605,0.381,0.31,1.0,0.607,Evening Regular,Medium
+U0135,Sinh viên,Phường Cát Lái,1219,41000,0.83,7,10,1.5,62,0.834,0.698,0.7,0.287,0.643,Casual User,Medium
+U0136,Công nhân,Phường Lái Thiêu,686,30000,0.95,4,16,2.3,3,0.937,0.684,0.571,0.683,0.761,Deal Hunter,High
+U0137,Dân cư đông,Phường An Hội Tây,871,61000,0.59,10,13,0.8,67,0.637,0.64,0.829,0.256,0.562,Casual User,Medium
+U0138,Công nhân,Phường Đông Hòa,399,32000,0.83,7,18,4.5,8,0.869,0.698,0.7,1.0,0.834,Deal Hunter,High
+U0139,Ngoại ô,Xã Tân Nhựt,83,74000,0.45,3,12,0.0,41,0.517,0.356,0.22,0.254,0.373,New User,Low
+U0140,Ngoại ô,Xã Bà Điểm,719,59000,0.38,6,19,3.5,13,0.54,0.399,0.657,1.0,0.624,Evening Regular,Medium
+U0141,Sinh viên,Phường Cát Lái,1472,36000,0.79,4,18,3.4,3,0.833,0.588,0.571,1.0,0.775,Deal Hunter,High
+U0142,Công nhân,Phường Dĩ An,1809,31000,0.94,6,17,4.3,9,0.928,0.735,0.657,1.0,0.861,Deal Hunter,High
+U0143,Sinh viên,Phường Thủ Đức,1560,39000,0.76,7,18,3.0,12,0.807,0.656,0.7,1.0,0.799,Deal Hunter,High
+U0144,Sinh viên,Phường Cát Lái,1394,46000,0.95,8,18,5.0,13,0.875,0.799,0.743,1.0,0.87,Deal Hunter,High
+U0145,Trung tâm,Phường Cầu Kiệu,1180,100000,0.05,9,8,0.0,64,0.217,0.287,0.786,0.229,0.298,Casual User,Low
+U0146,Công nhân,Phường Hòa Lợi,1462,36000,0.81,3,12,1.5,8,0.843,0.572,0.529,0.347,0.606,Casual User,Medium
+U0147,Công nhân,Phường Tân Khánh,396,37000,0.76,1,20,5.0,7,0.815,0.485,0.443,1.0,0.725,High Value Target,High
+U0148,Trung tâm,Phường Cầu Kiệu,1324,99000,0.05,7,9,0.4,45,0.221,0.23,0.7,0.265,0.283,Casual User,Low
+U0149,Sinh viên,Phường Long Bình,673,36000,0.75,2,18,4.0,6,0.813,0.507,0.486,1.0,0.735,High Value Target,High
+U0150,Ngoại ô,Xã Xuân Thới Sơn,1658,74000,0.28,4,21,0.1,87,0.432,0.282,0.571,0.507,0.42,Casual User,Low
+U0151,Sinh viên,Phường Thủ Đức,408,36000,0.89,1,8,1.0,75,0.883,0.563,0.443,0.254,0.586,Casual User,Medium
+U0152,Sinh viên,Phường Cát Lái,102,37000,0.75,7,17,4.2,6,0.81,0.65,0.412,1.0,0.77,Deal Hunter,High
+U0153,Công nhân,Phường An Phú,944,48000,0.82,3,15,3.0,8,0.802,0.578,0.529,0.404,0.608,Casual User,Medium
+U0154,Ngoại ô,Xã Bình Chánh,1301,31000,0.6,6,16,0.0,70,0.758,0.531,0.657,0.522,0.621,Casual User,Medium
+U0155,Sinh viên,Phường An Khánh,889,31000,0.77,14,9,1.3,22,0.843,0.862,1.0,0.324,0.735,High Value Target,High
+U0156,Dân cư đông,Phường Khánh Hội,72,54000,0.73,2,8,1.5,57,0.734,0.495,0.165,0.293,0.495,New User,Medium
+U0157,Dân cư đông,Phường Gò Vấp,406,85000,0.49,2,17,3.0,1,0.495,0.351,0.486,1.0,0.577,Evening Regular,Medium
+U0158,Sinh viên,Phường Tăng Nhơn Phú,1094,26000,0.68,4,19,4.2,10,0.817,0.522,0.571,1.0,0.75,Budget Conscious,High
+U0159,Dân cư đông,Phường Thạnh Mỹ Tây,199,30000,0.5,9,18,3.4,11,0.712,0.557,0.604,1.0,0.727,Budget Conscious,High
+U0160,Công nhân,Phường Thuận Giao,241,24000,0.95,3,16,1.6,48,0.96,0.656,0.393,0.607,0.724,High Value Target,High
+U0161,Công nhân,Phường Lái Thiêu,1546,25000,0.87,4,9,2.4,8,0.916,0.636,0.571,0.381,0.664,Casual User,Medium
+U0162,Công nhân,Phường Hòa Lợi,1733,23000,0.77,2,17,3.4,1,0.873,0.519,0.486,1.0,0.76,High Value Target,High
+U0163,Công nhân,Phường Thuận An,68,32000,0.95,8,10,1.5,15,0.929,0.799,0.417,0.34,0.692,High Value Target,High
+U0164,Trung tâm,Phường Đức Nhuận,398,102000,0.13,4,20,2.5,2,0.25,0.192,0.571,1.0,0.452,Evening Regular,Medium
+U0165,Dân cư đông,Phường An Nhơn,786,50000,0.61,8,19,2.1,12,0.69,0.595,0.743,1.0,0.744,Budget Conscious,High
+U0166,Sinh viên,Phường Cát Lái,180,35000,0.9,10,18,4.3,9,0.892,0.826,0.626,1.0,0.873,Deal Hunter,High
+U0167,Sinh viên,Phường An Khánh,1164,27000,0.73,3,21,1.5,61,0.838,0.524,0.529,0.588,0.65,Casual User,Medium
+U0168,Trung tâm,Phường Bến Thành,1533,90000,0.05,8,8,0.0,35,0.256,0.259,0.743,0.261,0.307,Casual User,Low
+U0169,Công nhân,Phường Thuận An,1489,33000,0.95,2,18,5.1,10,0.925,0.627,0.486,1.0,0.81,High Value Target,High
+U0170,Dân cư đông,Phường Gò Vấp,1100,70000,0.34,10,11,0.8,24,0.478,0.49,0.829,0.303,0.473,Casual User,Medium
+U0171,Trung tâm,Phường Nhiêu Lộc,1053,63000,0.2,6,20,1.0,77,0.435,0.291,0.657,1.0,0.555,Evening Regular,Medium
+U0172,Công nhân,Phường Dĩ An,1628,32000,0.78,9,11,2.3,9,0.844,0.725,0.786,0.376,0.686,High Value Target,High
+U0173,Sinh viên,Phường Cát Lái,766,33000,0.95,1,18,4.0,7,0.925,0.599,0.443,1.0,0.798,High Value Target,High
+U0174,Công nhân,Phường Lái Thiêu,1419,41000,0.89,3,19,4.7,11,0.864,0.62,0.529,1.0,0.791,High Value Target,High
+U0175,Sinh viên,Phường Tam Bình,98,43000,0.87,4,8,1.4,10,0.847,0.636,0.279,0.341,0.6,Casual User,Medium
+U0176,Dân cư đông,Phường Thạnh Mỹ Tây,328,63000,0.54,4,13,1.6,88,0.605,0.438,0.531,0.262,0.462,Casual User,Medium
+U0177,Công nhân,Phường Tân Khánh,973,29000,0.84,3,18,5.4,11,0.885,0.59,0.529,1.0,0.79,High Value Target,High
+U0178,Ngoại ô,Xã Hóc Môn,831,76000,0.46,4,14,0.5,49,0.515,0.39,0.571,0.264,0.42,Casual User,Low
+U0179,Sinh viên,Phường Hiệp Bình,325,25000,0.72,2,11,1.1,65,0.841,0.489,0.442,0.269,0.552,Casual User,Medium
+U0180,Sinh viên,Phường Cát Lái,232,28000,0.75,4,10,1.6,38,0.844,0.564,0.426,0.318,0.587,Casual User,Medium
+U0181,Sinh viên,Phường Phước Long,90,35000,0.89,8,9,2.2,11,0.887,0.763,0.441,0.37,0.676,Casual User,Medium
+U0182,Ngoại ô,Xã Bà Điểm,975,44000,0.44,5,19,2.6,12,0.628,0.407,0.614,1.0,0.653,Evening Regular,Medium
+U0183,Dân cư đông,Phường Khánh Hội,992,88000,0.36,1,16,0.5,61,0.418,0.245,0.443,0.551,0.402,Casual User,Low
+U0184,Sinh viên,Phường Phước Long,1367,46000,0.75,4,9,1.3,66,0.775,0.564,0.571,0.275,0.566,Casual User,Medium
+U0185,Dân cư đông,Phường Gia Định,1214,49000,0.54,1,12,1.4,76,0.658,0.353,0.443,0.268,0.448,Casual User,Low
+U0186,Dân cư đông,Phường Khánh Hội,360,63000,0.32,12,12,1.6,68,0.495,0.535,0.909,0.284,0.496,Casual User,Medium
+U0187,Công nhân,Phường An Phú,1581,47000,0.74,2,10,1.6,86,0.766,0.501,0.486,0.264,0.533,Casual User,Medium
+U0188,Công nhân,Phường Tân Khánh,367,42000,0.75,7,14,2.2,3,0.79,0.65,0.7,0.379,0.636,Casual User,Medium
+U0189,Sinh viên,Phường Tăng Nhơn Phú,1659,40000,0.81,13,11,1.5,62,0.828,0.857,0.957,0.287,0.714,High Value Target,High
+U0190,Trung tâm,Phường Phú Nhuận,1357,127000,0.05,9,11,0.8,19,0.113,0.287,0.786,0.309,0.282,Casual User,Low
+U0191,Dân cư đông,Phường Gò Vấp,1556,94000,0.39,7,18,1.9,62,0.41,0.434,0.7,1.0,0.594,Evening Regular,Medium
+U0192,Ngoại ô,Xã Bà Điểm,1703,67000,0.38,9,10,0.0,24,0.509,0.485,0.786,0.273,0.471,Casual User,Medium
+U0193,Công nhân,Phường Dĩ An,1391,24000,0.95,13,17,5.2,4,0.96,0.941,0.957,1.0,0.964,Deal Hunter,High
+U0194,Sinh viên,Phường Tăng Nhơn Phú,1603,36000,0.66,6,16,1.1,83,0.768,0.567,0.657,0.549,0.642,Casual User,Medium
+U0195,Sinh viên,Phường Long Bình,668,47000,0.57,5,16,1.7,49,0.681,0.485,0.614,0.609,0.598,Casual User,Medium
+U0196,Dân cư đông,Phường An Nhơn,304,48000,0.37,6,17,2.2,4,0.577,0.393,0.59,1.0,0.629,Evening Regular,Medium
+U0197,Dân cư đông,Phường Thạnh Mỹ Tây,1217,76000,0.4,5,16,0.7,67,0.485,0.383,0.614,0.552,0.484,Casual User,Medium
+U0198,Dân cư đông,Phường Tân Sơn Nhất,1496,41000,0.56,6,19,3.9,2,0.699,0.507,0.657,1.0,0.712,Budget Conscious,High
+U0199,Dân cư đông,Phường Tân Sơn Nhất,348,35000,0.75,4,17,2.2,3,0.817,0.564,0.553,1.0,0.76,Deal Hunter,High
+U0200,Công nhân,Phường Đông Hòa,618,31000,0.83,3,16,1.7,85,0.873,0.584,0.529,0.569,0.676,Casual User,Medium
+U0201,Trung tâm,Phường Bến Thành,533,70000,0.31,2,19,1.7,24,0.463,0.243,0.486,1.0,0.534,Evening Regular,Medium
+U0202,Sinh viên,Phường Cát Lái,1739,53000,0.8,2,17,4.5,6,0.773,0.537,0.486,1.0,0.73,High Value Target,High
+U0203,Dân cư đông,Phường Tân Hòa,416,76000,0.38,3,11,1.3,60,0.475,0.314,0.529,0.282,0.384,Casual User,Low
+U0204,Công nhân,Phường Bình Hòa,899,39000,0.88,1,10,1.7,36,0.867,0.557,0.443,0.324,0.596,Casual User,Medium
+U0205,Trung tâm,Phường Xuân Hòa,862,105000,0.19,5,10,0.0,64,0.268,0.257,0.614,0.229,0.29,Casual User,Low
+U0206,Sinh viên,Phường Tăng Nhơn Phú,1044,31000,0.72,3,20,4.1,13,0.818,0.518,0.529,1.0,0.745,High Value Target,High
+U0207,Dân cư đông,Phường An Nhơn,632,60000,0.54,9,18,4.1,5,0.616,0.581,0.786,1.0,0.718,Budget Conscious,High
+U0208,Trung tâm,Phường Đức Nhuận,1803,103000,0.05,2,20,2.2,9,0.206,0.087,0.486,1.0,0.397,Casual User,Low
+U0209,Sinh viên,Phường Long Bình,720,38000,0.69,3,17,4.6,4,0.776,0.5,0.529,1.0,0.724,Budget Conscious,High
+U0210,Công nhân,Phường Bình Hòa,523,29000,0.75,7,15,1.6,13,0.84,0.65,0.7,0.346,0.646,Casual User,Medium
+U0211,Dân cư đông,Phường Hạnh Thông,519,60000,0.42,6,9,0.3,46,0.556,0.423,0.657,0.26,0.452,Casual User,Medium
+U0212,Dân cư đông,Phường An Hội Tây,750,59000,0.55,2,17,1.9,76,0.625,0.387,0.486,1.0,0.633,Evening Regular,Medium
+U0213,Sinh viên,Phường Long Bình,1126,58000,0.53,9,16,2.0,2,0.619,0.575,0.786,0.673,0.636,Casual User,Medium
+U0214,Dân cư đông,Phường Xóm Chiếu,538,81000,0.37,9,22,0.5,74,0.45,0.479,0.786,0.237,0.439,Casual User,Low
+U0215,Sinh viên,Phường Tăng Nhơn Phú,419,37000,0.89,4,10,2.0,7,0.88,0.648,0.571,0.367,0.651,Casual User,Medium
+U0216,Sinh viên,Phường An Khánh,1672,41000,0.83,4,16,1.4,58,0.834,0.612,0.571,0.588,0.68,High Value Target,High
+U0217,Dân cư đông,Phường Tân Hòa,324,71000,0.42,13,17,1.9,35,0.514,0.623,0.912,1.0,0.708,Budget Conscious,High
+U0218,Công nhân,Phường Thuận An,1422,23000,0.95,6,17,4.0,12,0.963,0.741,0.657,1.0,0.875,Deal Hunter,High
+U0219,Dân cư đông,Phường Gò Vấp,825,81000,0.61,5,16,0.6,84,0.57,0.509,0.614,0.529,0.546,Casual User,Medium
+U0220,Dân cư đông,Phường Tân Sơn Nhất,894,78000,0.44,9,18,2.2,2,0.497,0.521,0.786,1.0,0.659,Evening Regular,Medium
+U0221,Công nhân,Phường Bình Hòa,1747,32000,0.64,3,10,2.1,9,0.774,0.47,0.529,0.369,0.557,Casual User,Medium
+U0222,Trung tâm,Phường Cầu Ông Lãnh,578,93000,0.25,4,18,2.2,7,0.344,0.264,0.571,1.0,0.507,Evening Regular,Medium
+U0223,Công nhân,Phường Thuận Giao,678,29000,0.67,3,17,3.7,11,0.8,0.488,0.529,1.0,0.729,Budget Conscious,High
+U0224,Sinh viên,Phường Long Bình,597,37000,0.95,8,20,2.8,3,0.91,0.799,0.743,1.0,0.883,Deal Hunter,High
+U0225,Sinh viên,Phường Linh Xuân,1240,25000,0.95,6,19,2.9,3,0.956,0.741,0.657,1.0,0.873,Deal Hunter,High
+U0226,Ngoại ô,Xã Vĩnh Lộc,882,72000,0.6,6,11,0.9,57,0.6,0.531,0.657,0.27,0.502,Casual User,Medium
+U0227,Công nhân,Phường An Phú,799,23000,0.95,3,11,2.1,5,0.963,0.656,0.529,0.373,0.68,High Value Target,High
+U0228,Dân cư đông,Phường Thạnh Mỹ Tây,474,52000,0.54,3,22,0.4,26,0.647,0.41,0.529,0.286,0.474,Casual User,Medium
+U0229,Công nhân,Phường Lái Thiêu,1623,44000,0.78,5,16,2.6,6,0.798,0.611,0.614,0.691,0.697,High Value Target,High
+U0230,Dân cư đông,Phường Khánh Hội,392,70000,0.43,7,20,2.8,13,0.523,0.458,0.7,1.0,0.64,Evening Regular,Medium
+U0231,Công nhân,Phường Thuận Giao,152,29000,0.95,5,10,2.5,12,0.94,0.713,0.381,0.38,0.676,Casual User,Medium
+U0232,Công nhân,Phường Lái Thiêu,1241,29000,0.95,1,17,5.0,8,0.94,0.599,0.443,1.0,0.803,High Value Target,High
+U0233,Công nhân,Phường Tân Đông Hiệp,771,21000,0.95,9,19,3.8,9,0.971,0.827,0.786,1.0,0.917,Deal Hunter,High
+U0234,Sinh viên,Phường Bình Trưng,709,43000,0.7,2,21,2.5,1,0.762,0.477,0.486,0.693,0.632,Casual User,Medium
+U0235,Dân cư đông,Phường An Nhơn,449,35000,0.93,12,11,0.4,53,0.907,0.901,0.914,0.256,0.743,High Value Target,High
+U0236,Sinh viên,Phường An Khánh,1679,38000,0.89,1,18,2.8,11,0.876,0.563,0.443,1.0,0.77,High Value Target,High
+U0237,Trung tâm,Phường Phú Nhuận,1305,136000,0.05,7,16,1.0,89,0.079,0.23,0.7,0.539,0.301,Casual User,Low
+U0238,Công nhân,Phường Tân Đông Hiệp,1672,26000,0.87,2,9,2.7,6,0.912,0.579,0.486,0.395,0.64,Casual User,Medium
+U0239,Sinh viên,Phường Hiệp Bình,1602,50000,0.83,10,17,4.2,7,0.8,0.784,0.829,1.0,0.848,Deal Hunter,High
+U0240,Ngoại ô,Xã Đông Thạnh,1388,86000,0.26,5,17,1.4,61,0.376,0.299,0.614,1.0,0.533,Evening Regular,Medium
+U0241,Ngoại ô,Xã Nhà Bè,121,40000,0.63,2,20,1.7,66,0.738,0.435,0.218,1.0,0.661,Evening Regular,Medium
+U0242,Ngoại ô,Xã Đông Thạnh,1583,74000,0.5,4,16,0.1,68,0.542,0.414,0.571,0.528,0.503,Casual User,Medium
+U0243,Công nhân,Phường An Phú,92,33000,0.54,3,10,2.2,2,0.72,0.41,0.229,0.38,0.493,Casual User,Medium
+U0244,Trung tâm,Phường Bến Thành,1715,128000,0.05,3,8,0.4,28,0.11,0.116,0.529,0.284,0.197,Casual User,Low
+U0245,Ngoại ô,Xã Vĩnh Lộc,541,60000,0.48,11,13,0.3,81,0.586,0.602,0.871,0.221,0.528,Casual User,Medium
+U0246,Công nhân,Phường Đông Hòa,1192,36000,0.82,4,11,2.1,12,0.848,0.606,0.571,0.365,0.627,Casual User,Medium
+U0247,Ngoại ô,Xã Vĩnh Lộc,1751,59000,0.52,8,18,1.4,35,0.61,0.541,0.743,1.0,0.7,Budget Conscious,High
+U0248,Ngoại ô,Xã Bình Chánh,1238,73000,0.48,6,11,0.5,47,0.536,0.459,0.657,0.267,0.458,Casual User,Medium
+U0249,Dân cư đông,Phường Gia Định,1258,70000,0.49,7,21,1.5,48,0.553,0.494,0.7,0.603,0.562,Casual User,Medium
+U0250,Sinh viên,Phường Thủ Đức,801,38000,0.77,2,21,1.3,71,0.816,0.519,0.486,0.57,0.632,Casual User,Medium
+U0251,Công nhân,Phường Hòa Lợi,1267,41000,0.9,3,17,5.0,3,0.869,0.626,0.529,1.0,0.795,High Value Target,High
+U0252,Dân cư đông,Phường Bình Lợi Trung,285,48000,0.6,8,20,2.0,12,0.692,0.589,0.655,1.0,0.734,Budget Conscious,High
+U0253,Sinh viên,Phường Long Bình,164,30000,0.82,13,18,4.0,11,0.872,0.863,0.737,1.0,0.888,Deal Hunter,High
+U0254,Sinh viên,Phường Hiệp Bình,1626,30000,0.71,3,16,1.8,23,0.817,0.512,0.529,0.642,0.653,Casual User,Medium
+U0255,Công nhân,Phường An Phú,904,30000,0.74,3,10,2.7,13,0.832,0.53,0.529,0.387,0.6,Casual User,Medium
+U0256,Ngoại ô,Phường Bình Tân,851,49000,0.41,5,15,0.0,20,0.593,0.389,0.614,0.278,0.455,Casual User,Medium
+U0257,Dân cư đông,Phường Tân Bình,117,85000,0.43,13,16,1.4,85,0.465,0.629,0.685,0.558,0.559,Casual User,Medium
+U0258,Công nhân,Phường Tân Đông Hiệp,1017,26000,0.91,3,19,4.2,10,0.932,0.632,0.529,1.0,0.819,High Value Target,High
+U0259,Trung tâm,Phường Sài Gòn,1260,110000,0.05,4,15,0.8,28,0.179,0.144,0.571,0.299,0.238,Casual User,Low
+U0260,Công nhân,Phường Lái Thiêu,1182,28000,0.95,10,20,4.1,2,0.944,0.856,0.829,1.0,0.92,Deal Hunter,High
+U0261,Ngoại ô,Xã Hưng Long,852,74000,0.55,1,17,2.0,3,0.567,0.359,0.443,1.0,0.6,Evening Regular,Medium
+U0262,Sinh viên,Phường An Khánh,1056,54000,0.66,1,9,1.3,25,0.699,0.425,0.443,0.321,0.497,Casual User,Medium
+U0263,Công nhân,Phường Hòa Lợi,1003,32000,0.71,6,22,2.6,6,0.809,0.597,0.657,0.391,0.626,Casual User,Medium
+U0264,Dân cư đông,Phường Thông Tây Hội,963,80000,0.36,10,16,0.6,50,0.449,0.502,0.829,0.567,0.532,Casual User,Medium
+U0265,Dân cư đông,Phường Bảy Hiền,1807,28000,0.79,3,12,1.5,41,0.864,0.56,0.529,0.311,0.601,Casual User,Medium
+U0266,Dân cư đông,Phường Gia Định,150,75000,0.51,5,17,3.5,12,0.543,0.449,0.379,1.0,0.613,Evening Regular,Medium
+U0267,Dân cư đông,Phường An Nhơn,1438,48000,0.51,5,9,0.4,58,0.647,0.449,0.614,0.251,0.485,Casual User,Medium
+U0268,Công nhân,Phường Thuận Giao,1667,43000,0.95,5,17,4.7,6,0.887,0.713,0.614,1.0,0.836,Deal Hunter,High
+U0269,Sinh viên,Phường Linh Xuân,1091,21000,0.95,6,16,2.0,12,0.971,0.741,0.657,0.662,0.793,Deal Hunter,High
+U0270,Dân cư đông,Phường Hạnh Thông,1394,61000,0.46,5,13,1.5,71,0.572,0.419,0.614,0.277,0.457,Casual User,Medium
+U0271,Dân cư đông,Phường Thông Tây Hội,1037,71000,0.4,4,21,0.7,57,0.504,0.354,0.571,0.563,0.48,Casual User,Medium
+U0272,Dân cư đông,Phường Tân Hòa,954,49000,0.53,5,16,1.2,7,0.653,0.461,0.614,0.637,0.588,Casual User,Medium
+U0273,Ngoại ô,Xã Bình Chánh,674,47000,0.5,6,10,0.6,27,0.646,0.471,0.657,0.292,0.506,Casual User,Medium
+U0274,Công nhân,Phường Tân Khánh,743,25000,0.95,5,15,2.4,12,0.956,0.713,0.614,0.377,0.704,High Value Target,High
+U0275,Công nhân,Phường Thuận Giao,889,30000,0.94,9,20,5.2,7,0.932,0.821,0.786,1.0,0.901,Deal Hunter,High
+U0276,Dân cư đông,Phường An Hội Tây,50,61000,0.62,1,10,1.1,67,0.652,0.401,0.098,0.267,0.425,New User,Low
+U0277,Công nhân,Phường Thuận An,271,26000,0.95,9,10,2.1,6,0.952,0.827,0.683,0.372,0.743,High Value Target,High
+U0278,Dân cư đông,Phường Gò Vấp,484,54000,0.74,9,7,0.6,46,0.739,0.701,0.786,0.271,0.615,Casual User,Medium
+U0279,Dân cư đông,Phường Khánh Hội,992,30000,0.59,3,7,1.4,32,0.757,0.44,0.529,0.317,0.529,Casual User,Medium
+U0280,Dân cư đông,Phường Thông Tây Hội,650,75000,0.49,5,19,2.9,8,0.533,0.437,0.614,1.0,0.629,Evening Regular,Medium
+U0281,Sinh viên,Phường Linh Xuân,332,29000,0.63,4,18,3.7,5,0.78,0.492,0.535,1.0,0.724,Budget Conscious,High
+U0282,Công nhân,Phường Bình Hòa,1649,29000,0.77,3,11,1.8,80,0.85,0.548,0.529,0.279,0.585,Casual User,Medium
+U0283,Trung tâm,Phường Đức Nhuận,1648,67000,0.29,4,17,1.9,70,0.464,0.288,0.571,1.0,0.556,Evening Regular,Medium
+U0284,Công nhân,Phường Tân Khánh,832,32000,0.93,1,12,2.6,1,0.919,0.587,0.443,0.396,0.641,Casual User,Medium
+U0285,Trung tâm,Phường Tân Định,993,121000,0.05,3,21,0.0,23,0.137,0.116,0.529,0.574,0.279,Casual User,Low
+U0286,Công nhân,Phường Tân Đông Hiệp,98,31000,0.83,8,21,1.6,65,0.873,0.727,0.45,0.588,0.716,High Value Target,High
+U0287,Công nhân,Phường Tân Đông Hiệp,1182,27000,0.87,3,12,1.7,29,0.908,0.608,0.529,0.332,0.636,Casual User,Medium
+U0288,Sinh viên,Phường Thủ Đức,225,44000,0.91,8,19,4.4,7,0.863,0.775,0.589,1.0,0.843,Deal Hunter,High
+U0289,Công nhân,Phường Thuận Giao,169,39000,0.81,5,18,3.3,11,0.832,0.629,0.399,1.0,0.77,Deal Hunter,High
+U0290,Trung tâm,Phường Xuân Hòa,1497,82000,0.39,9,11,0.0,59,0.457,0.491,0.786,0.234,0.444,Casual User,Low
+U0291,Trung tâm,Phường Đức Nhuận,312,115000,0.12,6,10,0.6,77,0.195,0.243,0.599,0.237,0.26,Casual User,Low
+U0292,Dân cư đông,Phường Tân Bình,341,87000,0.43,1,15,0.7,85,0.457,0.287,0.417,0.232,0.346,Casual User,Low
+U0293,Công nhân,Phường Tân Khánh,775,27000,0.79,7,18,4.4,11,0.868,0.674,0.7,1.0,0.826,Deal Hunter,High
+U0294,Sinh viên,Phường Hiệp Bình,1588,45000,0.86,1,21,2.4,2,0.834,0.545,0.443,0.688,0.672,Casual User,Medium
+U0295,Công nhân,Phường Tân Đông Hiệp,1718,37000,0.81,5,18,4.2,7,0.84,0.629,0.614,1.0,0.794,Deal Hunter,High
+U0296,Dân cư đông,Phường Thông Tây Hội,306,58000,0.43,11,19,3.3,1,0.569,0.572,0.807,1.0,0.701,Budget Conscious,High
+U0297,Sinh viên,Phường Hiệp Bình,90,26000,0.92,3,17,3.1,5,0.937,0.638,0.227,1.0,0.792,High Value Target,High
+U0298,Công nhân,Phường Tân Đông Hiệp,1372,25000,0.78,4,19,4.4,9,0.871,0.582,0.571,1.0,0.787,Deal Hunter,High
+U0299,Trung tâm,Phường Phú Nhuận,81,122000,0.05,7,18,1.9,77,0.133,0.23,0.389,1.0,0.404,New User,Low
+U0300,Trung tâm,Phường Cầu Ông Lãnh,182,143000,0.05,10,12,0.0,25,0.052,0.316,0.628,0.272,0.244,Casual User,Low
+U0301,Công nhân,Phường Tân Khánh,1802,36000,0.95,7,16,2.4,11,0.913,0.77,0.7,0.678,0.79,Deal Hunter,High
+U0302,Công nhân,Phường Hòa Lợi,1364,32000,0.82,3,19,4.4,13,0.864,0.578,0.529,1.0,0.779,High Value Target,High
+U0303,Công nhân,Phường Tân Khánh,573,35000,0.82,7,8,2.3,12,0.852,0.692,0.7,0.373,0.669,Casual User,Medium
+U0304,Dân cư đông,Phường Vĩnh Hội,596,63000,0.59,3,19,2.4,2,0.63,0.44,0.529,1.0,0.655,Evening Regular,Medium
+U0305,Ngoại ô,Xã Xuân Thới Sơn,1442,54000,0.39,7,10,0.1,18,0.564,0.434,0.7,0.284,0.469,Casual User,Medium
+U0306,Công nhân,Phường Thuận Giao,1601,24000,0.95,12,16,2.5,3,0.96,0.913,0.914,0.69,0.874,Deal Hunter,High
+U0307,Sinh viên,Phường Phước Long,651,47000,0.88,7,19,4.6,8,0.836,0.728,0.7,1.0,0.831,Deal Hunter,High
+U0308,Dân cư đông,Phường Tân Sơn Nhất,1230,54000,0.54,9,10,0.3,38,0.639,0.581,0.786,0.269,0.544,Casual User,Medium
+U0309,Sinh viên,Phường Tam Bình,1415,47000,0.86,1,10,2.3,10,0.826,0.545,0.443,0.375,0.591,Casual User,Medium
+U0310,Công nhân,Phường Lái Thiêu,343,29000,0.93,7,13,2.4,7,0.93,0.758,0.676,0.382,0.716,High Value Target,High
+U0311,Trung tâm,Phường Sài Gòn,836,62000,0.25,9,20,2.4,2,0.463,0.407,0.786,1.0,0.613,Evening Regular,Medium
+U0312,Trung tâm,Phường Nhiêu Lộc,877,81000,0.2,1,6,0.3,64,0.365,0.149,0.443,0.24,0.277,Casual User,Low
+U0313,Ngoại ô,Xã Bình Chánh,126,57000,0.46,9,20,2.1,11,0.588,0.533,0.524,1.0,0.668,Evening Regular,Medium
+U0314,Dân cư đông,Phường Khánh Hội,910,86000,0.39,3,10,0.3,89,0.441,0.32,0.529,0.212,0.356,Casual User,Low
+U0315,Dân cư đông,Phường Hạnh Thông,1266,40000,0.66,6,22,1.1,24,0.753,0.567,0.657,0.315,0.578,Casual User,Medium
+U0316,Công nhân,Phường Thuận An,858,41000,0.9,8,21,2.0,9,0.869,0.769,0.743,0.665,0.775,Deal Hunter,High
+U0317,Sinh viên,Phường Linh Xuân,166,38000,0.85,6,16,2.4,5,0.856,0.681,0.439,0.684,0.719,High Value Target,High
+U0318,Sinh viên,Phường Hiệp Bình,1059,47000,0.51,2,16,1.6,29,0.651,0.363,0.486,0.628,0.542,Casual User,Medium
+U0319,Sinh viên,Phường An Khánh,1040,33000,0.82,6,15,1.2,29,0.86,0.663,0.657,0.313,0.644,Casual User,Medium
+U0320,Công nhân,Phường Thuận Giao,138,40000,0.69,5,17,3.4,5,0.768,0.557,0.366,1.0,0.722,Budget Conscious,High
+U0321,Dân cư đông,Phường Tân Sơn Hòa,576,72000,0.44,10,9,0.6,83,0.52,0.55,0.829,0.23,0.487,Casual User,Medium
+U0322,Dân cư đông,Phường An Hội Tây,1092,48000,0.59,4,8,1.0,13,0.687,0.468,0.571,0.323,0.519,Casual User,Medium
+U0323,Sinh viên,Phường Long Bình,691,29000,0.95,4,8,2.0,13,0.94,0.684,0.571,0.361,0.682,High Value Target,High
+U0324,Ngoại ô,Xã Bình Hưng,454,73000,0.41,7,14,1.1,50,0.501,0.446,0.7,0.286,0.451,Casual User,Medium
+U0325,Dân cư đông,Phường Tân Sơn Hòa,659,89000,0.4,4,11,1.4,33,0.435,0.354,0.571,0.316,0.395,Casual User,Low
+U0326,Công nhân,Phường Tân Đông Hiệp,290,23000,0.95,6,17,3.7,7,0.963,0.741,0.575,1.0,0.867,Deal Hunter,High
+U0327,Công nhân,Phường Thuận Giao,1479,37000,0.95,6,22,2.5,4,0.91,0.741,0.657,0.389,0.704,High Value Target,High
+U0328,Công nhân,Phường Hòa Lợi,116,43000,0.81,10,12,2.9,5,0.817,0.772,0.556,0.403,0.674,Casual User,Medium
+U0329,Sinh viên,Phường Tăng Nhơn Phú,494,48000,0.76,6,16,1.4,61,0.772,0.627,0.657,0.585,0.67,Casual User,Medium
+U0330,Công nhân,Phường Đông Hòa,105,45000,0.82,5,13,1.5,70,0.814,0.635,0.329,0.278,0.578,Casual User,Medium
+U0331,Dân cư đông,Phường Tân Sơn Hòa,500,72000,0.42,2,19,3.6,12,0.51,0.309,0.486,1.0,0.57,Evening Regular,Medium
+U0332,Trung tâm,Phường Cầu Ông Lãnh,443,95000,0.07,2,20,1.4,75,0.247,0.099,0.486,1.0,0.415,Casual User,Low
+U0333,Sinh viên,Phường Long Bình,854,34000,0.6,3,19,3.6,12,0.746,0.446,0.529,1.0,0.698,Budget Conscious,High
+U0334,Trung tâm,Phường Cầu Kiệu,924,89000,0.07,3,21,0.5,8,0.27,0.128,0.529,0.61,0.338,Casual User,Low
+U0335,Trung tâm,Phường Sài Gòn,755,111000,0.05,6,7,0.4,61,0.175,0.201,0.657,0.247,0.249,Casual User,Low
+U0336,Dân cư đông,Phường Thông Tây Hội,486,71000,0.6,7,19,2.9,9,0.604,0.56,0.7,1.0,0.699,Budget Conscious,High
+U0337,Dân cư đông,Phường Hạnh Thông,1338,46000,0.63,5,18,4.0,10,0.715,0.521,0.614,1.0,0.718,Budget Conscious,High
+U0338,Công nhân,Phường An Phú,1292,41000,0.82,9,10,2.0,2,0.829,0.749,0.786,0.373,0.687,High Value Target,High
+U0339,Trung tâm,Phường Xuân Hòa,1730,111000,0.05,14,21,0.5,84,0.175,0.43,1.0,0.525,0.422,Casual User,Low
+U0340,Công nhân,Phường Dĩ An,1652,34000,0.88,9,10,2.3,6,0.886,0.785,0.786,0.38,0.719,High Value Target,High
+U0341,Công nhân,Phường Hòa Lợi,682,32000,0.8,7,17,3.6,11,0.854,0.68,0.7,1.0,0.823,Deal Hunter,High
+U0342,Sinh viên,Phường Hiệp Bình,701,39000,0.82,5,10,1.2,41,0.837,0.635,0.614,0.299,0.62,Casual User,Medium
+U0343,Công nhân,Phường Hòa Lợi,1611,27000,0.94,4,14,1.6,85,0.943,0.678,0.571,0.266,0.657,Casual User,Medium
+U0344,Công nhân,Phường Đông Hòa,1425,28000,0.82,2,18,4.2,6,0.879,0.549,0.486,1.0,0.771,High Value Target,High
+U0345,Công nhân,Phường Lái Thiêu,524,25000,0.84,4,16,2.9,6,0.901,0.618,0.571,0.702,0.733,High Value Target,High
+U0346,Công nhân,Phường Lái Thiêu,1677,27000,0.95,10,14,2.5,13,0.948,0.856,0.829,0.379,0.766,Deal Hunter,High
+U0347,Trung tâm,Phường Cầu Ông Lãnh,1098,96000,0.14,8,11,0.0,47,0.278,0.313,0.743,0.248,0.328,Casual User,Low
+U0348,Công nhân,Phường Thuận Giao,1454,33000,0.8,3,19,4.1,2,0.85,0.566,0.529,1.0,0.77,High Value Target,High
+U0349,Công nhân,Phường An Phú,1300,22000,0.9,5,10,2.6,8,0.942,0.683,0.614,0.389,0.693,High Value Target,High
+U0350,Công nhân,Phường Thuận Giao,1669,39000,0.75,8,14,2.7,3,0.802,0.679,0.743,0.398,0.658,Casual User,Medium
+U0351,Dân cư đông,Phường Thạnh Mỹ Tây,626,51000,0.58,2,20,3.6,7,0.671,0.405,0.486,1.0,0.655,Evening Regular,Medium
+U0352,Dân cư đông,Phường Tân Sơn Nhất,479,83000,0.49,4,19,2.7,5,0.503,0.408,0.571,1.0,0.606,Evening Regular,Medium
+U0353,Sinh viên,Phường Hiệp Bình,514,54000,0.71,9,13,2.1,3,0.724,0.683,0.786,0.375,0.631,Casual User,Medium
+U0354,Trung tâm,Phường Cầu Ông Lãnh,675,82000,0.45,4,18,1.4,37,0.487,0.384,0.571,1.0,0.593,Evening Regular,Medium
+U0355,Công nhân,Phường Dĩ An,649,32000,0.93,2,19,3.1,8,0.919,0.615,0.486,1.0,0.805,High Value Target,High
+U0356,Trung tâm,Phường Bến Thành,1071,62000,0.35,5,20,1.5,49,0.513,0.353,0.614,1.0,0.597,Evening Regular,Medium
+U0357,Công nhân,Phường Tân Đông Hiệp,1659,34000,0.78,9,16,2.3,2,0.836,0.725,0.786,0.684,0.76,Deal Hunter,High
+U0358,Ngoại ô,Xã Vĩnh Lộc,691,61000,0.46,6,10,1.0,7,0.572,0.447,0.657,0.33,0.482,Casual User,Medium
+U0359,Công nhân,Phường An Phú,787,29000,0.82,3,10,2.9,4,0.875,0.578,0.529,0.404,0.634,Casual User,Medium
+U0360,Công nhân,Phường Hòa Lợi,318,34000,0.66,4,11,2.3,13,0.776,0.51,0.52,0.372,0.57,Casual User,Medium
+U0361,Công nhân,Phường Bình Hòa,1467,28000,0.95,5,17,4.3,8,0.944,0.713,0.614,1.0,0.856,Deal Hunter,High
+U0362,Công nhân,Phường An Phú,750,27000,0.86,6,8,1.6,12,0.903,0.687,0.657,0.347,0.675,Casual User,Medium
+U0363,Công nhân,Phường Hòa Lợi,667,36000,0.79,8,17,3.1,3,0.833,0.703,0.743,1.0,0.827,Deal Hunter,High
+U0364,Ngoại ô,Xã Xuân Thới Sơn,264,52000,0.55,2,12,0.3,77,0.652,0.387,0.375,0.226,0.438,Casual User,Low
+U0365,Công nhân,Phường Lái Thiêu,445,34000,0.93,10,11,2.4,4,0.911,0.844,0.829,0.386,0.751,Deal Hunter,High
+U0366,Ngoại ô,Xã Đông Thạnh,967,56000,0.47,1,19,2.3,9,0.597,0.311,0.443,1.0,0.597,Evening Regular,Medium
+U0367,Ngoại ô,Xã Xuân Thới Sơn,528,84000,0.36,4,15,0.1,66,0.434,0.33,0.571,0.23,0.366,Casual User,Low
+U0368,Sinh viên,Phường Phước Long,1003,29000,0.93,1,9,1.1,87,0.93,0.587,0.443,0.245,0.607,Casual User,Medium
+U0369,Trung tâm,Phường Phú Nhuận,663,96000,0.1,4,19,1.1,80,0.258,0.174,0.571,1.0,0.45,Evening Regular,Medium
+U0370,Sinh viên,Phường Cát Lái,1703,42000,0.81,5,8,1.1,69,0.82,0.629,0.614,0.265,0.603,Casual User,Medium
+U0371,Trung tâm,Phường Đức Nhuận,1049,93000,0.05,5,18,1.6,48,0.244,0.173,0.614,1.0,0.449,Casual User,Low
+U0372,Trung tâm,Phường Tân Định,144,138000,0.05,3,18,1.1,57,0.071,0.116,0.286,1.0,0.338,Casual User,Low
+U0373,Dân cư đông,Phường Hạnh Thông,961,69000,0.55,6,11,0.9,70,0.587,0.501,0.657,0.256,0.485,Casual User,Medium
+U0374,Trung tâm,Phường Đức Nhuận,703,107000,0.05,1,19,1.3,82,0.19,0.059,0.443,1.0,0.378,Casual User,Low
+U0375,Sinh viên,Phường Tăng Nhơn Phú,1766,44000,0.79,8,16,2.3,3,0.803,0.703,0.743,0.683,0.737,High Value Target,High
+U0376,Dân cư đông,Phường Xóm Chiếu,1287,87000,0.37,11,15,1.7,86,0.427,0.536,0.871,0.268,0.464,Casual User,Medium
+U0377,Trung tâm,Phường Cầu Ông Lãnh,1593,128000,0.05,4,8,0.4,47,0.11,0.144,0.571,0.263,0.205,Casual User,Low
+U0378,Dân cư đông,Phường Thông Tây Hội,1064,69000,0.4,5,11,1.4,38,0.512,0.383,0.614,0.31,0.433,Casual User,Low
+U0379,Sinh viên,Phường An Khánh,235,44000,0.86,4,20,4.5,6,0.838,0.63,0.429,1.0,0.775,Deal Hunter,High
+U0380,Sinh viên,Phường Hiệp Bình,1732,29000,0.95,1,12,1.5,68,0.94,0.599,0.443,0.281,0.623,Casual User,Medium
+U0381,Dân cư đông,Phường Tân Sơn Nhất,276,40000,0.67,4,16,0.8,33,0.758,0.516,0.474,0.593,0.616,Casual User,Medium
+U0382,Công nhân,Phường Hòa Lợi,1612,34000,0.91,8,16,2.5,1,0.901,0.775,0.743,0.693,0.795,Deal Hunter,High
+U0383,Dân cư đông,Phường Khánh Hội,787,31000,0.62,6,17,3.6,10,0.768,0.543,0.657,1.0,0.747,Budget Conscious,High
+U0384,Dân cư đông,Phường Tân Hòa,1180,58000,0.43,2,9,0.7,70,0.569,0.315,0.486,0.248,0.404,Casual User,Low
+U0385,Dân cư đông,Phường Bình Lợi Trung,176,47000,0.6,9,12,0.4,65,0.696,0.617,0.579,0.243,0.547,Casual User,Medium
+U0386,Sinh viên,Phường An Khánh,147,34000,0.73,5,18,3.9,2,0.811,0.581,0.375,1.0,0.746,High Value Target,High
+U0387,Sinh viên,Phường Bình Trưng,1435,45000,0.59,9,10,1.2,8,0.699,0.611,0.786,0.336,0.591,Casual User,Medium
+U0388,Dân cư đông,Phường Tân Bình,441,86000,0.47,6,10,1.1,42,0.481,0.453,0.657,0.295,0.444,Casual User,Low
+U0389,Dân cư đông,Phường Hạnh Thông,1717,38000,0.74,5,7,1.2,77,0.801,0.587,0.614,0.259,0.583,Casual User,Medium
+U0390,Ngoại ô,Phường Bình Trị Đông,1637,59000,0.4,2,14,0.8,19,0.55,0.297,0.486,0.309,0.407,Casual User,Low
+U0391,Công nhân,Phường Bình Hòa,392,42000,0.86,3,20,5.1,2,0.845,0.602,0.529,1.0,0.779,High Value Target,High
+U0392,Công nhân,Phường Bình Hòa,1562,25000,0.95,13,8,2.8,9,0.956,0.941,0.957,0.395,0.811,Deal Hunter,High
+U0393,Dân cư đông,Phường Bình Lợi Trung,166,76000,0.47,3,10,0.9,28,0.52,0.368,0.31,0.303,0.399,Casual User,Low
+U0394,Sinh viên,Phường Tăng Nhơn Phú,1228,35000,0.7,13,11,2.1,13,0.792,0.791,0.957,0.364,0.701,High Value Target,High
+U0395,Ngoại ô,Xã Đông Thạnh,1342,52000,0.5,5,18,2.1,6,0.627,0.443,0.614,1.0,0.664,Evening Regular,Medium
+U0396,Dân cư đông,Phường Hạnh Thông,987,91000,0.5,2,17,1.8,80,0.477,0.357,0.486,1.0,0.573,Evening Regular,Medium
+U0397,Công nhân,Phường Lái Thiêu,1534,28000,0.93,2,13,1.5,31,0.934,0.615,0.486,0.322,0.641,Casual User,Medium
+U0398,Dân cư đông,Phường Tân Sơn Nhất,48,68000,0.55,3,18,3.4,6,0.59,0.416,0.181,1.0,0.599,Evening Regular,Medium
+U0399,Dân cư đông,Phường Thạnh Mỹ Tây,224,75000,0.49,11,17,4.0,9,0.533,0.608,0.717,1.0,0.691,Budget Conscious,High
+U0400,Sinh viên,Phường Hiệp Bình,359,25000,0.79,4,20,3.2,11,0.876,0.588,0.565,1.0,0.79,Deal Hunter,High
+U0401,Ngoại ô,Xã Bà Điểm,204,64000,0.4,4,19,2.7,7,0.531,0.354,0.395,1.0,0.582,Evening Regular,Medium
+U0402,Công nhân,Phường Bình Hòa,1031,45000,0.85,4,10,1.8,51,0.829,0.624,0.571,0.311,0.612,Casual User,Medium
+U0403,Dân cư đông,Phường Tân Hòa,478,42000,0.71,2,11,0.4,46,0.77,0.483,0.486,0.264,0.529,Casual User,Medium
+U0404,Sinh viên,Phường Cát Lái,975,50000,0.85,5,9,2.4,9,0.81,0.653,0.614,0.38,0.636,Casual User,Medium
+U0405,Dân cư đông,Phường Tân Hòa,1407,63000,0.43,2,11,0.4,63,0.55,0.315,0.486,0.245,0.397,Casual User,Low
+U0406,Công nhân,Phường Tân Đông Hiệp,1552,35000,0.91,9,22,2.2,2,0.897,0.803,0.786,0.38,0.728,High Value Target,High
+U0407,Trung tâm,Phường Cầu Ông Lãnh,170,104000,0.22,4,13,0.4,68,0.287,0.246,0.358,0.239,0.27,Casual User,Low
+U0408,Ngoại ô,Xã Bà Điểm,787,51000,0.43,4,10,0.5,15,0.596,0.372,0.571,0.302,0.453,Casual User,Medium
+U0409,Trung tâm,Phường Phú Nhuận,959,131000,0.1,5,18,1.7,74,0.123,0.203,0.614,1.0,0.415,Casual User,Low
+U0410,Sinh viên,Phường Long Bình,122,53000,0.89,4,16,1.1,87,0.818,0.648,0.305,0.545,0.647,Casual User,Medium
+U0411,Ngoại ô,Xã Hưng Long,268,62000,0.74,14,10,0.0,23,0.708,0.844,0.894,0.274,0.659,Casual User,Medium
+U0412,Ngoại ô,Xã Hóc Môn,234,69000,0.46,5,12,0.6,56,0.542,0.419,0.471,0.26,0.428,Casual User,Low
+U0413,Công nhân,Phường Dĩ An,589,35000,0.89,2,13,2.3,8,0.887,0.591,0.486,0.377,0.631,Casual User,Medium
+U0414,Công nhân,Phường Dĩ An,1486,32000,0.95,6,18,4.6,9,0.929,0.741,0.657,1.0,0.863,Deal Hunter,High
+U0415,Công nhân,Phường Đông Hòa,274,36000,0.94,3,7,2.5,13,0.908,0.65,0.429,0.379,0.65,Casual User,Medium
+U0416,Sinh viên,Phường Tam Bình,861,39000,0.91,1,11,2.2,9,0.882,0.575,0.443,0.373,0.619,Casual User,Medium
+U0417,Sinh viên,Phường Long Bình,1370,40000,0.87,13,16,1.1,24,0.858,0.893,0.957,0.615,0.818,Deal Hunter,High
+U0418,Dân cư đông,Phường Tân Sơn Hòa,954,73000,0.45,8,11,0.9,61,0.521,0.499,0.743,0.266,0.473,Casual User,Medium
+U0419,Dân cư đông,Phường An Hội Tây,324,58000,0.67,13,17,2.8,1,0.689,0.773,0.912,1.0,0.814,Budget Conscious,High
+U0420,Dân cư đông,Phường Hạnh Thông,669,35000,0.56,5,15,0.6,30,0.722,0.479,0.614,0.289,0.53,Casual User,Medium
+U0421,Dân cư đông,Phường Khánh Hội,885,44000,0.62,5,12,0.7,80,0.718,0.515,0.614,0.237,0.526,Casual User,Medium
+U0422,Trung tâm,Phường Xuân Hòa,1335,95000,0.3,3,21,0.4,23,0.362,0.266,0.529,0.589,0.407,Casual User,Low
+U0423,Công nhân,Phường Hòa Lợi,46,37000,0.73,3,17,5.3,5,0.8,0.524,0.179,1.0,0.705,High Value Target,High
+U0424,Trung tâm,Phường Tân Định,100,103000,0.05,9,9,0.7,48,0.206,0.287,0.495,0.273,0.276,Casual User,Low
+U0425,Công nhân,Phường Bình Hòa,1322,36000,0.93,4,16,2.4,5,0.903,0.672,0.571,0.684,0.746,High Value Target,High
+U0426,Công nhân,Phường Đông Hòa,1378,32000,0.92,9,18,5.3,4,0.914,0.809,0.786,1.0,0.891,Deal Hunter,High
+U0427,Dân cư đông,Phường Tân Sơn Hòa,334,64000,0.43,7,18,1.9,88,0.546,0.458,0.666,1.0,0.645,Evening Regular,Medium
+U0428,Công nhân,Phường Đông Hòa,1504,30000,0.85,3,10,2.5,2,0.887,0.596,0.529,0.392,0.64,Casual User,Medium
+U0429,Sinh viên,Phường Tăng Nhơn Phú,1060,37000,0.69,5,21,1.7,79,0.78,0.557,0.614,0.576,0.646,Casual User,Medium
+U0430,Sinh viên,Phường Bình Trưng,1367,44000,0.87,7,14,1.3,20,0.843,0.722,0.7,0.327,0.663,Casual User,Medium
+U0431,Dân cư đông,Phường Khánh Hội,846,79000,0.41,3,10,1.3,55,0.478,0.332,0.529,0.288,0.392,Casual User,Low
+U0432,Công nhân,Phường An Phú,1156,32000,0.95,9,10,2.3,10,0.929,0.827,0.786,0.375,0.746,High Value Target,High
+U0433,Sinh viên,Phường Long Bình,850,25000,0.88,5,9,1.5,10,0.921,0.671,0.614,0.345,0.671,Casual User,Medium
+U0434,Trung tâm,Phường Xuân Hòa,222,81000,0.2,3,19,2.3,10,0.365,0.206,0.372,1.0,0.477,Evening Regular,Medium
+U0435,Dân cư đông,Phường Tân Sơn Nhất,1806,32000,0.65,6,9,0.2,26,0.779,0.561,0.657,0.279,0.576,Casual User,Medium
+U0436,Trung tâm,Phường Sài Gòn,1627,107000,0.06,14,9,0.0,53,0.195,0.436,1.0,0.241,0.359,Casual User,Low
+U0437,Dân cư đông,Phường Tân Sơn Hòa,558,52000,0.59,3,19,3.4,8,0.672,0.44,0.529,1.0,0.67,Evening Regular,Medium
+U0438,Dân cư đông,Phường Hạnh Thông,200,61000,0.78,8,11,1.3,83,0.732,0.697,0.562,0.257,0.586,Casual User,Medium
+U0439,Trung tâm,Phường Nhiêu Lộc,1590,98000,0.1,3,8,0.6,85,0.25,0.146,0.529,0.228,0.241,Casual User,Low
+U0440,Trung tâm,Phường Bến Thành,280,75000,0.22,8,8,0.0,33,0.398,0.361,0.65,0.263,0.378,Casual User,Low
+U0441,Ngoại ô,Xã Hiệp Phước,1818,55000,0.52,7,10,0.7,21,0.625,0.512,0.7,0.303,0.518,Casual User,Medium
+U0442,Công nhân,Phường Thuận Giao,1440,28000,0.95,4,10,2.1,3,0.944,0.684,0.571,0.375,0.686,High Value Target,High
+U0443,Công nhân,Phường Tân Đông Hiệp,1260,31000,0.75,4,17,4.9,5,0.833,0.564,0.571,1.0,0.768,Deal Hunter,High
+U0444,Dân cư đông,Phường Khánh Hội,570,46000,0.66,8,10,0.9,32,0.73,0.625,0.743,0.298,0.592,Casual User,Medium
+U0445,Ngoại ô,Phường Bình Tân,1682,72000,0.34,5,9,0.3,32,0.47,0.347,0.614,0.276,0.399,Casual User,Low
+U0446,Ngoại ô,Phường Bình Tân,445,46000,0.62,7,18,1.7,32,0.71,0.572,0.7,1.0,0.74,Budget Conscious,High
+U0447,Dân cư đông,Phường Xóm Chiếu,823,88000,0.33,2,17,3.4,4,0.403,0.255,0.486,1.0,0.516,Evening Regular,Medium
+U0448,Công nhân,Phường Thuận Giao,1433,31000,0.66,9,14,1.7,55,0.788,0.653,0.786,0.303,0.626,Casual User,Medium
+U0449,Trung tâm,Phường Bến Thành,1197,121000,0.05,7,16,0.4,88,0.137,0.23,0.7,0.517,0.316,Casual User,Low
+U0450,Dân cư đông,Phường Vĩnh Hội,54,65000,0.54,10,11,1.7,59,0.597,0.61,0.488,0.298,0.515,New User,Medium
+U0451,Công nhân,Phường Đông Hòa,697,37000,0.8,2,15,2.1,5,0.835,0.537,0.486,0.373,0.595,Casual User,Medium
+U0452,Công nhân,Phường Tân Đông Hiệp,1126,38000,0.79,6,16,1.6,72,0.826,0.645,0.657,0.58,0.693,High Value Target,High
+U0453,Ngoại ô,Xã Hưng Long,661,58000,0.36,6,12,0.2,48,0.534,0.387,0.657,0.254,0.432,Casual User,Low
+U0454,Sinh viên,Phường Linh Xuân,1146,39000,0.88,4,20,4.2,8,0.867,0.642,0.571,1.0,0.803,Deal Hunter,High
+U0455,Công nhân,Phường Lái Thiêu,534,33000,0.95,5,7,1.7,23,0.925,0.713,0.614,0.338,0.684,High Value Target,High
+U0456,Trung tâm,Phường Sài Gòn,1651,103000,0.05,1,18,1.5,39,0.206,0.059,0.443,1.0,0.384,Casual User,Low
+U0457,Công nhân,Phường Dĩ An,365,23000,0.88,7,9,3.0,7,0.928,0.728,0.7,0.405,0.714,High Value Target,High
+U0458,Trung tâm,Phường Xuân Hòa,454,93000,0.15,5,18,1.9,55,0.294,0.233,0.614,1.0,0.484,Evening Regular,Medium
+U0459,Sinh viên,Phường Tam Bình,528,40000,0.95,2,17,3.6,6,0.898,0.627,0.486,1.0,0.801,High Value Target,High
+U0460,Sinh viên,Phường Tăng Nhơn Phú,1417,40000,0.85,7,19,4.6,8,0.848,0.71,0.7,1.0,0.83,Deal Hunter,High
+U0461,Công nhân,Phường Đông Hòa,976,39000,0.75,5,9,1.7,9,0.802,0.593,0.614,0.354,0.608,Casual User,Medium
+U0462,Dân cư đông,Phường Tân Sơn Nhất,659,66000,0.53,1,16,1.5,55,0.588,0.347,0.443,0.595,0.503,Casual User,Medium
+U0463,Công nhân,Phường Thuận An,1798,48000,0.66,12,16,2.1,7,0.722,0.739,0.914,0.671,0.734,Budget Conscious,High
+U0464,Ngoại ô,Xã Hóc Môn,1252,51000,0.6,11,18,1.9,32,0.681,0.674,0.871,1.0,0.778,Budget Conscious,High
+U0465,Công nhân,Phường Tân Đông Hiệp,747,30000,0.95,5,16,2.5,7,0.937,0.713,0.614,0.686,0.775,Deal Hunter,High
+U0466,Sinh viên,Phường Cát Lái,1466,35000,0.95,2,16,1.7,58,0.917,0.627,0.486,0.599,0.707,High Value Target,High
+U0467,Dân cư đông,Phường Bảy Hiền,368,58000,0.62,8,14,1.2,13,0.664,0.601,0.743,0.331,0.57,Casual User,Medium
+U0468,Sinh viên,Phường Tam Bình,688,47000,0.7,5,11,1.1,52,0.746,0.563,0.614,0.283,0.562,Casual User,Medium
+U0469,Ngoại ô,Phường Bình Trị Đông,991,49000,0.41,4,15,0.9,52,0.593,0.36,0.571,0.276,0.442,Casual User,Low
+U0470,Trung tâm,Phường Tân Định,458,115000,0.05,5,9,0.9,22,0.16,0.173,0.614,0.309,0.247,Casual User,Low
+U0471,Ngoại ô,Phường An Lạc,928,55000,0.23,5,21,0.7,30,0.48,0.281,0.614,0.593,0.462,Casual User,Medium
+U0472,Trung tâm,Phường Sài Gòn,168,104000,0.17,5,18,3.3,7,0.262,0.245,0.398,1.0,0.455,Evening Regular,Medium
+U0473,Dân cư đông,Phường Vĩnh Hội,1746,65000,0.5,4,21,0.4,60,0.577,0.414,0.571,0.548,0.52,Casual User,Medium
+U0474,Công nhân,Phường Thuận An,971,31000,0.95,6,10,2.2,2,0.933,0.741,0.657,0.38,0.71,High Value Target,High
+U0475,Ngoại ô,Phường Bình Tân,571,58000,0.64,10,19,2.8,4,0.674,0.67,0.829,1.0,0.77,Budget Conscious,High
+U0476,Trung tâm,Phường Đức Nhuận,86,94000,0.16,4,19,3.3,12,0.295,0.21,0.266,1.0,0.443,New User,Low
+U0477,Công nhân,Phường Đông Hòa,1285,25000,0.94,7,17,5.1,7,0.951,0.764,0.7,1.0,0.882,Deal Hunter,High
+U0478,Ngoại ô,Xã Bà Điểm,687,56000,0.46,10,17,2.6,1,0.592,0.562,0.829,1.0,0.709,Budget Conscious,High
+U0479,Công nhân,Phường Thuận An,464,25000,0.89,5,11,1.7,86,0.926,0.677,0.614,0.268,0.656,Casual User,Medium
+U0480,Công nhân,Phường Tân Đông Hiệp,413,31000,0.95,4,19,5.2,2,0.933,0.684,0.571,1.0,0.839,Deal Hunter,High
+U0481,Dân cư đông,Phường Tân Sơn Nhất,589,63000,0.5,6,16,0.4,64,0.585,0.471,0.657,0.544,0.548,Casual User,Medium
+U0482,Công nhân,Phường Lái Thiêu,223,34000,0.84,6,9,2.6,13,0.866,0.675,0.502,0.383,0.652,Casual User,Medium
+U0483,Công nhân,Phường Tân Khánh,1789,36000,0.86,8,11,1.8,35,0.868,0.745,0.743,0.329,0.684,High Value Target,High
+U0484,Công nhân,Phường Bình Hòa,1701,25000,0.95,5,20,5.1,7,0.956,0.713,0.614,1.0,0.86,Deal Hunter,High
+U0485,Ngoại ô,Xã Bình Hưng,563,63000,0.4,14,19,3.2,12,0.535,0.64,1.0,1.0,0.729,Budget Conscious,High
+U0486,Trung tâm,Phường Bến Thành,547,89000,0.17,2,22,0.4,26,0.32,0.159,0.486,0.286,0.28,Casual User,Low
+U0487,Sinh viên,Phường Thủ Đức,745,35000,0.84,1,17,3.9,7,0.862,0.533,0.443,1.0,0.756,High Value Target,High
+U0488,Ngoại ô,Phường An Lạc,780,73000,0.53,6,10,0.6,77,0.561,0.489,0.657,0.237,0.468,Casual User,Medium
+U0489,Dân cư đông,Phường Thạnh Mỹ Tây,214,30000,0.67,3,10,0.7,84,0.797,0.488,0.363,0.233,0.52,Casual User,Medium
+U0490,Công nhân,Phường Thuận Giao,321,34000,0.8,3,10,2.7,10,0.846,0.566,0.48,0.39,0.611,Casual User,Medium
+U0491,Công nhân,Phường Dĩ An,1388,34000,0.83,4,7,2.3,3,0.861,0.612,0.571,0.383,0.638,Casual User,Medium
+U0492,Sinh viên,Phường Tam Bình,761,35000,0.92,3,12,1.1,84,0.902,0.638,0.529,0.248,0.622,Casual User,Medium
+U0493,Sinh viên,Phường An Khánh,145,32000,0.95,1,10,1.8,77,0.929,0.599,0.202,0.282,0.596,Casual User,Medium
+U0494,Công nhân,Phường Thuận Giao,854,28000,0.78,13,13,2.9,6,0.859,0.839,0.957,0.402,0.749,High Value Target,High
+U0495,Công nhân,Phường An Phú,1102,42000,0.72,3,20,3.1,4,0.775,0.518,0.529,1.0,0.73,High Value Target,High
+U0496,Công nhân,Phường An Phú,714,32000,0.87,7,14,1.9,51,0.889,0.722,0.7,0.315,0.676,Casual User,Medium
+U0497,Trung tâm,Phường Bàn Cờ,111,90000,0.18,8,19,2.3,3,0.321,0.337,0.465,1.0,0.51,Evening Regular,Medium
+U0498,Ngoại ô,Xã Đông Thạnh,863,56000,0.58,11,17,1.5,69,0.652,0.662,0.871,1.0,0.764,Budget Conscious,High
+U0499,Ngoại ô,Xã Tân Nhựt,362,64000,0.37,1,10,0.3,73,0.516,0.251,0.44,0.23,0.357,Casual User,Low

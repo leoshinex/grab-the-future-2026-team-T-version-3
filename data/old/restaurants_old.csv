@@ -1,0 +1,151 @@
+restaurant_id,name,ward,area_cluster,category,rating,menu_size,avg_daily_waste_items,sale_window_start,sale_window_end,operates_lunch,operates_dinner,giovang_option,avg_discount_pct
+R000,Quán Anh Tuấn 0,Phường Đông Hòa,Công nhân,Bún bò,4.1,3,26,18,20,False,True,both,34
+R001,Quán Cô Mười 1,Xã Bình Chánh,Ngoại ô,Cơm tấm,4.1,3,6,19,21,False,True,pickup_only,40
+R002,Quán Chú Bảy 2,Phường An Nhơn,Dân cư đông,Hủ tiếu,5.0,6,20,20,22,False,True,both,37
+R003,Quán Dì Tư 3,Phường Bình Hòa,Công nhân,Phở,4.4,4,27,18,20,False,True,both,55
+R004,Quán Cô Sáu 4,Phường Cát Lái,Sinh viên,Hủ tiếu,4.4,4,3,16,18,False,True,both,52
+R005,Quán Anh Hùng 5,Phường Long Bình,Sinh viên,Hủ tiếu,4.8,4,16,10,12,True,False,pickup_only,52
+R006,Quán Anh Tuấn 6,Phường Nhiêu Lộc,Trung tâm,Bún bò,4.9,4,8,17,19,False,True,delivery_only,41
+R007,Quán Anh Hùng 7,Phường An Hội Đông,Dân cư đông,Phở,5.0,1,20,9,11,True,False,pickup_only,36
+R008,Quán Bà Lan 8,Phường Thuận An,Công nhân,Hủ tiếu,4.8,3,15,16,18,False,True,both,44
+R009,Quán Bác Năm 9,Phường Tân Bình,Dân cư đông,Cơm tấm,4.4,3,13,20,22,False,True,pickup_only,53
+R010,Quán Chị Hương 10,Phường Đức Nhuận,Trung tâm,Cơm tấm,4.1,3,5,19,21,False,True,both,46
+R011,Quán Chị Hương 11,Xã Hiệp Phước,Ngoại ô,Bánh mì,4.8,1,6,20,22,False,True,both,33
+R012,Quán Cô Mười 12,Phường Khánh Hội,Dân cư đông,Phở,4.6,2,5,20,22,False,True,delivery_only,58
+R013,Quán Chú Tám 13,Phường Long Bình,Sinh viên,Phở,4.4,5,20,12,14,True,False,both,51
+R014,Quán Dì Tư 14,Phường An Khánh,Sinh viên,Bánh mì,4.9,2,2,12,14,True,False,both,54
+R015,Quán Bà Hoa 15,Phường Hiệp Bình,Sinh viên,Hủ tiếu,4.1,3,18,13,15,True,False,both,42
+R016,Quán Cô Mười 16,Phường Tăng Nhơn Phú,Sinh viên,Phở,4.5,3,13,16,18,False,True,both,47
+R017,Quán Cô Mai 17,Phường Dĩ An,Công nhân,Cơm tấm,4.0,1,17,13,15,True,False,both,30
+R018,Quán Cô Mai 18,Phường Lái Thiêu,Công nhân,Cơm tấm,4.5,1,3,16,18,False,True,both,45
+R019,Quán Dì Tư 19,Phường Long Bình,Sinh viên,Bún bò,4.1,2,15,18,20,False,True,both,42
+R020,Quán Bà Hoa 20,Phường Đông Hòa,Công nhân,Phở,4.1,4,8,9,11,True,False,delivery_only,39
+R021,Quán Chị Ba 21,Phường Bình Trưng,Sinh viên,Hủ tiếu,4.1,2,6,20,22,False,True,pickup_only,41
+R022,Quán Chú Tám 22,Phường Long Bình,Sinh viên,Bánh mì,4.6,5,12,18,20,False,True,both,59
+R023,Quán Cô Sáu 23,Phường Tân Đông Hiệp,Công nhân,Bánh mì,4.7,2,6,17,19,False,True,both,31
+R024,Quán Chú Bảy 24,Phường An Phú,Công nhân,Hủ tiếu,4.6,1,15,14,16,True,False,both,52
+R025,Quán Bà Hoa 25,Phường An Hội Đông,Dân cư đông,Cơm văn phòng,5.0,6,12,11,13,True,False,both,32
+R026,Quán Chị Hương 26,Phường Tam Bình,Sinh viên,Bún riêu,4.4,1,4,16,18,False,True,both,39
+R027,Quán Anh Tuấn 27,Phường Hòa Lợi,Công nhân,Bún bò,4.3,1,3,17,19,False,True,pickup_only,31
+R028,Quán Chị Ba 28,Phường Tân Đông Hiệp,Công nhân,Bánh mì,4.9,1,8,14,16,True,False,both,59
+R029,Quán Chú Bảy 29,Phường Bến Thành,Trung tâm,Phở,4.2,4,2,19,21,False,True,both,56
+R030,Quán Chú Bảy 30,Phường An Phú,Công nhân,Bún bò,5.0,2,26,15,17,False,True,both,52
+R031,Quán Chị Ba 31,Phường Phước Long,Sinh viên,Phở,4.0,2,11,9,11,True,False,both,42
+R032,Quán Bà Lan 32,Phường Cầu Ông Lãnh,Trung tâm,Cơm văn phòng,5.0,1,5,13,15,True,False,delivery_only,42
+R033,Quán Anh Hùng 33,Phường Tân Hòa,Dân cư đông,Cơm tấm,4.0,6,11,13,15,True,False,pickup_only,47
+R034,Quán Chú Bảy 34,Xã Bình Chánh,Ngoại ô,Bún bò,4.9,2,12,18,20,False,True,both,32
+R035,Quán Chị Ba 35,Phường Tân Sơn Nhất,Dân cư đông,Bánh mì,4.5,5,3,12,14,True,False,delivery_only,56
+R036,Quán Bà Hoa 36,Phường Phước Long,Sinh viên,Bún bò,5.0,3,14,14,16,True,False,both,36
+R037,Quán Chị Ba 37,Phường Tân Định,Trung tâm,Bún bò,4.1,1,8,15,17,False,True,delivery_only,43
+R038,Quán Bà Chín 38,Phường Thuận Giao,Công nhân,Bún bò,4.6,2,4,17,19,False,True,pickup_only,49
+R039,Quán Cô Mười 39,Phường Đông Hòa,Công nhân,Bún riêu,5.0,1,22,9,11,True,False,both,58
+R040,Quán Minh Tâm 40,Phường Bình Trưng,Sinh viên,Bún bò,4.5,1,2,14,16,True,False,both,59
+R041,Quán Bà Lan 41,Phường Tân Khánh,Công nhân,Phở,4.6,2,7,15,17,False,True,both,46
+R042,Quán Bác Năm 42,Phường Tân Định,Trung tâm,Cơm tấm,4.7,3,9,11,13,True,False,both,58
+R043,Quán Minh Tâm 43,Phường Bảy Hiền,Dân cư đông,Cơm văn phòng,4.5,6,18,16,18,False,True,pickup_only,59
+R044,Quán Cô Mười 44,Phường Tam Bình,Sinh viên,Hủ tiếu,4.6,3,10,13,15,True,False,both,50
+R045,Quán Cô Mười 45,Phường Thuận An,Công nhân,Bún bò,4.6,3,13,17,19,False,True,both,41
+R046,Quán Cô Mười 46,Phường Cát Lái,Sinh viên,Bánh mì,4.9,5,16,13,15,True,False,pickup_only,54
+R047,Quán Minh Tâm 47,Phường Tân Khánh,Công nhân,Bún bò,4.0,1,26,17,19,False,True,delivery_only,45
+R048,Quán Dì Tư 48,Phường An Phú,Công nhân,Bánh mì,4.3,2,8,18,20,False,True,both,53
+R049,Quán Anh Hùng 49,Phường Thủ Đức,Sinh viên,Phở,5.0,4,4,12,14,True,False,both,41
+R050,Quán Chị Ba 50,Xã Hưng Long,Ngoại ô,Bánh mì,4.9,1,1,17,19,False,True,both,44
+R051,Quán Anh Tuấn 51,Phường Hạnh Thông,Dân cư đông,Hủ tiếu,4.5,1,6,13,15,True,False,both,54
+R052,Quán Anh Hùng 52,Phường Xóm Chiếu,Dân cư đông,Cơm tấm,4.6,3,13,18,20,False,True,delivery_only,39
+R053,Quán Chị Hương 53,Phường Gia Định,Dân cư đông,Bánh mì,4.3,5,19,17,19,False,True,both,59
+R054,Quán Bà Hoa 54,Phường Bình Hòa,Công nhân,Bánh mì,4.2,4,16,11,13,True,False,both,54
+R055,Quán Chú Tám 55,Phường Thông Tây Hội,Dân cư đông,Cơm tấm,4.5,6,12,12,14,True,False,both,60
+R056,Quán Dì Tư 56,Phường Nhiêu Lộc,Trung tâm,Hủ tiếu,4.4,2,9,17,19,False,True,both,36
+R057,Quán Bác Năm 57,Phường Bình Trưng,Sinh viên,Bún bò,4.6,2,3,18,20,False,True,pickup_only,49
+R058,Quán Anh Hùng 58,Phường Cầu Kiệu,Trung tâm,Bánh mì,4.1,4,3,19,21,False,True,pickup_only,34
+R059,Quán Anh Tuấn 59,Phường Tam Bình,Sinh viên,Cơm tấm,5.0,2,4,14,16,True,False,both,30
+R060,Quán Cô Mai 60,Phường Tân Đông Hiệp,Công nhân,Phở,5.0,1,3,10,12,True,False,both,59
+R061,Quán Cô Mười 61,Phường Tam Bình,Sinh viên,Cơm tấm,4.7,2,9,15,17,False,True,both,46
+R062,Quán Chú Bảy 62,Phường Hạnh Thông,Dân cư đông,Phở,4.5,6,9,10,12,True,False,delivery_only,32
+R063,Quán Chị Hương 63,Phường Thuận Giao,Công nhân,Hủ tiếu,4.3,3,13,19,21,False,True,delivery_only,42
+R064,Quán Chú Tám 64,Phường Tăng Nhơn Phú,Sinh viên,Bún bò,4.8,3,10,10,12,True,False,both,43
+R065,Quán Bà Lan 65,Phường Đông Hòa,Công nhân,Cơm tấm,4.7,3,7,19,21,False,True,pickup_only,53
+R066,Quán Bác Năm 66,Phường An Khánh,Sinh viên,Cơm văn phòng,4.2,3,15,9,11,True,False,pickup_only,59
+R067,Quán Bà Hoa 67,Phường An Hội Đông,Dân cư đông,Cơm văn phòng,4.9,6,4,19,21,False,True,both,47
+R068,Quán Chú Tám 68,Phường Xuân Hòa,Trung tâm,Bún riêu,4.8,3,5,19,21,False,True,delivery_only,33
+R069,Quán Cô Mười 69,Xã Xuân Thới Sơn,Ngoại ô,Bánh mì,4.9,3,5,20,22,False,True,both,47
+R070,Quán Chú Bảy 70,Phường Gò Vấp,Dân cư đông,Hủ tiếu,4.7,4,6,19,21,False,True,both,59
+R071,Quán Dì Tư 71,Phường Bình Trưng,Sinh viên,Cơm tấm,4.6,5,20,11,13,True,False,both,34
+R072,Quán Chú Bảy 72,Phường Bến Thành,Trung tâm,Cơm văn phòng,4.4,2,10,14,16,True,False,both,54
+R073,Quán Minh Tâm 73,Phường Vĩnh Hội,Dân cư đông,Bánh mì,4.9,2,5,16,18,False,True,both,45
+R074,Quán Chú Bảy 74,Phường Bình Lợi Trung,Dân cư đông,Cơm văn phòng,4.9,6,14,17,19,False,True,pickup_only,30
+R075,Quán Minh Tâm 75,Phường Vĩnh Hội,Dân cư đông,Cơm tấm,4.0,3,11,15,17,False,True,both,50
+R076,Quán Chị Hương 76,Phường An Nhơn,Dân cư đông,Phở,4.0,3,19,12,14,True,False,pickup_only,43
+R077,Quán Dì Tư 77,Phường Xuân Hòa,Trung tâm,Cơm tấm,4.4,3,8,14,16,True,False,both,44
+R078,Quán Bà Hoa 78,Phường Tân Đông Hiệp,Công nhân,Bún riêu,4.8,4,10,13,15,True,False,both,38
+R079,Quán Cô Sáu 79,Phường Bình Trưng,Sinh viên,Cơm tấm,5.0,1,8,16,18,False,True,both,44
+R080,Quán Cô Mười 80,Phường An Hội Đông,Dân cư đông,Cơm tấm,4.2,5,9,9,11,True,False,both,46
+R081,Quán Minh Tâm 81,Phường Đông Hòa,Công nhân,Bún riêu,4.6,4,16,9,11,True,False,pickup_only,54
+R082,Quán Bà Lan 82,Phường Tăng Nhơn Phú,Sinh viên,Hủ tiếu,4.4,2,20,19,21,False,True,both,53
+R083,Quán Chú Bảy 83,Phường Sài Gòn,Trung tâm,Cơm tấm,5.0,3,6,14,16,True,False,both,33
+R084,Quán Chú Bảy 84,Phường Hiệp Bình,Sinh viên,Bún riêu,4.8,1,2,18,20,False,True,both,41
+R085,Quán Bà Lan 85,Phường Tăng Nhơn Phú,Sinh viên,Bánh mì,4.8,1,16,20,22,False,True,pickup_only,56
+R086,Quán Bà Hoa 86,Phường Tân Sơn Nhất,Dân cư đông,Phở,4.5,6,2,10,12,True,False,delivery_only,55
+R087,Quán Cô Mai 87,Phường Thuận An,Công nhân,Phở,4.4,2,27,13,15,True,False,pickup_only,34
+R088,Quán Chị Hương 88,Phường Gò Vấp,Dân cư đông,Cơm tấm,4.3,6,18,9,11,True,False,both,58
+R089,Quán Chị Ba 89,Phường Đông Hòa,Công nhân,Hủ tiếu,4.1,4,3,15,17,False,True,both,34
+R090,Quán Cô Sáu 90,Phường Thủ Đức,Sinh viên,Hủ tiếu,4.9,1,16,9,11,True,False,both,40
+R091,Quán Bác Năm 91,Phường Xóm Chiếu,Dân cư đông,Bánh mì,4.8,1,3,12,14,True,False,both,57
+R092,Quán Anh Tuấn 92,Phường Gia Định,Dân cư đông,Cơm tấm,5.0,5,15,17,19,False,True,both,35
+R093,Quán Minh Tâm 93,Phường Tân Đông Hiệp,Công nhân,Phở,5.0,4,23,9,11,True,False,both,36
+R094,Quán Bà Lan 94,Phường Bình Lợi Trung,Dân cư đông,Hủ tiếu,4.6,1,9,12,14,True,False,both,53
+R095,Quán Anh Tuấn 95,Phường Lái Thiêu,Công nhân,Cơm tấm,4.8,4,10,14,16,True,False,both,60
+R096,Quán Dì Tư 96,Phường Lái Thiêu,Công nhân,Cơm văn phòng,4.9,2,21,14,16,True,False,pickup_only,43
+R097,Quán Bà Hoa 97,Phường Tân Đông Hiệp,Công nhân,Hủ tiếu,4.8,3,9,20,22,False,True,both,53
+R098,Quán Minh Tâm 98,Phường Xuân Hòa,Trung tâm,Bún riêu,4.2,1,3,16,18,False,True,both,40
+R099,Quán Chị Ba 99,Phường An Khánh,Sinh viên,Cơm văn phòng,4.5,5,7,9,11,True,False,pickup_only,59
+R100,Quán Anh Tuấn 100,Phường Tân Định,Trung tâm,Hủ tiếu,4.1,2,6,15,17,False,True,both,42
+R101,Quán Dì Tư 101,Phường Bình Hòa,Công nhân,Phở,5.0,3,5,9,11,True,False,pickup_only,31
+R102,Quán Chú Tám 102,Phường Thủ Đức,Sinh viên,Bún bò,4.6,4,8,15,17,False,True,both,54
+R103,Quán Cô Mười 103,Phường Đông Hòa,Công nhân,Cơm văn phòng,4.2,3,21,11,13,True,False,both,36
+R104,Quán Chú Bảy 104,Phường Thông Tây Hội,Dân cư đông,Bánh mì,4.7,6,9,19,21,False,True,pickup_only,49
+R105,Quán Chú Tám 105,Phường Tam Bình,Sinh viên,Bánh mì,4.6,2,11,16,18,False,True,pickup_only,33
+R106,Quán Minh Tâm 106,Phường An Phú,Công nhân,Phở,4.4,3,22,11,13,True,False,pickup_only,56
+R107,Quán Chị Ba 107,Phường Gò Vấp,Dân cư đông,Hủ tiếu,4.1,1,16,9,11,True,False,both,37
+R108,Quán Cô Sáu 108,Phường Thủ Đức,Sinh viên,Cơm tấm,4.7,4,16,16,18,False,True,both,49
+R109,Quán Anh Tuấn 109,Phường Sài Gòn,Trung tâm,Hủ tiếu,4.5,3,1,11,13,True,False,both,58
+R110,Quán Chị Hương 110,Phường Hiệp Bình,Sinh viên,Phở,4.8,2,8,10,12,True,False,both,60
+R111,Quán Cô Mười 111,Phường Long Bình,Sinh viên,Bánh mì,4.5,1,5,9,11,True,False,delivery_only,51
+R112,Quán Minh Tâm 112,Phường Gò Vấp,Dân cư đông,Hủ tiếu,4.9,5,7,11,13,True,False,both,50
+R113,Quán Bà Hoa 113,Phường Tân Hòa,Dân cư đông,Bánh mì,4.6,6,2,10,12,True,False,delivery_only,48
+R114,Quán Bà Lan 114,Phường Bình Hòa,Công nhân,Cơm văn phòng,4.6,4,7,10,12,True,False,both,42
+R115,Quán Chị Hương 115,Phường Khánh Hội,Dân cư đông,Cơm tấm,4.9,2,2,14,16,True,False,both,43
+R116,Quán Chị Hương 116,Phường Bình Lợi Trung,Dân cư đông,Cơm văn phòng,4.4,2,5,20,22,False,True,both,39
+R117,Quán Chị Hương 117,Phường Hiệp Bình,Sinh viên,Bánh mì,4.1,3,3,9,11,True,False,delivery_only,40
+R118,Quán Anh Hùng 118,Phường Gò Vấp,Dân cư đông,Bánh mì,4.0,3,11,10,12,True,False,pickup_only,31
+R119,Quán Minh Tâm 119,Phường Đông Hòa,Công nhân,Bún bò,4.8,1,7,14,16,True,False,pickup_only,54
+R120,Quán Cô Mười 120,Phường Hạnh Thông,Dân cư đông,Bún bò,4.6,6,11,11,13,True,False,pickup_only,55
+R121,Quán Chú Bảy 121,Phường Gò Vấp,Dân cư đông,Cơm văn phòng,4.7,5,2,12,14,True,False,pickup_only,38
+R122,Quán Chú Bảy 122,Phường Linh Xuân,Sinh viên,Bún riêu,4.2,1,7,9,11,True,False,pickup_only,46
+R123,Quán Minh Tâm 123,Phường Bình Trưng,Sinh viên,Cơm văn phòng,4.1,1,14,16,18,False,True,both,55
+R124,Quán Dì Tư 124,Phường Cát Lái,Sinh viên,Bún bò,4.0,5,16,15,17,False,True,both,32
+R125,Quán Anh Hùng 125,Phường Lái Thiêu,Công nhân,Bánh mì,4.4,2,6,15,17,False,True,both,53
+R126,Quán Bà Lan 126,Phường Gò Vấp,Dân cư đông,Phở,4.6,5,14,11,13,True,False,delivery_only,35
+R127,Quán Chị Hương 127,Phường Tân Sơn Nhất,Dân cư đông,Cơm văn phòng,4.4,6,16,18,20,False,True,delivery_only,34
+R128,Quán Chị Hương 128,Phường Đức Nhuận,Trung tâm,Bánh mì,4.4,2,8,18,20,False,True,both,34
+R129,Quán Minh Tâm 129,Phường Dĩ An,Công nhân,Phở,4.9,3,7,11,13,True,False,pickup_only,51
+R130,Quán Dì Tư 130,Phường Lái Thiêu,Công nhân,Phở,4.3,4,17,10,12,True,False,delivery_only,44
+R131,Quán Chú Bảy 131,Phường Phước Long,Sinh viên,Bún bò,4.5,4,5,20,22,False,True,both,52
+R132,Quán Chú Bảy 132,Phường Linh Xuân,Sinh viên,Cơm văn phòng,4.8,3,13,9,11,True,False,both,46
+R133,Quán Chị Ba 133,Phường Cát Lái,Sinh viên,Hủ tiếu,4.4,1,14,15,17,False,True,delivery_only,38
+R134,Quán Minh Tâm 134,Phường An Nhơn,Dân cư đông,Cơm tấm,4.6,3,3,15,17,False,True,both,32
+R135,Quán Anh Hùng 135,Phường Cát Lái,Sinh viên,Bún bò,4.9,3,20,20,22,False,True,pickup_only,49
+R136,Quán Cô Mai 136,Phường Đông Hòa,Công nhân,Bún bò,4.9,3,21,10,12,True,False,both,55
+R137,Quán Anh Hùng 137,Phường Tân Sơn Nhất,Dân cư đông,Hủ tiếu,4.1,5,5,15,17,False,True,delivery_only,46
+R138,Quán Bà Hoa 138,Phường Đông Hòa,Công nhân,Cơm tấm,4.9,4,6,16,18,False,True,delivery_only,58
+R139,Quán Chú Bảy 139,Xã Bà Điểm,Ngoại ô,Bánh mì,4.5,3,10,9,11,True,False,delivery_only,56
+R140,Quán Chú Bảy 140,Xã Hiệp Phước,Ngoại ô,Bún riêu,4.3,2,11,17,19,False,True,both,39
+R141,Quán Chú Tám 141,Phường Long Bình,Sinh viên,Cơm văn phòng,4.5,2,6,15,17,False,True,delivery_only,32
+R142,Quán Chú Bảy 142,Phường Thuận An,Công nhân,Bún riêu,5.0,4,22,11,13,True,False,pickup_only,47
+R143,Quán Bà Lan 143,Phường Cát Lái,Sinh viên,Bánh mì,4.5,4,12,16,18,False,True,both,47
+R144,Quán Bác Năm 144,Phường Phước Long,Sinh viên,Bún bò,4.3,3,11,15,17,False,True,pickup_only,59
+R145,Quán Minh Tâm 145,Phường Phú Nhuận,Trung tâm,Cơm tấm,4.6,4,8,19,21,False,True,both,46
+R146,Quán Anh Tuấn 146,Phường Tân Đông Hiệp,Công nhân,Bún bò,4.2,3,8,16,18,False,True,both,53
+R147,Quán Anh Hùng 147,Phường Dĩ An,Công nhân,Phở,4.1,2,8,14,16,True,False,both,32
+R148,Quán Bác Năm 148,Phường Cầu Kiệu,Trung tâm,Bún bò,4.1,2,8,17,19,False,True,both,32
+R149,Quán Dì Tư 149,Phường An Khánh,Sinh viên,Bún bò,4.1,1,16,13,15,True,False,both,35

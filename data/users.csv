@@ -1,0 +1,501 @@
+user_id,ward,age_group,age,is_gen_z,account_age_days,favorite_category,avg_order_value,voucher_usage_rate,order_frequency_per_week,peak_order_hour,evening_order_frequency,pickup_rate,delivery_rate,has_used_giovang,giovang_order_count,giovang_view_count,price_sensitivity_score,deal_seeking_score,activity_score,pickup_score,giovang_engagement_score,time_match_score,giovang_score,segment,notify_priority
+U0000,Phường Thuận An,Gen Z,20,True,59,Cơm văn phòng,37000,0.61,5,12,0.8,0.72,0.28,True,7,15,0.689,0.484,0.477,0.72,0.728,0.62,0.592,Deal Addict,High
+U0001,Phường Linh Xuân,Other,44,False,43,Cơm tấm,85000,0.3,2,20,1.2,0.12,0.88,False,0,0,0.312,0.221,0.277,0.12,0.0,1.0,0.338,Casual,Low
+U0002,Phường Tân Hòa,Millennial,30,False,79,Bún bò,54000,0.25,3,7,0.3,0.21,0.79,False,0,0,0.431,0.232,0.48,0.21,0.0,0.208,0.238,Casual,Low
+U0003,Phường An Hội Đông,Gen Z,27,True,12,Cơm tấm,32000,0.75,2,18,2.0,0.4,0.6,True,3,5,0.782,0.446,0.139,0.4,0.418,1.0,0.502,New User,Medium
+U0004,Phường Vĩnh Hội,Gen Z,22,True,40,Bánh mì,31000,0.61,6,10,0.9,0.55,0.45,False,0,0,0.717,0.519,0.435,0.55,0.0,0.622,0.432,Explorer,High
+U0005,Xã Vĩnh Lộc,Gen Z,25,True,20,Hủ tiếu,33000,0.69,5,18,2.3,0.45,0.55,True,7,15,0.748,0.524,0.303,0.45,0.728,1.0,0.62,New User,Medium
+U0006,Phường Tân Bình,Gen Z,21,True,38,Cơm văn phòng,16000,0.94,2,17,2.0,0.23,0.77,True,2,5,0.951,0.541,0.255,0.23,0.295,1.0,0.516,Occasional Saver,Medium
+U0007,Phường Xuân Hòa,Millennial,28,False,3,Phở,49000,0.46,4,19,2.2,0.22,0.78,False,0,0,0.559,0.373,0.185,0.22,0.0,1.0,0.38,New User,Low
+U0008,Xã Tân Nhựt,Millennial,38,False,28,Hủ tiếu,58000,0.38,4,9,0.3,0.21,0.79,False,0,0,0.477,0.333,0.296,0.21,0.0,0.408,0.269,New User,Low
+U0009,Phường Cát Lái,Millennial,34,False,56,Hủ tiếu,58000,0.5,2,16,0.0,0.27,0.73,False,0,0,0.537,0.321,0.335,0.27,0.0,0.6,0.321,Casual,Low
+U0010,Phường Hòa Lợi,Gen Z,25,True,90,Bánh mì,39000,0.71,8,15,0.5,0.48,0.52,True,9,20,0.73,0.641,0.743,0.48,0.835,0.413,0.643,Deal Addict,High
+U0011,Phường Phú Nhuận,Other,43,False,13,Bún bò,78000,0.05,4,17,1.2,0.24,0.76,False,0,0,0.219,0.168,0.229,0.24,0.0,1.0,0.323,New User,Low
+U0012,Phường Bình Trị Đông,Millennial,33,False,77,Phở,90000,0.2,4,16,0.1,0.07,0.93,False,0,0,0.239,0.243,0.514,0.07,0.0,0.602,0.303,Casual,Low
+U0013,Phường Thông Tây Hội,Gen Z,19,True,66,Bún bò,26000,0.5,3,16,0.7,0.58,0.42,True,4,8,0.685,0.357,0.422,0.58,0.48,0.617,0.485,Pickup Commuter,High
+U0014,Phường Bàn Cờ,Gen Z,24,True,37,Bún riêu,28000,0.61,6,13,1.0,0.46,0.54,False,0,0,0.731,0.519,0.422,0.46,0.0,0.625,0.422,Explorer,High
+U0015,Phường Tân Hòa,Gen Z,25,True,49,Hủ tiếu,28000,0.69,5,11,0.6,0.63,0.37,True,6,12,0.771,0.524,0.432,0.63,0.645,0.615,0.571,Deal Addict,High
+U0016,Phường Tân Khánh,Gen Z,23,True,66,Bún riêu,30000,0.59,4,14,0.7,0.49,0.51,True,7,15,0.712,0.438,0.465,0.49,0.728,0.418,0.516,Midday Saver,High
+U0017,Phường Tam Bình,Gen Z,23,True,36,Cơm tấm,41000,0.62,5,10,0.1,0.59,0.41,True,7,15,0.676,0.489,0.374,0.59,0.728,0.602,0.556,Deal Addict,High
+U0018,Xã Hóc Môn,Gen Z,22,True,54,Hủ tiếu,25000,0.68,5,21,0.4,0.49,0.51,False,0,0,0.78,0.519,0.454,0.49,0.0,0.61,0.431,Explorer,High
+U0019,Phường Xóm Chiếu,Gen Z,25,True,26,Bún bò,39000,0.65,5,18,2.3,0.62,0.38,True,5,9,0.7,0.504,0.33,0.62,0.569,1.0,0.603,New User,Medium
+U0020,Phường Hạnh Thông,Millennial,28,False,75,Hủ tiếu,50000,0.35,3,21,0.4,0.34,0.66,True,3,3,0.499,0.282,0.462,0.34,0.518,0.61,0.447,Evening Saver,Medium
+U0021,Phường Thuận An,Gen Z,27,True,72,Cơm tấm,34000,0.53,5,11,0.9,0.41,0.59,True,6,10,0.663,0.444,0.534,0.41,0.655,0.622,0.547,Deal Addict,High
+U0022,Phường Tân Đông Hiệp,Gen Z,21,True,40,Bánh mì,34000,0.78,8,19,3.7,0.76,0.24,True,7,15,0.788,0.676,0.521,0.76,0.728,1.0,0.734,Deal Addict,High
+U0023,Phường An Nhơn,Gen Z,21,True,43,Bún riêu,28000,0.61,4,18,2.2,0.55,0.45,False,0,0,0.731,0.448,0.363,0.55,0.0,1.0,0.476,Explorer,High
+U0024,Xã Hóc Môn,Gen Z,20,True,22,Bún riêu,31000,0.71,6,17,2.9,0.51,0.49,True,6,12,0.767,0.569,0.355,0.51,0.645,1.0,0.632,New User,Medium
+U0025,Phường Tân Hòa,Millennial,30,False,20,Bún bò,50000,0.53,6,17,2.0,0.13,0.87,True,7,10,0.589,0.479,0.346,0.13,0.747,1.0,0.581,New User,Low
+U0026,Phường Sài Gòn,Gen Z,21,True,8,Hủ tiếu,19000,0.73,4,11,0.4,0.23,0.77,True,4,7,0.833,0.508,0.207,0.23,0.491,0.61,0.453,New User,Medium
+U0027,Phường Long Bình,Gen Z,18,True,29,Bún bò,29000,0.57,4,19,4.0,0.46,0.54,True,8,18,0.706,0.428,0.3,0.46,0.813,1.0,0.611,New User,Medium
+U0028,Phường Bình Tân,Gen Z,19,True,40,Bánh mì,20000,0.69,5,15,0.8,0.44,0.56,False,0,0,0.808,0.524,0.392,0.44,0.0,0.42,0.378,Casual,Low
+U0029,Phường Xuân Hòa,Gen Z,26,True,90,Hủ tiếu,29000,0.76,5,9,0.6,0.33,0.67,True,6,9,0.801,0.559,0.614,0.33,0.665,0.415,0.552,Deal Addict,High
+U0030,Phường Bàn Cờ,Millennial,37,False,30,Hủ tiếu,58000,0.37,5,11,0.2,0.3,0.7,False,0,0,0.472,0.364,0.348,0.3,0.0,0.605,0.335,Casual,Low
+U0031,Phường Tân Định,Gen Z,19,True,81,Bún bò,33000,0.51,4,20,2.6,0.66,0.34,True,4,8,0.658,0.398,0.531,0.66,0.48,1.0,0.601,Pickup Commuter,High
+U0032,Xã Hiệp Phước,Gen Z,22,True,84,Bún bò,35000,0.68,9,19,2.3,0.52,0.48,True,10,20,0.734,0.661,0.759,0.52,0.85,1.0,0.776,Deal Addict,High
+U0033,Phường An Khánh,Other,49,False,55,Cơm tấm,47000,0.38,1,22,0.1,0.09,0.91,False,0,0,0.528,0.226,0.287,0.09,0.0,0.203,0.19,Casual,Low
+U0034,Xã Hiệp Phước,Other,49,False,16,Cơm văn phòng,77000,0.1,1,17,1.0,0.19,0.81,False,0,0,0.249,0.086,0.114,0.19,0.0,1.0,0.276,New User,Low
+U0035,Phường Bình Thạnh,Millennial,35,False,46,Cơm văn phòng,46000,0.47,4,11,0.4,0.18,0.82,False,0,0,0.578,0.378,0.376,0.18,0.0,0.61,0.339,Casual,Low
+U0036,Phường Linh Xuân,Gen Z,18,True,62,Bánh mì,29000,0.68,4,10,0.7,0.36,0.64,False,0,0,0.761,0.483,0.447,0.36,0.0,0.617,0.408,Explorer,High
+U0037,Phường Sài Gòn,Gen Z,18,True,7,Cơm văn phòng,42000,0.56,3,10,0.1,0.36,0.64,True,4,8,0.641,0.387,0.16,0.36,0.48,0.602,0.413,New User,Medium
+U0038,Xã Bà Điểm,Millennial,36,False,80,Cơm tấm,26000,0.39,3,7,0.2,0.22,0.78,True,5,9,0.63,0.302,0.484,0.22,0.569,0.205,0.381,Occasional Saver,Medium
+U0039,Xã Bình Hưng,Gen Z,25,True,45,Bún riêu,33000,0.74,4,12,0.2,0.23,0.77,False,0,0,0.773,0.513,0.371,0.23,0.0,0.605,0.385,Casual,Low
+U0040,Phường Cầu Ông Lãnh,Gen Z,27,True,59,Hủ tiếu,33000,0.71,2,10,0.2,0.4,0.6,True,2,4,0.758,0.426,0.348,0.4,0.315,0.605,0.438,Occasional Saver,Medium
+U0041,Phường Lái Thiêu,Gen Z,26,True,56,Bún bò,29000,0.71,8,12,0.8,0.34,0.66,True,8,16,0.776,0.641,0.592,0.34,0.81,0.62,0.637,Deal Addict,High
+U0042,Phường Tân Khánh,Gen Z,24,True,48,Hủ tiếu,25000,0.83,3,20,2.1,0.05,0.95,True,3,6,0.855,0.522,0.342,0.05,0.397,1.0,0.526,Evening Saver,High
+U0043,Phường Tân Sơn Nhất,Other,43,False,27,Hủ tiếu,56000,0.35,3,13,0.2,0.41,0.59,True,5,8,0.471,0.282,0.249,0.41,0.58,0.605,0.422,New User,Low
+U0044,Phường Bảy Hiền,Gen Z,20,True,53,Phở,43000,0.65,6,19,2.4,0.58,0.42,False,0,0,0.681,0.539,0.493,0.58,0.0,1.0,0.525,Explorer,High
+U0045,Phường Thạnh Mỹ Tây,Millennial,29,False,87,Bún riêu,51000,0.16,6,17,2.5,0.23,0.77,True,7,13,0.399,0.294,0.644,0.23,0.729,1.0,0.591,Deal Addict,High
+U0046,Phường Hạnh Thông,Gen Z,22,True,88,Phở,27000,0.79,2,11,0.6,0.42,0.58,True,4,6,0.826,0.466,0.477,0.42,0.51,0.615,0.52,Occasional Saver,Medium
+U0047,Phường Bảy Hiền,Gen Z,20,True,73,Cơm văn phòng,30000,0.66,7,12,0.2,0.24,0.76,False,0,0,0.747,0.58,0.624,0.24,0.0,0.605,0.452,Explorer,High
+U0048,Phường An Lạc,Gen Z,23,True,35,Hủ tiếu,35000,0.65,5,9,0.5,0.67,0.33,True,6,12,0.719,0.504,0.37,0.67,0.645,0.413,0.515,Deal Addict,High
+U0049,Phường Tân Định,Gen Z,19,True,51,Bún bò,22000,0.73,5,12,0.7,0.7,0.3,True,7,12,0.819,0.544,0.441,0.7,0.732,0.617,0.605,Deal Addict,High
+U0050,Xã Xuân Thới Sơn,Other,52,False,84,Hủ tiếu,66000,0.28,2,17,1.8,0.22,0.78,False,0,0,0.39,0.211,0.459,0.22,0.0,1.0,0.386,Casual,Low
+U0051,Phường Khánh Hội,Millennial,30,False,37,Bún riêu,57000,0.46,5,9,0.1,0.4,0.6,True,7,15,0.522,0.409,0.379,0.4,0.728,0.403,0.47,Deal Addict,High
+U0052,Phường Tân Khánh,Other,45,False,81,Phở,104000,0.05,2,10,0.4,0.22,0.78,False,0,0,0.099,0.096,0.446,0.22,0.0,0.61,0.262,Casual,Low
+U0053,Phường An Lạc,Millennial,39,False,57,Bún bò,44000,0.47,5,12,0.6,0.12,0.88,False,0,0,0.587,0.414,0.468,0.12,0.0,0.615,0.361,Casual,Low
+U0054,Phường Bàn Cờ,Gen Z,18,True,8,Hủ tiếu,28000,0.68,5,22,0.9,0.36,0.64,True,5,10,0.766,0.519,0.25,0.36,0.562,0.223,0.411,New User,Medium
+U0055,Phường Đông Hòa,Other,57,False,79,Bánh mì,63000,0.05,3,18,1.4,0.21,0.79,False,0,0,0.289,0.132,0.48,0.21,0.0,1.0,0.364,Casual,Low
+U0056,Phường Linh Xuân,Gen Z,27,True,20,Bún riêu,34000,0.6,9,18,3.6,0.35,0.65,True,8,12,0.698,0.621,0.475,0.35,0.82,1.0,0.684,New User,Medium
+U0057,Xã Tân Nhựt,Gen Z,26,True,53,Bún riêu,28000,0.57,3,10,0.4,0.39,0.61,True,5,9,0.711,0.392,0.364,0.39,0.569,0.61,0.481,Midday Saver,High
+U0058,Phường An Khánh,Gen Z,24,True,12,Bánh mì,32000,0.76,9,18,3.9,0.41,0.59,False,0,0,0.787,0.701,0.439,0.41,0.0,1.0,0.543,New User,Medium
+U0059,Phường Chợ Quán,Gen Z,18,True,49,Hủ tiếu,39000,0.66,3,18,3.0,0.41,0.59,False,0,0,0.705,0.437,0.346,0.41,0.0,1.0,0.455,Explorer,Medium
+U0060,Phường Hòa Lợi,Gen Z,25,True,17,Bún riêu,37000,0.57,2,17,2.0,0.43,0.57,True,4,8,0.669,0.356,0.161,0.43,0.48,1.0,0.494,New User,Medium
+U0061,Xã Bà Điểm,Gen Z,20,True,64,Bún bò,30000,0.61,2,22,0.4,0.26,0.74,False,0,0,0.722,0.376,0.37,0.26,0.0,0.21,0.272,Casual,Low
+U0062,Phường Bình Lợi Trung,Millennial,35,False,42,Hủ tiếu,73000,0.22,3,12,0.4,0.19,0.81,False,0,0,0.328,0.217,0.315,0.19,0.0,0.61,0.275,Casual,Low
+U0063,Phường Thuận Giao,Gen Z,22,True,29,Hủ tiếu,32000,0.6,5,20,4.1,0.23,0.77,False,0,0,0.707,0.479,0.343,0.23,0.0,1.0,0.447,New User,Medium
+U0064,Phường Bình Lợi Trung,Gen Z,18,True,19,Phở,32000,0.49,3,20,2.4,0.57,0.43,True,5,8,0.652,0.352,0.213,0.57,0.58,1.0,0.536,New User,Medium
+U0065,Xã Xuân Thới Sơn,Gen Z,24,True,11,Bún riêu,17000,0.56,2,7,0.8,0.1,0.9,True,6,12,0.757,0.351,0.135,0.1,0.645,0.22,0.336,New User,Medium
+U0066,Phường Thông Tây Hội,Gen Z,22,True,50,Bún riêu,51000,0.54,8,13,0.5,0.59,0.41,True,8,18,0.589,0.556,0.565,0.59,0.813,0.612,0.625,Deal Addict,High
+U0067,Xã Bà Điểm,Millennial,33,False,71,Bánh mì,37000,0.57,5,21,0.5,0.45,0.55,False,0,0,0.669,0.464,0.53,0.45,0.0,0.612,0.423,Explorer,Medium
+U0068,Phường Thuận An,Gen Z,23,True,58,Phở,25000,0.62,6,9,0.4,0.37,0.63,True,9,18,0.75,0.524,0.515,0.37,0.83,0.41,0.557,Deal Addict,High
+U0069,Xã Nhà Bè,Other,48,False,34,Cơm văn phòng,42000,0.36,3,16,0.2,0.05,0.95,False,0,0,0.541,0.287,0.28,0.05,0.0,0.605,0.281,Casual,Low
+U0070,Phường Bình Lợi Trung,Millennial,36,False,20,Phở,60000,0.41,5,21,0.5,0.24,0.76,True,3,5,0.483,0.384,0.303,0.24,0.418,0.612,0.411,New User,Low
+U0071,Phường Thông Tây Hội,Gen Z,19,True,50,Bún riêu,24000,0.58,3,16,0.3,0.41,0.59,True,4,8,0.734,0.397,0.351,0.41,0.48,0.607,0.465,Evening Saver,High
+U0072,Xã Bà Điểm,Gen Z,26,True,88,Hủ tiếu,23000,0.69,4,10,0.8,0.27,0.73,True,5,8,0.794,0.488,0.563,0.27,0.58,0.62,0.541,Midday Saver,High
+U0073,Phường Bàn Cờ,Millennial,39,False,10,Phở,35000,0.41,5,16,0.3,0.22,0.78,False,0,0,0.599,0.384,0.259,0.22,0.0,0.607,0.321,New User,Low
+U0074,Phường An Hội Đông,Millennial,38,False,32,Bánh mì,36000,0.63,3,10,0.3,0.46,0.54,True,4,4,0.704,0.422,0.271,0.46,0.59,0.607,0.48,Midday Saver,Medium
+U0075,Phường Cầu Ông Lãnh,Millennial,37,False,52,Phở,57000,0.51,4,16,0.2,0.36,0.64,False,0,0,0.547,0.398,0.403,0.36,0.0,0.605,0.364,Casual,Low
+U0076,Phường Phú Nhuận,Millennial,36,False,15,Bánh mì,62000,0.22,2,9,0.3,0.17,0.83,True,3,4,0.379,0.181,0.152,0.17,0.452,0.408,0.284,New User,Low
+U0077,Phường Bình Trị Đông,Gen Z,27,True,84,Cơm văn phòng,29000,0.69,4,17,2.8,0.18,0.82,True,2,9,0.766,0.488,0.545,0.18,0.282,1.0,0.544,Evening Saver,High
+U0078,Phường Linh Xuân,Gen Z,27,True,3,Phở,30000,0.76,5,16,0.0,0.37,0.63,True,8,16,0.797,0.559,0.228,0.37,0.81,0.6,0.544,New User,Medium
+U0079,Phường Linh Xuân,Gen Z,24,True,37,Bánh mì,36000,0.7,5,18,2.7,0.39,0.61,True,5,7,0.739,0.529,0.379,0.39,0.597,1.0,0.603,Evening Saver,High
+U0080,Phường Bảy Hiền,Millennial,28,False,40,Phở,28000,0.52,4,17,1.2,0.34,0.66,True,4,6,0.686,0.403,0.349,0.34,0.51,1.0,0.541,Evening Saver,High
+U0081,Phường Xuân Hòa,Millennial,34,False,72,Cơm văn phòng,47000,0.54,4,16,0.6,0.22,0.78,True,4,7,0.608,0.413,0.491,0.22,0.491,0.615,0.475,Evening Saver,High
+U0082,Xã Hiệp Phước,Gen Z,27,True,40,Phở,49000,0.45,2,17,2.0,0.5,0.5,True,5,13,0.554,0.296,0.263,0.5,0.558,1.0,0.516,Occasional Saver,Medium
+U0083,Phường Hòa Lợi,Gen Z,22,True,56,Bún bò,33000,0.6,3,10,0.4,0.71,0.29,True,1,1,0.703,0.407,0.377,0.71,0.372,0.61,0.48,Pickup Commuter,High
+U0084,Xã Bình Chánh,Gen Z,23,True,23,Bánh mì,25000,0.59,7,16,0.7,0.54,0.46,False,0,0,0.735,0.545,0.402,0.54,0.0,0.617,0.431,New User,Medium
+U0085,Phường An Khánh,Gen Z,27,True,11,Cơm văn phòng,31000,0.72,6,10,0.3,0.41,0.59,False,0,0,0.772,0.574,0.306,0.41,0.0,0.607,0.406,New User,Medium
+U0086,Phường Bình Tân,Millennial,34,False,64,Bánh mì,48000,0.34,2,20,2.0,0.26,0.74,True,2,2,0.503,0.241,0.37,0.26,0.445,1.0,0.474,Occasional Saver,Medium
+U0087,Phường Thủ Đức,Millennial,32,False,8,Bánh mì,55000,0.34,5,9,0.5,0.24,0.76,False,0,0,0.471,0.349,0.25,0.24,0.0,0.413,0.267,New User,Low
+U0088,Phường Đức Nhuận,Millennial,34,False,56,Cơm tấm,37000,0.52,3,13,0.6,0.42,0.58,False,0,0,0.644,0.367,0.377,0.42,0.0,0.615,0.364,Casual,Low
+U0089,Phường Cầu Ông Lãnh,Gen Z,26,True,60,Cơm văn phòng,22000,0.76,4,17,3.0,0.33,0.67,True,6,12,0.834,0.523,0.438,0.33,0.645,1.0,0.622,Evening Saver,High
+U0090,Phường Cầu Ông Lãnh,Gen Z,20,True,10,Phở,22000,0.6,3,14,0.8,0.43,0.57,False,0,0,0.754,0.407,0.173,0.43,0.0,0.42,0.301,New User,Medium
+U0091,Phường Bình Trị Đông,Millennial,35,False,39,Bánh mì,81000,0.32,5,9,0.2,0.29,0.71,False,0,0,0.341,0.339,0.388,0.29,0.0,0.405,0.289,Casual,Low
+U0092,Phường Cát Lái,Millennial,29,False,28,Bún riêu,65000,0.35,4,16,0.6,0.22,0.78,True,3,4,0.43,0.318,0.296,0.22,0.452,0.615,0.396,New User,Low
+U0093,Phường Thủ Dầu Một,Gen Z,24,True,49,Cơm tấm,23000,0.58,3,17,2.1,0.21,0.79,True,3,6,0.739,0.397,0.346,0.21,0.397,1.0,0.506,Evening Saver,High
+U0094,Phường Thủ Dầu Một,Millennial,40,False,36,Bún bò,41000,0.31,5,17,2.1,0.32,0.68,False,0,0,0.521,0.334,0.374,0.32,0.0,1.0,0.416,Explorer,Medium
+U0095,Phường An Nhơn,Gen Z,19,True,13,Bánh mì,37000,0.61,4,12,0.7,0.41,0.59,True,6,12,0.689,0.448,0.229,0.41,0.645,0.617,0.486,New User,Medium
+U0096,Phường Tân Sơn Nhất,Gen Z,21,True,36,Bánh mì,22000,0.78,4,16,0.7,0.5,0.5,True,3,7,0.844,0.533,0.331,0.5,0.386,0.617,0.492,Evening Saver,High
+U0097,Xã Xuân Thới Sơn,Gen Z,24,True,26,Cơm tấm,25000,0.77,3,13,0.1,0.34,0.66,True,4,10,0.825,0.492,0.244,0.34,0.47,0.602,0.461,New User,Medium
+U0098,Phường Bình Hòa,Gen Z,20,True,86,Phở,48000,0.59,4,17,4.0,0.6,0.4,True,6,13,0.628,0.438,0.554,0.6,0.643,1.0,0.64,Pickup Commuter,High
+U0099,Xã Bà Điểm,Gen Z,19,True,4,Bún riêu,25000,0.68,2,16,0.2,0.29,0.71,False,0,0,0.78,0.411,0.103,0.29,0.0,0.605,0.312,New User,Medium
+U0100,Phường Tăng Nhơn Phú,Gen Z,27,True,82,Bún bò,35000,0.67,5,16,0.6,0.68,0.32,False,0,0,0.729,0.514,0.579,0.68,0.0,0.615,0.472,Explorer,High
+U0101,Phường Long Bình,Millennial,34,False,64,Bánh mì,86000,0.1,5,11,0.1,0.07,0.93,False,0,0,0.207,0.229,0.499,0.07,0.0,0.602,0.295,Casual,Low
+U0102,Phường Bàn Cờ,Gen Z,18,True,38,Phở,28000,0.83,5,6,0.3,0.49,0.51,True,7,15,0.841,0.594,0.383,0.49,0.728,0.208,0.503,Deal Addict,High
+U0103,Phường Tân Phú,Gen Z,25,True,88,Cơm văn phòng,15000,0.9,3,10,0.5,0.49,0.51,True,3,7,0.936,0.557,0.52,0.49,0.386,0.612,0.539,Midday Saver,High
+U0104,Phường Bình Hòa,Other,43,False,87,Bún riêu,57000,0.29,1,10,0.2,0.12,0.88,False,0,0,0.437,0.181,0.43,0.12,0.0,0.605,0.286,Casual,Low
+U0105,Phường Phước Long,Gen Z,19,True,22,Cơm văn phòng,41000,0.61,3,13,0.2,0.48,0.52,True,1,1,0.671,0.412,0.226,0.48,0.372,0.605,0.425,New User,Medium
+U0106,Phường Long Bình,Gen Z,20,True,2,Bún riêu,42000,0.54,4,17,2.4,0.61,0.39,True,6,11,0.631,0.413,0.18,0.61,0.649,1.0,0.562,New User,Medium
+U0107,Phường Sài Gòn,Millennial,32,False,31,Bún bò,67000,0.35,5,11,0.3,0.05,0.95,False,0,0,0.42,0.354,0.352,0.05,0.0,0.607,0.306,Casual,Low
+U0108,Phường Bàn Cờ,Gen Z,25,True,11,Hủ tiếu,21000,0.63,3,20,3.0,0.5,0.5,False,0,0,0.773,0.422,0.177,0.5,0.0,1.0,0.43,New User,Medium
+U0109,Phường Khánh Hội,Gen Z,27,True,46,Bún riêu,40000,0.37,6,6,0.9,0.05,0.95,True,9,17,0.555,0.399,0.462,0.05,0.829,0.223,0.435,Deal Addict,High
+U0110,Xã Vĩnh Lộc,Gen Z,24,True,62,Hủ tiếu,45000,0.3,7,18,2.2,0.28,0.72,False,0,0,0.497,0.4,0.576,0.28,0.0,1.0,0.468,Explorer,High
+U0111,Phường Bảy Hiền,Gen Z,24,True,69,Cơm văn phòng,33000,0.55,4,17,3.0,0.66,0.34,True,8,16,0.678,0.418,0.478,0.66,0.81,1.0,0.662,Pickup Commuter,High
+U0112,Xã Hóc Môn,Other,52,False,64,Bún riêu,102000,0.05,3,12,0.0,0.14,0.86,False,0,0,0.108,0.132,0.413,0.14,0.0,0.6,0.255,Casual,Low
+U0113,Xã Bình Hưng,Millennial,34,False,10,Bún bò,71000,0.31,4,8,0.0,0.14,0.86,False,0,0,0.382,0.298,0.216,0.14,0.0,0.2,0.191,New User,Low
+U0114,Phường An Nhơn,Millennial,35,False,40,Cơm tấm,61000,0.28,4,17,2.2,0.26,0.74,False,0,0,0.413,0.283,0.349,0.26,0.0,1.0,0.387,Casual,Low
+U0115,Phường Hạnh Thông,Millennial,28,False,24,Bún bò,57000,0.36,4,12,0.4,0.53,0.47,False,0,0,0.472,0.323,0.278,0.53,0.0,0.61,0.335,New User,Low
+U0116,Xã Tân Nhựt,Millennial,31,False,44,Bún bò,48000,0.37,3,20,1.4,0.06,0.94,False,0,0,0.518,0.292,0.324,0.06,0.0,1.0,0.37,Casual,Low
+U0117,Phường Bình Trị Đông,Gen Z,23,True,60,Cơm tấm,22000,0.59,3,16,0.2,0.26,0.74,True,5,8,0.749,0.402,0.395,0.26,0.58,0.605,0.48,Evening Saver,High
+U0118,Phường Thuận An,Millennial,36,False,62,Cơm tấm,58000,0.34,3,20,1.2,0.46,0.54,False,0,0,0.457,0.277,0.404,0.46,0.0,1.0,0.419,Explorer,Medium
+U0119,Xã Đông Thạnh,Gen Z,19,True,87,Phở,27000,0.75,4,11,0.8,0.7,0.3,True,6,11,0.806,0.518,0.558,0.7,0.649,0.62,0.605,Pickup Commuter,High
+U0120,Phường Bình Hòa,Millennial,28,False,17,Bún riêu,74000,0.16,4,18,2.7,0.27,0.73,True,5,6,0.293,0.223,0.247,0.27,0.622,1.0,0.471,New User,Low
+U0121,Phường Hạnh Thông,Millennial,40,False,65,Cơm văn phòng,90000,0.07,2,17,1.4,0.13,0.87,True,6,9,0.174,0.106,0.375,0.13,0.665,1.0,0.456,Occasional Saver,Medium
+U0122,Phường Gia Định,Gen Z,27,True,57,Phở,38000,0.5,8,18,2.6,0.73,0.27,True,8,16,0.63,0.536,0.596,0.73,0.81,1.0,0.72,Deal Addict,High
+U0123,Phường Sài Gòn,Gen Z,19,True,55,Cơm tấm,20000,0.51,6,11,0.9,0.66,0.34,False,0,0,0.718,0.469,0.502,0.66,0.0,0.622,0.444,Explorer,High
+U0124,Phường Đức Nhuận,Gen Z,24,True,53,Hủ tiếu,26000,0.62,4,17,4.0,0.52,0.48,True,6,12,0.745,0.453,0.407,0.52,0.645,1.0,0.613,Evening Saver,High
+U0125,Xã Nhà Bè,Gen Z,20,True,56,Cơm văn phòng,21000,0.77,3,15,0.4,0.3,0.7,False,0,0,0.843,0.492,0.377,0.3,0.0,0.41,0.353,Casual,Low
+U0126,Xã Tân Nhựt,Millennial,37,False,9,Hủ tiếu,60000,0.35,6,18,1.3,0.27,0.73,False,0,0,0.453,0.389,0.297,0.27,0.0,1.0,0.406,New User,Low
+U0127,Phường Bình Trị Đông,Millennial,29,False,22,Bún bò,67000,0.28,5,12,0.0,0.26,0.74,True,5,5,0.385,0.319,0.312,0.26,0.662,0.6,0.44,New User,Low
+U0128,Phường Chợ Quán,Gen Z,24,True,13,Bánh mì,46000,0.57,6,20,3.4,0.47,0.53,False,0,0,0.628,0.499,0.315,0.47,0.0,1.0,0.466,New User,Medium
+U0129,Phường Gò Vấp,Gen Z,19,True,89,Bún bò,29000,0.61,4,9,0.4,0.64,0.36,True,4,8,0.726,0.448,0.567,0.64,0.48,0.41,0.504,Pickup Commuter,High
+U0130,Phường Bến Thành,Gen Z,20,True,48,Bún bò,44000,0.38,4,18,2.1,0.55,0.45,True,6,14,0.542,0.333,0.385,0.55,0.644,1.0,0.571,Pickup Commuter,High
+U0131,Phường Hạnh Thông,Gen Z,24,True,18,Bánh mì,43000,0.66,3,19,3.0,0.26,0.74,True,4,10,0.686,0.437,0.209,0.26,0.47,1.0,0.505,New User,Medium
+U0132,Phường Chợ Quán,Gen Z,21,True,76,Bún riêu,27000,0.77,3,19,2.0,0.63,0.37,True,3,5,0.816,0.492,0.466,0.63,0.418,1.0,0.604,Pickup Commuter,High
+U0133,Phường Tân Đông Hiệp,Gen Z,18,True,40,Cơm tấm,43000,0.5,6,15,0.8,0.47,0.53,True,9,18,0.606,0.464,0.435,0.47,0.83,0.42,0.53,Deal Addict,High
+U0134,Phường Bình Trị Đông,Other,52,False,17,Hủ tiếu,63000,0.2,3,13,0.1,0.27,0.73,False,0,0,0.364,0.207,0.204,0.27,0.0,0.602,0.258,New User,Low
+U0135,Phường Nhiêu Lộc,Gen Z,26,True,15,Bún bò,26000,0.65,5,22,0.0,0.64,0.36,True,6,10,0.76,0.504,0.281,0.64,0.655,0.2,0.455,New User,Medium
+U0136,Phường Tân Định,Gen Z,25,True,15,Bánh mì,35000,0.66,7,11,0.6,0.25,0.75,True,9,19,0.724,0.58,0.367,0.25,0.832,0.615,0.569,New User,Medium
+U0137,Phường An Khánh,Millennial,39,False,79,Phở,47000,0.57,4,16,0.2,0.28,0.72,False,0,0,0.623,0.428,0.523,0.28,0.0,0.605,0.392,Casual,Low
+U0138,Phường Tam Bình,Gen Z,26,True,63,Bún bò,34000,0.74,4,17,4.0,0.34,0.66,True,6,11,0.768,0.513,0.451,0.34,0.649,1.0,0.621,Evening Saver,High
+U0139,Phường Bình Lợi Trung,Other,50,False,39,Hủ tiếu,75000,0.11,2,17,1.3,0.05,0.95,False,0,0,0.263,0.126,0.259,0.05,0.0,1.0,0.301,Casual,Low
+U0140,Phường An Đông,Other,47,False,13,Cơm tấm,72000,0.22,4,10,0.1,0.23,0.77,True,4,6,0.332,0.253,0.229,0.23,0.51,0.602,0.371,New User,Low
+U0141,Phường Thuận Giao,Gen Z,21,True,81,Bún bò,28000,0.79,3,17,3.0,0.8,0.2,True,3,10,0.821,0.502,0.489,0.8,0.377,1.0,0.62,Pickup Commuter,High
+U0142,Phường Gò Vấp,Gen Z,22,True,32,Bún bò,32000,0.68,8,19,2.7,0.14,0.86,False,0,0,0.747,0.626,0.485,0.14,0.0,1.0,0.505,Explorer,High
+U0143,Phường Thạnh Mỹ Tây,Gen Z,18,True,9,Bún riêu,33000,0.63,7,8,0.9,0.42,0.58,True,9,14,0.718,0.565,0.34,0.42,0.833,0.223,0.498,New User,Medium
+U0144,Phường Đông Hòa,Gen Z,18,True,40,Bánh mì,32000,0.68,3,20,2.9,0.52,0.48,False,0,0,0.747,0.447,0.306,0.52,0.0,1.0,0.462,Explorer,Medium
+U0145,Phường Linh Xuân,Gen Z,20,True,20,Phở,30000,0.58,5,8,0.5,0.44,0.56,True,6,12,0.707,0.469,0.303,0.44,0.645,0.213,0.429,New User,Medium
+U0146,Xã Hưng Long,Millennial,40,False,90,Phở,27000,0.46,5,12,0.0,0.27,0.73,True,5,8,0.661,0.409,0.614,0.27,0.58,0.6,0.521,Midday Saver,High
+U0147,Phường Cát Lái,Gen Z,25,True,85,Cơm văn phòng,33000,0.53,5,7,0.4,0.23,0.77,True,5,9,0.668,0.444,0.592,0.23,0.569,0.21,0.442,Occasional Saver,High
+U0148,Phường Linh Xuân,Gen Z,19,True,82,Cơm tấm,23000,0.72,7,9,0.8,0.45,0.55,True,10,20,0.809,0.61,0.664,0.45,0.85,0.42,0.625,Deal Addict,High
+U0149,Phường Vĩnh Hội,Gen Z,21,True,77,Cơm văn phòng,35000,0.61,8,20,4.0,0.31,0.69,False,0,0,0.699,0.591,0.685,0.31,0.0,1.0,0.551,Explorer,High
+U0150,Phường Cát Lái,Other,58,False,80,Hủ tiếu,85000,0.05,2,12,0.1,0.05,0.95,False,0,0,0.187,0.096,0.441,0.05,0.0,0.602,0.247,Casual,Low
+U0151,Phường Phú Lợi,Gen Z,22,True,73,Cơm tấm,31000,0.63,4,13,0.2,0.6,0.4,False,0,0,0.727,0.458,0.496,0.6,0.0,0.605,0.431,Explorer,High
+U0152,Phường Phú Nhuận,Gen Z,26,True,63,Bún bò,32000,0.69,8,11,0.8,0.56,0.44,False,0,0,0.752,0.631,0.623,0.56,0.0,0.62,0.5,Explorer,High
+U0153,Phường Thủ Dầu Một,Gen Z,18,True,76,Bún bò,47000,0.75,6,16,0.9,0.43,0.57,True,5,10,0.713,0.589,0.595,0.43,0.562,0.622,0.582,Evening Saver,High
+U0154,Phường Tam Bình,Other,54,False,44,Phở,92000,0.16,1,16,0.0,0.22,0.78,False,0,0,0.21,0.116,0.238,0.22,0.0,0.6,0.229,Casual,Low
+U0155,Phường Bảy Hiền,Gen Z,26,True,38,Hủ tiếu,45000,0.34,2,12,0.5,0.58,0.42,False,0,0,0.517,0.241,0.255,0.58,0.0,0.612,0.318,Casual,Low
+U0156,Phường Đức Nhuận,Millennial,28,False,83,Bánh mì,70000,0.3,4,12,0.2,0.31,0.69,False,0,0,0.381,0.293,0.54,0.31,0.0,0.605,0.352,Casual,Low
+U0157,Phường Tân Sơn Nhì,Millennial,36,False,60,Hủ tiếu,36000,0.61,6,19,2.5,0.39,0.61,False,0,0,0.694,0.519,0.524,0.39,0.0,1.0,0.508,Explorer,High
+U0158,Phường Tân Phú,Gen Z,25,True,71,Bún bò,22000,0.56,7,12,0.1,0.38,0.62,True,9,19,0.734,0.53,0.616,0.38,0.832,0.602,0.617,Deal Addict,High
+U0159,Phường Phú Thọ Hòa,Millennial,31,False,48,Bánh mì,55000,0.42,4,15,0.1,0.44,0.56,False,0,0,0.511,0.353,0.385,0.44,0.0,0.403,0.315,Casual,Low
+U0160,Phường Xuân Hòa,Gen Z,27,True,18,Hủ tiếu,25000,0.65,3,11,0.8,0.47,0.53,False,0,0,0.765,0.432,0.209,0.47,0.0,0.62,0.359,New User,Medium
+U0161,Xã Nhà Bè,Millennial,32,False,16,Hủ tiếu,53000,0.49,3,18,1.3,0.3,0.7,True,3,4,0.555,0.352,0.2,0.3,0.452,1.0,0.476,New User,Low
+U0162,Phường Hạnh Thông,Millennial,40,False,55,Bánh mì,49000,0.43,6,12,0.3,0.13,0.87,False,0,0,0.544,0.429,0.502,0.13,0.0,0.607,0.369,Casual,Low
+U0163,Phường Thuận Giao,Gen Z,22,True,39,Bún bò,32000,0.55,3,15,0.4,0.46,0.54,True,6,11,0.682,0.382,0.302,0.46,0.649,0.41,0.448,Occasional Saver,High
+U0164,Phường Tân Đông Hiệp,Gen Z,23,True,68,Hủ tiếu,38000,0.59,4,11,0.3,0.3,0.7,True,5,8,0.675,0.438,0.474,0.3,0.58,0.607,0.505,Midday Saver,High
+U0165,Phường Bình Trị Đông,Millennial,34,False,59,Bánh mì,64000,0.3,2,22,0.2,0.2,0.8,True,2,5,0.409,0.221,0.348,0.2,0.295,0.205,0.265,Occasional Saver,Medium
+U0166,Phường Tân Đông Hiệp,Gen Z,25,True,89,Bún riêu,31000,0.63,6,11,0.5,0.3,0.7,True,5,9,0.727,0.529,0.653,0.3,0.569,0.612,0.565,Midday Saver,High
+U0167,Phường Tân Hòa,Gen Z,25,True,62,Bún riêu,41000,0.7,8,18,2.4,0.26,0.74,True,6,11,0.716,0.636,0.618,0.26,0.649,1.0,0.674,Deal Addict,High
+U0168,Xã Hiệp Phước,Gen Z,19,True,13,Bún bò,29000,0.57,4,13,0.6,0.74,0.26,True,6,12,0.706,0.428,0.229,0.74,0.645,0.615,0.514,New User,Medium
+U0169,Phường Phước Long,Gen Z,26,True,81,Bánh mì,44000,0.67,4,10,0.8,0.62,0.38,True,6,14,0.687,0.478,0.531,0.62,0.644,0.62,0.575,Pickup Commuter,High
+U0170,Phường Long Bình,Millennial,34,False,6,Bún riêu,34000,0.45,4,18,2.3,0.51,0.49,True,5,12,0.623,0.368,0.198,0.51,0.558,1.0,0.525,New User,Low
+U0171,Phường Cầu Ông Lãnh,Gen Z,21,True,83,Bánh mì,48000,0.57,9,12,0.2,0.24,0.76,True,9,20,0.618,0.606,0.755,0.24,0.835,0.605,0.645,Deal Addict,High
+U0172,Phường Lái Thiêu,Gen Z,21,True,77,Hủ tiếu,35000,0.63,3,19,2.4,0.43,0.57,False,0,0,0.709,0.422,0.471,0.43,0.0,1.0,0.478,Explorer,Medium
+U0173,Phường Lái Thiêu,Gen Z,25,True,60,Bún bò,28000,0.66,5,20,2.7,0.23,0.77,True,5,9,0.756,0.509,0.481,0.23,0.569,1.0,0.598,Evening Saver,High
+U0174,Phường Bình Trưng,Millennial,31,False,90,Bún riêu,41000,0.44,3,19,1.7,0.2,0.8,False,0,0,0.586,0.327,0.529,0.2,0.0,1.0,0.437,Explorer,Medium
+U0175,Phường Bình Tân,Gen Z,23,True,14,Cơm văn phòng,30000,0.8,7,8,0.4,0.28,0.72,True,8,16,0.817,0.65,0.362,0.28,0.81,0.21,0.508,New User,Medium
+U0176,Phường Cầu Kiệu,Millennial,32,False,54,Hủ tiếu,41000,0.52,4,18,2.2,0.43,0.57,False,0,0,0.626,0.403,0.411,0.43,0.0,1.0,0.457,Explorer,Medium
+U0177,Phường Tân Định,Gen Z,20,True,4,Cơm văn phòng,23000,0.65,3,12,0.1,0.36,0.64,True,5,8,0.774,0.432,0.146,0.36,0.58,0.602,0.448,New User,Medium
+U0178,Phường Tân Sơn Hòa,Other,53,False,39,Cơm văn phòng,75000,0.31,2,19,0.8,0.31,0.69,False,0,0,0.363,0.226,0.259,0.31,0.0,1.0,0.357,Casual,Low
+U0179,Phường Tân Sơn Nhì,Gen Z,27,True,72,Cơm tấm,31000,0.67,6,17,3.0,0.51,0.49,False,0,0,0.747,0.549,0.577,0.51,0.0,1.0,0.541,Explorer,High
+U0180,Phường Gia Định,Gen Z,19,True,25,Cơm tấm,35000,0.66,2,19,2.0,0.77,0.23,False,0,0,0.724,0.401,0.197,0.77,0.0,1.0,0.453,New User,Medium
+U0181,Phường Bình Trưng,Gen Z,26,True,77,Bún bò,46000,0.48,7,15,0.2,0.2,0.8,True,8,17,0.583,0.49,0.642,0.2,0.811,0.405,0.543,Deal Addict,High
+U0182,Phường Xuân Hòa,Other,49,False,32,Bún riêu,71000,0.12,1,16,0.3,0.33,0.67,False,0,0,0.287,0.096,0.185,0.33,0.0,0.607,0.23,Casual,Low
+U0183,Phường Hòa Lợi,Millennial,28,False,59,Bún riêu,57000,0.28,4,10,0.2,0.42,0.58,True,6,8,0.432,0.283,0.434,0.42,0.68,0.605,0.478,Midday Saver,High
+U0184,Phường Cầu Ông Lãnh,Gen Z,27,True,63,Bún riêu,20000,0.71,4,18,4.0,0.27,0.73,True,6,11,0.818,0.498,0.451,0.27,0.649,1.0,0.612,Evening Saver,High
+U0185,Phường Xuân Hòa,Millennial,30,False,38,Bánh mì,64000,0.37,5,13,0.5,0.4,0.6,False,0,0,0.444,0.364,0.383,0.4,0.0,0.612,0.352,Casual,Low
+U0186,Xã Bà Điểm,Millennial,35,False,53,Hủ tiếu,50000,0.43,3,15,0.2,0.32,0.68,True,5,11,0.539,0.322,0.364,0.32,0.559,0.405,0.405,Occasional Saver,Medium
+U0187,Phường Lái Thiêu,Gen Z,23,True,67,Bún riêu,50000,0.7,7,18,2.6,0.39,0.61,False,0,0,0.674,0.6,0.598,0.39,0.0,1.0,0.542,Explorer,High
+U0188,Phường Đông Hòa,Gen Z,22,True,28,Hủ tiếu,41000,0.5,6,16,0.4,0.3,0.7,True,7,14,0.616,0.464,0.382,0.3,0.728,0.61,0.521,New User,Medium
+U0189,Phường Hòa Lợi,Gen Z,22,True,3,Bún bò,31000,0.66,5,10,0.2,0.31,0.69,False,0,0,0.742,0.509,0.228,0.31,0.0,0.605,0.362,New User,Medium
+U0190,Phường Đức Nhuận,Gen Z,23,True,80,Cơm văn phòng,21000,0.57,6,16,0.7,0.73,0.27,True,7,20,0.743,0.499,0.613,0.73,0.742,0.617,0.629,Deal Addict,High
+U0191,Phường Hạnh Thông,Millennial,34,False,22,Bún riêu,73000,0.17,5,12,0.5,0.28,0.72,True,1,1,0.303,0.264,0.312,0.28,0.372,0.612,0.368,New User,Low
+U0192,Xã Bà Điểm,Other,57,False,38,Bún bò,88000,0.2,1,14,0.3,0.28,0.72,True,1,1,0.248,0.136,0.212,0.28,0.372,0.408,0.273,Casual,Low
+U0193,Xã Bình Hưng,Millennial,36,False,72,Bún riêu,41000,0.39,3,7,0.5,0.19,0.81,False,0,0,0.561,0.302,0.449,0.19,0.0,0.213,0.255,Casual,Low
+U0194,Xã Hưng Long,Gen Z,20,True,72,Cơm tấm,26000,0.59,8,11,0.4,0.3,0.7,True,11,23,0.73,0.581,0.663,0.3,0.843,0.61,0.635,Deal Addict,High
+U0195,Phường Bàn Cờ,Gen Z,21,True,62,Phở,40000,0.38,3,11,0.2,0.58,0.42,True,4,10,0.56,0.297,0.404,0.58,0.47,0.605,0.456,Pickup Commuter,High
+U0196,Phường Hạnh Thông,Millennial,37,False,57,Bún bò,41000,0.36,5,17,2.3,0.12,0.88,True,3,8,0.546,0.359,0.468,0.12,0.38,1.0,0.499,Evening Saver,High
+U0197,Phường Phú Lợi,Millennial,28,False,6,Bún riêu,78000,0.21,7,7,0.2,0.23,0.77,False,0,0,0.299,0.355,0.327,0.23,0.0,0.205,0.233,New User,Low
+U0198,Phường Tăng Nhơn Phú,Millennial,40,False,78,Phở,51000,0.25,2,12,0.4,0.28,0.72,False,0,0,0.444,0.196,0.432,0.28,0.0,0.61,0.308,Casual,Low
+U0199,Phường Hiệp Bình,Millennial,38,False,32,Bún bò,35000,0.45,4,20,1.6,0.29,0.71,True,5,7,0.619,0.368,0.314,0.29,0.597,1.0,0.534,Evening Saver,High
+U0200,Phường Khánh Hội,Millennial,37,False,10,Bánh mì,70000,0.4,4,9,0.0,0.26,0.74,True,5,8,0.431,0.343,0.216,0.26,0.58,0.4,0.373,New User,Low
+U0201,Xã Tân Nhựt,Gen Z,20,True,3,Bún riêu,28000,0.59,5,16,1.0,0.48,0.52,True,7,18,0.721,0.474,0.228,0.48,0.734,0.625,0.52,New User,Medium
+U0202,Phường Sài Gòn,Gen Z,19,True,59,Bánh mì,32000,0.54,3,18,2.4,0.52,0.48,True,3,3,0.677,0.377,0.391,0.52,0.518,1.0,0.562,Evening Saver,High
+U0203,Phường Chợ Quán,Millennial,29,False,76,Cơm tấm,37000,0.35,2,20,2.0,0.37,0.63,False,0,0,0.559,0.246,0.423,0.37,0.0,1.0,0.411,Explorer,Medium
+U0204,Phường Thuận Giao,Millennial,28,False,49,Bún riêu,24000,0.42,4,18,2.7,0.16,0.84,False,0,0,0.654,0.353,0.389,0.16,0.0,1.0,0.415,Explorer,Medium
+U0205,Phường Bình Lợi Trung,Gen Z,25,True,59,Cơm văn phòng,34000,0.68,7,18,4.0,0.38,0.62,True,9,20,0.738,0.59,0.562,0.38,0.835,1.0,0.702,Deal Addict,High
+U0206,Phường Bình Thạnh,Gen Z,20,True,31,Cơm tấm,31000,0.65,6,19,3.6,0.6,0.4,True,8,16,0.737,0.539,0.395,0.6,0.81,1.0,0.673,Deal Addict,High
+U0207,Phường Xóm Chiếu,Millennial,30,False,69,Phở,58000,0.44,4,13,0.3,0.39,0.61,True,5,6,0.507,0.363,0.478,0.39,0.622,0.607,0.497,Midday Saver,High
+U0208,Phường Tân Định,Gen Z,23,True,62,Bún bò,40000,0.8,3,18,3.0,0.21,0.79,False,0,0,0.77,0.507,0.404,0.21,0.0,1.0,0.467,Explorer,Medium
+U0209,Phường Tân Hòa,Gen Z,25,True,52,Hủ tiếu,35000,0.44,6,6,0.3,0.47,0.53,False,0,0,0.614,0.434,0.488,0.47,0.0,0.208,0.325,Casual,Low
+U0210,Phường Xuân Hòa,Gen Z,26,True,89,Cơm tấm,23000,0.73,3,20,3.0,0.12,0.88,False,0,0,0.814,0.472,0.524,0.12,0.0,1.0,0.476,Explorer,Medium
+U0211,Xã Xuân Thới Sơn,Millennial,36,False,41,Hủ tiếu,48000,0.29,6,13,0.4,0.29,0.71,True,5,7,0.478,0.359,0.439,0.29,0.597,0.61,0.472,Midday Saver,High
+U0212,Phường Phú Nhuận,Millennial,31,False,31,Hủ tiếu,77000,0.32,5,16,0.2,0.51,0.49,True,5,6,0.359,0.339,0.352,0.51,0.622,0.605,0.47,Evening Saver,High
+U0213,Phường Bàn Cờ,Gen Z,22,True,85,Bún bò,39000,0.57,6,11,0.4,0.28,0.72,True,5,7,0.66,0.499,0.635,0.28,0.597,0.61,0.554,Midday Saver,High
+U0214,Phường An Khánh,Millennial,29,False,84,Phở,56000,0.36,6,18,1.7,0.18,0.82,True,4,8,0.476,0.394,0.63,0.18,0.48,1.0,0.562,Evening Saver,High
+U0215,Phường Phú Nhuận,Gen Z,26,True,22,Bún bò,25000,0.55,2,9,0.6,0.53,0.47,True,4,9,0.715,0.346,0.183,0.53,0.473,0.415,0.389,New User,Medium
+U0216,Xã Hưng Long,Gen Z,25,True,4,Bún riêu,26000,0.63,6,19,4.1,0.19,0.81,False,0,0,0.75,0.529,0.275,0.19,0.0,1.0,0.444,New User,Medium
+U0217,Phường Bến Thành,Millennial,30,False,13,Cơm tấm,65000,0.31,3,19,1.5,0.2,0.8,False,0,0,0.41,0.262,0.186,0.2,0.0,1.0,0.343,New User,Low
+U0218,Phường Vĩnh Hội,Millennial,38,False,45,Hủ tiếu,72000,0.4,6,11,0.6,0.35,0.65,False,0,0,0.422,0.414,0.457,0.35,0.0,0.615,0.374,Casual,Low
+U0219,Phường Tân Sơn Nhì,Millennial,39,False,42,Bún bò,61000,0.25,3,18,2.2,0.2,0.8,True,3,3,0.398,0.232,0.315,0.2,0.518,1.0,0.464,Evening Saver,Medium
+U0220,Phường Bến Thành,Millennial,40,False,49,Bún bò,69000,0.23,5,18,2.4,0.25,0.75,False,0,0,0.351,0.294,0.432,0.25,0.0,1.0,0.402,Explorer,Medium
+U0221,Phường Tân Khánh,Gen Z,26,True,20,Bún bò,39000,0.69,7,17,3.4,0.53,0.47,True,8,14,0.72,0.595,0.389,0.53,0.811,1.0,0.678,New User,Medium
+U0222,Phường Thuận An,Gen Z,20,True,77,Cơm tấm,22000,0.61,2,12,0.8,0.48,0.52,True,1,1,0.759,0.376,0.428,0.48,0.372,0.62,0.464,Occasional Saver,Medium
+U0223,Phường Linh Xuân,Gen Z,26,True,81,Phở,29000,0.77,4,11,0.0,0.46,0.54,False,0,0,0.806,0.528,0.531,0.46,0.0,0.6,0.444,Explorer,High
+U0224,Phường Cầu Kiệu,Gen Z,19,True,54,Cơm văn phòng,22000,0.69,6,11,0.8,0.37,0.63,True,6,9,0.799,0.559,0.497,0.37,0.665,0.62,0.573,Deal Addict,High
+U0225,Phường An Đông,Gen Z,27,True,36,Bún bò,25000,0.71,4,11,0.0,0.48,0.52,True,6,16,0.795,0.498,0.331,0.48,0.648,0.6,0.528,Midday Saver,High
+U0226,Phường Bình Trưng,Other,49,False,1,Cơm tấm,94000,0.08,2,20,1.7,0.19,0.81,False,0,0,0.16,0.111,0.09,0.19,0.0,1.0,0.273,New User,Low
+U0227,Phường Bình Lợi Trung,Gen Z,25,True,15,Hủ tiếu,30000,0.59,3,9,1.0,0.49,0.51,False,0,0,0.712,0.402,0.195,0.49,0.0,0.425,0.309,New User,Medium
+U0228,Phường Tân Bình,Millennial,36,False,77,Bún riêu,55000,0.4,2,19,1.6,0.22,0.78,False,0,0,0.501,0.271,0.428,0.22,0.0,1.0,0.4,Explorer,Medium
+U0229,Xã Hóc Môn,Millennial,32,False,17,Cơm văn phòng,40000,0.37,5,12,0.1,0.26,0.74,True,6,10,0.555,0.364,0.29,0.26,0.655,0.602,0.454,New User,Low
+U0230,Phường Lái Thiêu,Millennial,38,False,24,Bánh mì,46000,0.36,4,16,0.5,0.16,0.84,False,0,0,0.523,0.323,0.278,0.16,0.0,0.612,0.301,New User,Low
+U0231,Phường An Phú,Gen Z,19,True,58,Cơm văn phòng,25000,0.73,3,18,2.6,0.41,0.59,True,5,8,0.805,0.472,0.386,0.41,0.58,1.0,0.592,Evening Saver,High
+U0232,Xã Xuân Thới Sơn,Gen Z,25,True,72,Cơm văn phòng,24000,0.71,4,19,4.0,0.3,0.7,True,3,8,0.799,0.498,0.491,0.3,0.38,1.0,0.569,Evening Saver,High
+U0233,Phường Cầu Kiệu,Gen Z,23,True,23,Cơm tấm,34000,0.62,4,12,0.1,0.25,0.75,False,0,0,0.708,0.453,0.274,0.25,0.0,0.602,0.349,New User,Medium
+U0234,Phường Bảy Hiền,Gen Z,25,True,46,Bánh mì,25000,0.55,3,14,0.1,0.46,0.54,False,0,0,0.715,0.382,0.333,0.46,0.0,0.403,0.324,Casual,Low
+U0235,Phường Tân Bình,Millennial,38,False,72,Bún bò,59000,0.24,3,12,0.6,0.31,0.69,False,0,0,0.402,0.227,0.449,0.31,0.0,0.615,0.321,Casual,Low
+U0236,Phường Sài Gòn,Gen Z,22,True,8,Bún bò,18000,0.74,4,7,0.7,0.54,0.46,True,5,13,0.842,0.513,0.207,0.54,0.558,0.217,0.421,New User,Medium
+U0237,Phường Tân Sơn Nhì,Gen Z,27,True,59,Cơm văn phòng,22000,0.77,4,11,0.8,0.36,0.64,False,0,0,0.839,0.528,0.434,0.36,0.0,0.62,0.421,Explorer,High
+U0238,Phường Thuận Giao,Millennial,29,False,90,Cơm tấm,45000,0.31,5,14,0.2,0.33,0.67,False,0,0,0.502,0.334,0.614,0.33,0.0,0.405,0.345,Casual,Low
+U0239,Phường Phước Long,Gen Z,23,True,59,Bánh mì,33000,0.55,3,12,0.7,0.5,0.5,False,0,0,0.678,0.382,0.391,0.5,0.0,0.617,0.381,Casual,Low
+U0240,Phường An Phú,Other,45,False,13,Bún bò,79000,0.14,2,18,1.4,0.24,0.76,True,1,1,0.26,0.141,0.143,0.24,0.372,1.0,0.375,New User,Low
+U0241,Phường Thuận Giao,Other,56,False,39,Hủ tiếu,66000,0.21,2,12,0.2,0.12,0.88,False,0,0,0.355,0.176,0.259,0.12,0.0,0.605,0.247,Casual,Low
+U0242,Phường Xóm Chiếu,Other,53,False,28,Phở,66000,0.05,2,15,0.3,0.21,0.79,False,0,0,0.275,0.096,0.21,0.21,0.0,0.408,0.182,New User,Low
+U0243,Phường Chợ Quán,Gen Z,22,True,89,Phở,37000,0.63,5,13,0.6,0.47,0.53,True,8,13,0.699,0.494,0.61,0.47,0.815,0.615,0.613,Deal Addict,High
+U0244,Phường An Phú,Gen Z,18,True,61,Bún bò,15000,0.67,5,18,3.1,0.42,0.58,True,4,6,0.821,0.514,0.485,0.42,0.51,1.0,0.611,Evening Saver,High
+U0245,Phường Thông Tây Hội,Other,58,False,16,Bánh mì,61000,0.39,3,19,1.1,0.05,0.95,False,0,0,0.468,0.302,0.2,0.05,0.0,1.0,0.344,New User,Low
+U0246,Phường Tân Bình,Gen Z,25,True,2,Bún riêu,40000,0.62,6,16,0.8,0.44,0.56,True,7,13,0.68,0.524,0.266,0.44,0.729,0.62,0.532,New User,Medium
+U0247,Phường Bình Thạnh,Other,53,False,82,Bún bò,74000,0.2,2,18,1.0,0.42,0.58,False,0,0,0.313,0.171,0.45,0.42,0.0,1.0,0.39,Casual,Low
+U0248,Phường Bàn Cờ,Other,59,False,17,Bún riêu,61000,0.27,3,11,0.3,0.16,0.84,False,0,0,0.408,0.242,0.204,0.16,0.0,0.607,0.259,New User,Low
+U0249,Phường Hạnh Thông,Millennial,37,False,30,Bún riêu,77000,0.12,4,16,0.1,0.19,0.81,False,0,0,0.259,0.203,0.305,0.19,0.0,0.602,0.264,Casual,Low
+U0250,Phường Lái Thiêu,Gen Z,20,True,13,Bánh mì,39000,0.79,4,12,0.6,0.48,0.52,True,9,21,0.77,0.538,0.229,0.48,0.829,0.615,0.556,New User,Medium
+U0251,Phường Cầu Ông Lãnh,Gen Z,25,True,82,Bún riêu,25000,0.52,3,12,0.7,0.47,0.53,True,4,9,0.7,0.367,0.493,0.47,0.473,0.617,0.49,Midday Saver,High
+U0252,Phường Tân Phú,Millennial,35,False,13,Hủ tiếu,60000,0.41,2,18,1.5,0.42,0.58,True,4,4,0.483,0.276,0.143,0.42,0.59,1.0,0.482,New User,Low
+U0253,Phường Tam Bình,Gen Z,19,True,43,Bánh mì,33000,0.7,7,19,2.1,0.23,0.77,True,7,17,0.753,0.6,0.491,0.23,0.731,1.0,0.655,Deal Addict,High
+U0254,Phường Tân Sơn Nhì,Gen Z,25,True,85,Bún bò,29000,0.61,6,10,0.1,0.53,0.47,True,4,7,0.726,0.519,0.635,0.53,0.491,0.602,0.565,Midday Saver,High
+U0255,Phường Thạnh Mỹ Tây,Gen Z,18,True,21,Cơm văn phòng,28000,0.73,8,17,3.5,0.51,0.49,True,8,18,0.791,0.651,0.436,0.51,0.813,1.0,0.703,New User,Medium
+U0256,Phường Chợ Quán,Other,46,False,55,Hủ tiếu,61000,0.2,2,16,0.3,0.19,0.81,False,0,0,0.373,0.171,0.33,0.19,0.0,0.607,0.268,Casual,Low
+U0257,Phường Tân Sơn Nhất,Millennial,35,False,81,Cơm tấm,59000,0.27,4,10,0.0,0.32,0.68,True,4,7,0.417,0.278,0.531,0.32,0.491,0.6,0.447,Midday Saver,High
+U0258,Xã Bà Điểm,Gen Z,20,True,40,Phở,30000,0.7,2,11,0.7,0.57,0.43,True,3,3,0.767,0.421,0.263,0.57,0.518,0.617,0.48,Occasional Saver,Medium
+U0259,Phường Bình Lợi Trung,Gen Z,25,True,83,Bún bò,41000,0.49,6,11,0.3,0.55,0.45,True,7,12,0.611,0.459,0.626,0.55,0.732,0.607,0.593,Deal Addict,High
+U0260,Phường An Khánh,Millennial,39,False,15,Bún bò,61000,0.31,4,10,0.3,0.14,0.86,True,4,9,0.428,0.298,0.238,0.14,0.473,0.607,0.374,New User,Low
+U0261,Phường Thuận An,Other,41,False,73,Bún bò,44000,0.26,4,11,0.4,0.28,0.72,False,0,0,0.482,0.273,0.496,0.28,0.0,0.61,0.342,Casual,Low
+U0262,Phường An Đông,Gen Z,26,True,52,Hủ tiếu,35000,0.59,3,11,0.3,0.41,0.59,False,0,0,0.689,0.402,0.36,0.41,0.0,0.607,0.369,Casual,Low
+U0263,Phường Cát Lái,Gen Z,26,True,74,Cơm tấm,26000,0.72,5,12,0.5,0.43,0.57,False,0,0,0.795,0.539,0.543,0.43,0.0,0.612,0.448,Explorer,High
+U0264,Phường Linh Xuân,Millennial,32,False,53,Cơm văn phòng,58000,0.29,4,18,1.2,0.29,0.71,True,1,3,0.432,0.288,0.407,0.29,0.192,1.0,0.442,Evening Saver,Medium
+U0265,Phường Hòa Lợi,Millennial,37,False,87,Bánh mì,62000,0.3,4,16,0.0,0.26,0.74,False,0,0,0.419,0.293,0.558,0.26,0.0,0.6,0.352,Casual,Low
+U0266,Xã Hiệp Phước,Millennial,31,False,52,Cơm tấm,43000,0.38,4,22,0.2,0.42,0.58,False,0,0,0.546,0.333,0.403,0.42,0.0,0.205,0.274,Casual,Low
+U0267,Xã Bà Điểm,Millennial,38,False,30,Hủ tiếu,52000,0.52,5,12,0.0,0.27,0.73,False,0,0,0.575,0.439,0.348,0.27,0.0,0.6,0.355,Casual,Low
+U0268,Phường Thạnh Mỹ Tây,Gen Z,23,True,33,Bún bò,23000,0.72,3,18,3.0,0.25,0.75,True,2,6,0.809,0.467,0.275,0.25,0.285,1.0,0.494,Evening Saver,High
+U0269,Xã Bà Điểm,Gen Z,24,True,57,Phở,18000,0.74,6,19,3.1,0.36,0.64,False,0,0,0.842,0.584,0.51,0.36,0.0,1.0,0.526,Explorer,High
+U0270,Phường Xuân Hòa,Millennial,32,False,52,Bún bò,49000,0.46,4,17,2.0,0.3,0.7,False,0,0,0.559,0.373,0.403,0.3,0.0,1.0,0.432,Explorer,Medium
+U0271,Phường Thủ Dầu Một,Millennial,38,False,9,Bánh mì,48000,0.34,6,12,0.1,0.43,0.57,False,0,0,0.503,0.384,0.297,0.43,0.0,0.602,0.344,New User,Low
+U0272,Phường Nhiêu Lộc,Millennial,40,False,54,Bún riêu,91000,0.25,5,18,1.6,0.35,0.65,False,0,0,0.259,0.304,0.454,0.35,0.0,1.0,0.415,Explorer,Medium
+U0273,Xã Bà Điểm,Other,59,False,1,Phở,66000,0.23,2,10,0.3,0.11,0.89,False,0,0,0.365,0.186,0.09,0.11,0.0,0.607,0.215,New User,Low
+U0274,Phường Tân Phú,Gen Z,24,True,44,Bún bò,27000,0.51,4,12,1.0,0.79,0.21,True,7,12,0.686,0.398,0.367,0.79,0.732,0.625,0.558,Pickup Commuter,High
+U0275,Phường Thuận Giao,Gen Z,27,True,75,Cơm văn phòng,33000,0.49,9,16,0.1,0.46,0.54,True,9,16,0.648,0.566,0.719,0.46,0.829,0.602,0.65,Deal Addict,High
+U0276,Phường An Đông,Millennial,37,False,80,Phở,35000,0.41,4,16,0.5,0.43,0.57,False,0,0,0.599,0.348,0.527,0.43,0.0,0.612,0.388,Casual,Low
+U0277,Phường An Hội Đông,Millennial,38,False,9,Bún riêu,84000,0.07,6,7,0.3,0.26,0.74,True,3,7,0.202,0.249,0.297,0.26,0.386,0.208,0.277,New User,Low
+U0278,Phường Tân Hòa,Millennial,32,False,32,Cơm tấm,60000,0.31,2,21,0.3,0.34,0.66,False,0,0,0.433,0.226,0.228,0.34,0.0,0.607,0.279,Casual,Low
+U0279,Phường An Nhơn,Millennial,34,False,15,Hủ tiếu,66000,0.2,4,17,2.0,0.38,0.62,True,3,5,0.35,0.243,0.238,0.38,0.418,1.0,0.447,New User,Low
+U0280,Phường Gia Định,Millennial,29,False,12,Bún bò,40000,0.43,5,15,0.0,0.43,0.57,False,0,0,0.585,0.394,0.268,0.43,0.0,0.4,0.304,New User,Low
+U0281,Phường An Hội Đông,Gen Z,21,True,78,Bánh mì,29000,0.8,8,20,2.2,0.58,0.42,True,8,15,0.821,0.686,0.69,0.58,0.81,1.0,0.771,Deal Addict,High
+U0282,Phường Bình Lợi Trung,Gen Z,19,True,57,Cơm tấm,29000,0.65,4,13,0.6,0.55,0.45,False,0,0,0.746,0.468,0.425,0.55,0.0,0.615,0.417,Explorer,High
+U0283,Phường Đông Hòa,Gen Z,24,True,8,Bún bò,41000,0.56,6,21,0.3,0.37,0.63,False,0,0,0.646,0.494,0.293,0.37,0.0,0.607,0.373,New User,Medium
+U0284,Phường An Nhơn,Gen Z,19,True,72,Cơm tấm,13000,0.78,5,15,0.9,0.33,0.67,True,7,14,0.885,0.569,0.534,0.33,0.728,0.423,0.556,Deal Addict,High
+U0285,Phường Bình Tân,Gen Z,18,True,27,Bánh mì,26000,0.6,2,10,0.4,0.47,0.53,True,3,7,0.735,0.371,0.206,0.47,0.386,0.61,0.417,New User,Medium
+U0286,Phường Tân Hòa,Gen Z,26,True,62,Bún bò,50000,0.62,6,18,2.4,0.56,0.44,True,7,14,0.634,0.524,0.533,0.56,0.728,1.0,0.671,Deal Addict,High
+U0287,Phường Phú Lợi,Gen Z,18,True,12,Bún riêu,30000,0.7,6,17,3.8,0.39,0.61,False,0,0,0.767,0.564,0.31,0.39,0.0,1.0,0.48,New User,Medium
+U0288,Phường Hòa Lợi,Gen Z,25,True,65,Bún riêu,28000,0.66,8,18,2.7,0.58,0.42,True,7,16,0.756,0.616,0.632,0.58,0.729,1.0,0.722,Deal Addict,High
+U0289,Phường Phú Nhuận,Gen Z,19,True,42,Bánh mì,21000,0.72,5,21,0.5,0.64,0.36,True,6,12,0.818,0.539,0.401,0.64,0.645,0.612,0.571,Deal Addict,High
+U0290,Phường Bàn Cờ,Gen Z,25,True,62,Phở,50000,0.74,3,18,3.0,0.28,0.72,True,4,8,0.694,0.477,0.404,0.28,0.48,1.0,0.559,Evening Saver,High
+U0291,Phường Bình Lợi Trung,Gen Z,20,True,11,Bánh mì,16000,0.82,2,17,2.0,0.29,0.71,False,0,0,0.891,0.481,0.135,0.29,0.0,1.0,0.421,New User,Medium
+U0292,Phường Vĩnh Hội,Millennial,33,False,43,Phở,65000,0.53,3,19,2.4,0.26,0.74,False,0,0,0.52,0.372,0.32,0.26,0.0,1.0,0.409,Explorer,Medium
+U0293,Phường Tân Sơn Hòa,Gen Z,20,True,17,Bún bò,39000,0.65,4,17,3.7,0.47,0.53,False,0,0,0.7,0.468,0.247,0.47,0.0,1.0,0.448,New User,Medium
+U0294,Xã Tân Nhựt,Gen Z,24,True,32,Phở,25000,0.53,6,12,0.7,0.34,0.66,False,0,0,0.705,0.479,0.399,0.34,0.0,0.617,0.392,Casual,Low
+U0295,Xã Nhà Bè,Gen Z,27,True,85,Bún bò,35000,0.6,4,19,4.0,0.62,0.38,True,4,5,0.694,0.443,0.549,0.62,0.54,1.0,0.625,Pickup Commuter,High
+U0296,Phường Bình Trị Đông,Millennial,36,False,85,Bún bò,35000,0.3,6,11,0.2,0.33,0.67,True,7,9,0.544,0.364,0.635,0.33,0.761,0.605,0.551,Deal Addict,High
+U0297,Phường An Đông,Gen Z,19,True,40,Cơm văn phòng,25000,0.73,8,18,2.0,0.43,0.57,True,7,13,0.805,0.651,0.521,0.43,0.729,1.0,0.696,Deal Addict,High
+U0298,Phường An Hội Đông,Millennial,39,False,23,Hủ tiếu,68000,0.36,4,19,1.6,0.11,0.89,True,5,8,0.421,0.323,0.274,0.11,0.58,1.0,0.484,New User,Low
+U0299,Phường Đức Nhuận,Gen Z,22,True,56,Bún bò,42000,0.49,8,18,2.5,0.22,0.78,True,9,20,0.606,0.531,0.592,0.22,0.835,1.0,0.67,Deal Addict,High
+U0300,Phường Bàn Cờ,Gen Z,23,True,6,Phở,34000,0.56,6,17,3.7,0.46,0.54,True,4,6,0.678,0.494,0.284,0.46,0.51,1.0,0.562,New User,Medium
+U0301,Phường An Hội Đông,Gen Z,21,True,86,Hủ tiếu,31000,0.66,5,18,3.6,0.1,0.9,True,6,11,0.742,0.509,0.597,0.1,0.649,1.0,0.624,Deal Addict,High
+U0302,Xã Tân Nhựt,Gen Z,21,True,50,Hủ tiếu,22000,0.57,3,14,0.6,0.57,0.43,False,0,0,0.739,0.392,0.351,0.57,0.0,0.415,0.345,Casual,Low
+U0303,Phường Phú Lợi,Millennial,31,False,37,Bún bò,33000,0.36,3,19,1.2,0.26,0.74,False,0,0,0.583,0.287,0.293,0.26,0.0,1.0,0.386,Casual,Low
+U0304,Xã Bình Hưng,Millennial,29,False,64,Bánh mì,37000,0.58,4,10,0.4,0.67,0.33,False,0,0,0.674,0.433,0.456,0.67,0.0,0.61,0.422,Explorer,Medium
+U0305,Phường Bến Thành,Other,44,False,54,Bánh mì,56000,0.27,3,10,0.1,0.43,0.57,False,0,0,0.431,0.242,0.369,0.43,0.0,0.602,0.319,Casual,Low
+U0306,Phường An Nhơn,Gen Z,18,True,72,Bún riêu,27000,0.61,5,11,0.7,0.39,0.61,True,5,8,0.736,0.484,0.534,0.39,0.58,0.617,0.543,Midday Saver,High
+U0307,Phường Gia Định,Gen Z,23,True,49,Hủ tiếu,28000,0.49,7,16,0.6,0.4,0.6,False,0,0,0.671,0.495,0.518,0.4,0.0,0.615,0.424,Explorer,High
+U0308,Phường Gia Định,Millennial,28,False,11,Bún bò,48000,0.49,4,15,0.2,0.4,0.6,True,5,5,0.578,0.388,0.22,0.4,0.662,0.405,0.423,New User,Low
+U0309,Phường Hạnh Thông,Gen Z,27,True,88,Cơm văn phòng,25000,0.61,3,19,2.3,0.68,0.32,False,0,0,0.745,0.412,0.52,0.68,0.0,1.0,0.512,Explorer,Medium
+U0310,Xã Bình Chánh,Gen Z,23,True,49,Bánh mì,31000,0.83,9,12,0.1,0.17,0.83,True,11,21,0.827,0.736,0.603,0.17,0.857,0.602,0.655,Deal Addict,High
+U0311,Phường An Nhơn,Gen Z,18,True,21,Cơm văn phòng,41000,0.67,5,14,0.8,0.15,0.85,False,0,0,0.701,0.514,0.308,0.15,0.0,0.42,0.324,New User,Medium
+U0312,Phường Hiệp Bình,Gen Z,23,True,66,Bún bò,26000,0.59,4,7,0.9,0.33,0.67,True,2,3,0.73,0.438,0.465,0.33,0.355,0.223,0.388,Occasional Saver,High
+U0313,Phường Xóm Chiếu,Other,58,False,63,Bún bò,103000,0.05,2,12,0.3,0.26,0.74,False,0,0,0.104,0.096,0.366,0.26,0.0,0.607,0.25,Casual,Low
+U0314,Phường Bình Lợi Trung,Millennial,29,False,83,Hủ tiếu,74000,0.43,2,17,1.4,0.34,0.66,False,0,0,0.428,0.286,0.455,0.34,0.0,1.0,0.418,Explorer,Medium
+U0315,Phường Xuân Hòa,Millennial,40,False,28,Cơm văn phòng,40000,0.44,4,7,0.2,0.41,0.59,True,5,8,0.59,0.363,0.296,0.41,0.58,0.205,0.377,New User,Low
+U0316,Phường An Khánh,Gen Z,21,True,17,Bún riêu,39000,0.55,5,11,0.7,0.24,0.76,False,0,0,0.65,0.454,0.29,0.24,0.0,0.617,0.351,New User,Medium
+U0317,Xã Tân Nhựt,Gen Z,20,True,6,Hủ tiếu,33000,0.64,4,10,0.8,0.07,0.93,False,0,0,0.723,0.463,0.198,0.07,0.0,0.62,0.323,New User,Medium
+U0318,Xã Vĩnh Lộc,Gen Z,21,True,19,Cơm tấm,33000,0.58,8,8,0.1,0.55,0.45,False,0,0,0.693,0.576,0.427,0.55,0.0,0.203,0.36,New User,Medium
+U0319,Phường Khánh Hội,Gen Z,24,True,56,Cơm văn phòng,28000,0.69,5,14,0.0,0.3,0.7,False,0,0,0.771,0.524,0.463,0.3,0.0,0.4,0.372,Casual,Low
+U0320,Phường Vĩnh Hội,Gen Z,18,True,28,Bánh mì,31000,0.64,3,10,0.7,0.12,0.88,False,0,0,0.732,0.427,0.253,0.12,0.0,0.617,0.329,New User,Medium
+U0321,Phường Lái Thiêu,Millennial,33,False,66,Bánh mì,50000,0.48,3,18,1.7,0.3,0.7,True,7,12,0.564,0.347,0.422,0.3,0.732,1.0,0.576,Evening Saver,Medium
+U0322,Phường An Phú,Millennial,30,False,38,Bánh mì,55000,0.32,6,19,1.6,0.38,0.62,False,0,0,0.461,0.374,0.426,0.38,0.0,1.0,0.44,Explorer,High
+U0323,Xã Bình Chánh,Gen Z,27,True,37,Phở,34000,0.54,3,16,0.0,0.4,0.6,False,0,0,0.668,0.377,0.293,0.4,0.0,0.6,0.346,Casual,Low
+U0324,Phường Phú Lợi,Other,42,False,68,Bún bò,79000,0.09,1,22,0.2,0.15,0.85,False,0,0,0.235,0.081,0.345,0.15,0.0,0.205,0.157,Casual,Low
+U0325,Phường Bàn Cờ,Millennial,29,False,86,Hủ tiếu,55000,0.33,2,13,0.5,0.26,0.74,True,2,2,0.466,0.236,0.468,0.26,0.445,0.612,0.413,Occasional Saver,Medium
+U0326,Phường Bình Thạnh,Gen Z,21,True,90,Bánh mì,37000,0.6,2,15,1.0,0.36,0.64,False,0,0,0.684,0.371,0.486,0.36,0.0,0.425,0.345,Casual,Low
+U0327,Phường Tân Sơn Hòa,Millennial,28,False,49,Cơm tấm,38000,0.52,5,22,0.3,0.12,0.88,False,0,0,0.64,0.439,0.432,0.12,0.0,0.208,0.282,Casual,Low
+U0328,Phường Cầu Kiệu,Gen Z,20,True,43,Bánh mì,24000,0.74,6,11,0.5,0.31,0.69,False,0,0,0.814,0.584,0.448,0.31,0.0,0.612,0.43,Explorer,High
+U0329,Xã Bà Điểm,Gen Z,26,True,36,Bún riêu,40000,0.71,4,20,2.2,0.5,0.5,True,3,4,0.725,0.498,0.331,0.5,0.452,1.0,0.567,Evening Saver,High
+U0330,Phường An Hội Đông,Gen Z,24,True,58,Bún bò,27000,0.59,6,8,0.5,0.47,0.53,True,7,14,0.726,0.509,0.515,0.47,0.728,0.213,0.502,Deal Addict,High
+U0331,Phường Tân Sơn Nhì,Millennial,34,False,13,Cơm văn phòng,29000,0.54,3,13,0.2,0.3,0.7,True,1,1,0.691,0.377,0.186,0.3,0.372,0.605,0.391,New User,Low
+U0332,Phường Phú Thọ Hòa,Gen Z,21,True,52,Bún bò,22000,0.77,8,9,0.6,0.27,0.73,False,0,0,0.839,0.671,0.574,0.27,0.0,0.415,0.435,Explorer,High
+U0333,Phường Xóm Chiếu,Gen Z,19,True,58,Cơm văn phòng,24000,0.62,8,18,3.0,0.39,0.61,False,0,0,0.754,0.596,0.601,0.39,0.0,1.0,0.546,Explorer,High
+U0334,Phường An Khánh,Gen Z,21,True,32,Cơm văn phòng,48000,0.53,4,17,2.6,0.09,0.91,True,5,9,0.598,0.408,0.314,0.09,0.569,1.0,0.518,Evening Saver,High
+U0335,Phường Sài Gòn,Gen Z,23,True,81,Hủ tiếu,33000,0.46,7,17,2.2,0.45,0.55,True,7,17,0.633,0.48,0.66,0.45,0.731,1.0,0.675,Deal Addict,High
+U0336,Xã Vĩnh Lộc,Millennial,38,False,60,Phở,80000,0.31,5,12,0.2,0.45,0.55,False,0,0,0.34,0.334,0.481,0.45,0.0,0.605,0.363,Casual,Low
+U0337,Phường Long Bình,Millennial,38,False,83,Cơm văn phòng,57000,0.33,3,12,0.1,0.1,0.9,False,0,0,0.457,0.272,0.497,0.1,0.0,0.602,0.321,Casual,Low
+U0338,Phường Gia Định,Gen Z,20,True,58,Cơm văn phòng,30000,0.73,3,8,0.2,0.33,0.67,False,0,0,0.782,0.472,0.386,0.33,0.0,0.205,0.308,Casual,Low
+U0339,Phường An Lạc,Gen Z,18,True,56,Hủ tiếu,27000,0.69,4,12,1.0,0.47,0.53,False,0,0,0.776,0.488,0.42,0.47,0.0,0.625,0.417,Explorer,High
+U0340,Phường Đông Hòa,Gen Z,25,True,28,Bánh mì,34000,0.61,6,20,3.1,0.61,0.39,True,6,13,0.703,0.519,0.382,0.61,0.643,1.0,0.631,New User,Medium
+U0341,Phường Sài Gòn,Gen Z,22,True,1,Bún riêu,22000,0.54,8,12,0.5,0.35,0.65,True,7,15,0.724,0.556,0.347,0.35,0.728,0.612,0.548,New User,Medium
+U0342,Phường Thuận An,Gen Z,22,True,42,Cơm tấm,44000,0.43,6,19,4.2,0.32,0.68,True,5,15,0.567,0.429,0.444,0.32,0.562,1.0,0.569,Evening Saver,High
+U0343,Phường An Lạc,Gen Z,21,True,82,Hủ tiếu,41000,0.33,7,19,4.5,0.12,0.88,False,0,0,0.531,0.415,0.664,0.12,0.0,1.0,0.475,Explorer,High
+U0344,Phường Bình Tân,Gen Z,23,True,48,Phở,27000,0.61,5,12,0.6,0.44,0.56,True,5,11,0.736,0.484,0.428,0.44,0.559,0.615,0.522,Midday Saver,High
+U0345,Phường Tân Sơn Nhì,Millennial,30,False,40,Hủ tiếu,82000,0.44,5,17,2.4,0.53,0.47,False,0,0,0.396,0.399,0.392,0.53,0.0,1.0,0.451,Explorer,Medium
+U0346,Phường An Đông,Millennial,36,False,63,Bún bò,71000,0.14,5,9,0.2,0.31,0.69,True,6,8,0.297,0.249,0.494,0.31,0.68,0.405,0.424,Deal Addict,High
+U0347,Phường Long Bình,Gen Z,22,True,76,Bánh mì,35000,0.36,4,9,0.3,0.42,0.58,False,0,0,0.574,0.323,0.509,0.42,0.0,0.408,0.335,Casual,Low
+U0348,Xã Tân Nhựt,Gen Z,20,True,72,Bánh mì,21000,0.8,5,8,0.4,0.47,0.53,False,0,0,0.858,0.579,0.534,0.47,0.0,0.21,0.383,Casual,Low
+U0349,Xã Hiệp Phước,Millennial,38,False,88,Cơm văn phòng,53000,0.61,5,16,0.4,0.28,0.72,False,0,0,0.615,0.484,0.605,0.28,0.0,0.61,0.423,Explorer,Medium
+U0350,Phường Cầu Kiệu,Gen Z,18,True,80,Bánh mì,31000,0.67,2,13,0.7,0.3,0.7,True,5,12,0.747,0.406,0.441,0.3,0.558,0.617,0.492,Occasional Saver,Medium
+U0351,Xã Nhà Bè,Millennial,37,False,4,Bánh mì,43000,0.46,5,16,0.2,0.38,0.62,True,4,6,0.586,0.409,0.232,0.38,0.51,0.605,0.439,New User,Low
+U0352,Phường Đông Hòa,Millennial,39,False,38,Bánh mì,34000,0.45,3,16,0.1,0.31,0.69,True,2,6,0.623,0.332,0.297,0.31,0.285,0.602,0.382,Evening Saver,Medium
+U0353,Phường Hạnh Thông,Gen Z,23,True,27,Bánh mì,39000,0.42,5,12,0.6,0.42,0.58,False,0,0,0.585,0.389,0.334,0.42,0.0,0.615,0.358,New User,Medium
+U0354,Phường Phú Thọ Hòa,Gen Z,19,True,9,Cơm tấm,21000,0.55,6,17,2.3,0.27,0.73,True,7,11,0.733,0.489,0.297,0.27,0.738,1.0,0.593,New User,Medium
+U0355,Phường Tân Bình,Millennial,40,False,16,Phở,58000,0.31,3,18,2.1,0.44,0.56,False,0,0,0.442,0.262,0.2,0.44,0.0,1.0,0.372,New User,Low
+U0356,Phường Thuận An,Gen Z,20,True,56,Cơm văn phòng,46000,0.51,3,7,0.7,0.52,0.48,False,0,0,0.598,0.362,0.377,0.52,0.0,0.217,0.291,Casual,Low
+U0357,Phường Cát Lái,Gen Z,18,True,76,Bánh mì,43000,0.57,4,10,0.7,0.34,0.66,False,0,0,0.641,0.428,0.509,0.34,0.0,0.617,0.398,Casual,Low
+U0358,Phường Bình Lợi Trung,Other,52,False,31,Cơm văn phòng,58000,0.33,3,17,1.6,0.3,0.7,False,0,0,0.452,0.272,0.266,0.3,0.0,1.0,0.374,Casual,Low
+U0359,Phường Bến Thành,Gen Z,19,True,88,Phở,42000,0.53,2,12,0.9,0.35,0.65,True,3,6,0.626,0.336,0.477,0.35,0.397,0.622,0.45,Occasional Saver,Medium
+U0360,Phường Nhiêu Lộc,Gen Z,25,True,14,Bún riêu,12000,0.83,7,17,3.2,0.3,0.7,True,6,9,0.915,0.665,0.362,0.3,0.665,1.0,0.647,New User,Medium
+U0361,Phường Bảy Hiền,Millennial,39,False,25,Bánh mì,28000,0.45,2,12,0.4,0.19,0.81,False,0,0,0.651,0.296,0.197,0.19,0.0,0.61,0.287,New User,Low
+U0362,Phường Linh Xuân,Gen Z,26,True,34,Cơm văn phòng,34000,0.73,9,12,0.6,0.15,0.85,False,0,0,0.763,0.686,0.537,0.15,0.0,0.615,0.455,Explorer,High
+U0363,Xã Bình Chánh,Gen Z,18,True,67,Hủ tiếu,28000,0.67,8,10,0.2,0.49,0.51,True,7,15,0.761,0.621,0.641,0.49,0.728,0.605,0.637,Deal Addict,High
+U0364,Phường Tân Đông Hiệp,Other,48,False,24,Cơm văn phòng,63000,0.17,2,11,0.0,0.05,0.95,False,0,0,0.349,0.156,0.192,0.05,0.0,0.6,0.22,New User,Low
+U0365,Xã Bà Điểm,Gen Z,19,True,73,Bánh mì,33000,0.64,5,17,2.7,0.24,0.76,False,0,0,0.723,0.499,0.539,0.24,0.0,1.0,0.493,Explorer,High
+U0366,Phường An Lạc,Other,60,False,26,Bún bò,54000,0.24,2,13,0.2,0.05,0.95,False,0,0,0.426,0.191,0.201,0.05,0.0,0.605,0.235,New User,Low
+U0367,Phường Bình Trưng,Other,47,False,20,Cơm tấm,55000,0.27,2,18,1.4,0.19,0.81,False,0,0,0.436,0.206,0.175,0.19,0.0,1.0,0.327,New User,Low
+U0368,Phường Cát Lái,Gen Z,20,True,64,Hủ tiếu,31000,0.72,3,19,3.0,0.4,0.6,True,3,7,0.772,0.467,0.413,0.4,0.386,1.0,0.555,Evening Saver,High
+U0369,Xã Nhà Bè,Gen Z,22,True,10,Hủ tiếu,38000,0.6,2,16,0.2,0.37,0.63,True,3,6,0.68,0.371,0.13,0.37,0.397,0.605,0.39,New User,Medium
+U0370,Phường Tân Hòa,Gen Z,25,True,83,Bún bò,34000,0.59,2,18,2.0,0.26,0.74,True,5,8,0.693,0.366,0.455,0.26,0.58,1.0,0.559,Occasional Saver,Medium
+U0371,Xã Hóc Môn,Gen Z,27,True,67,Bánh mì,26000,0.56,4,11,1.0,0.24,0.76,False,0,0,0.715,0.423,0.469,0.24,0.0,0.625,0.384,Casual,Low
+U0372,Phường An Hội Đông,Gen Z,20,True,24,Cơm tấm,29000,0.71,4,12,0.1,0.49,0.51,False,0,0,0.776,0.498,0.278,0.49,0.0,0.602,0.388,New User,Medium
+U0373,Phường Thuận An,Millennial,31,False,5,Hủ tiếu,40000,0.48,4,17,1.9,0.21,0.79,False,0,0,0.61,0.383,0.194,0.21,0.0,1.0,0.386,New User,Low
+U0374,Phường Phước Long,Gen Z,26,True,67,Cơm tấm,19000,0.59,9,12,0.6,0.47,0.53,True,10,20,0.763,0.616,0.683,0.47,0.85,0.615,0.669,Deal Addict,High
+U0375,Phường Hạnh Thông,Gen Z,24,True,58,Hủ tiếu,39000,0.68,4,16,0.5,0.29,0.71,False,0,0,0.715,0.483,0.429,0.29,0.0,0.612,0.394,Casual,Low
+U0376,Phường Gò Vấp,Millennial,28,False,27,Bánh mì,44000,0.3,4,10,0.1,0.3,0.7,False,0,0,0.502,0.293,0.291,0.3,0.0,0.602,0.307,New User,Low
+U0377,Xã Hóc Môn,Gen Z,21,True,80,Bún riêu,23000,0.79,4,16,0.1,0.62,0.38,True,7,13,0.844,0.538,0.527,0.62,0.729,0.602,0.61,Pickup Commuter,High
+U0378,Xã Hóc Môn,Millennial,31,False,15,Hủ tiếu,62000,0.39,5,19,1.4,0.35,0.65,False,0,0,0.464,0.374,0.281,0.35,0.0,1.0,0.408,New User,Low
+U0379,Phường Hiệp Bình,Gen Z,26,True,35,Bún riêu,34000,0.67,7,19,3.5,0.36,0.64,True,8,18,0.733,0.585,0.456,0.36,0.813,1.0,0.673,Deal Addict,High
+U0380,Phường Thuận An,Gen Z,23,True,76,Hủ tiếu,34000,0.59,7,18,3.4,0.46,0.54,False,0,0,0.693,0.545,0.638,0.46,0.0,1.0,0.545,Explorer,High
+U0381,Phường Bình Hòa,Millennial,36,False,53,Phở,43000,0.49,7,18,1.6,0.25,0.75,False,0,0,0.601,0.495,0.536,0.25,0.0,1.0,0.486,Explorer,High
+U0382,Xã Hóc Môn,Millennial,39,False,44,Bánh mì,43000,0.54,2,16,0.4,0.28,0.72,True,4,5,0.626,0.341,0.281,0.28,0.54,0.61,0.431,Occasional Saver,Medium
+U0383,Phường Sài Gòn,Millennial,33,False,26,Bún bò,42000,0.49,5,16,0.5,0.24,0.76,True,4,4,0.606,0.424,0.33,0.24,0.59,0.612,0.467,New User,Low
+U0384,Phường Vĩnh Hội,Millennial,33,False,47,Bún riêu,40000,0.38,5,10,0.0,0.26,0.74,True,7,9,0.56,0.369,0.423,0.26,0.761,0.6,0.503,Deal Addict,High
+U0385,Xã Bà Điểm,Millennial,32,False,34,Bún bò,61000,0.35,3,13,0.3,0.31,0.69,True,5,5,0.448,0.282,0.28,0.31,0.662,0.607,0.434,Midday Saver,Medium
+U0386,Phường Bình Trị Đông,Gen Z,22,True,87,Bánh mì,42000,0.7,8,13,0.7,0.27,0.73,True,11,22,0.711,0.636,0.73,0.27,0.85,0.617,0.661,Deal Addict,High
+U0387,Phường Lái Thiêu,Gen Z,19,True,50,Cơm văn phòng,37000,0.83,3,21,0.3,0.27,0.73,False,0,0,0.799,0.522,0.351,0.27,0.0,0.607,0.389,Casual,Low
+U0388,Phường Tân Sơn Nhất,Millennial,35,False,84,Bún bò,68000,0.27,4,13,0.2,0.11,0.89,True,5,9,0.376,0.278,0.545,0.11,0.569,0.605,0.443,Midday Saver,High
+U0389,Phường Thông Tây Hội,Millennial,35,False,12,Bánh mì,50000,0.47,3,16,0.4,0.09,0.91,True,6,9,0.559,0.342,0.182,0.09,0.665,0.61,0.414,New User,Low
+U0390,Phường An Hội Đông,Other,51,False,87,Bún bò,78000,0.25,2,16,0.4,0.08,0.92,False,0,0,0.319,0.196,0.472,0.08,0.0,0.61,0.289,Casual,Low
+U0391,Xã Hóc Môn,Gen Z,18,True,4,Bún riêu,28000,0.58,6,17,4.0,0.44,0.56,False,0,0,0.716,0.504,0.275,0.44,0.0,1.0,0.461,New User,Medium
+U0392,Xã Bình Hưng,Gen Z,25,True,87,Phở,32000,0.82,5,18,3.5,0.29,0.71,True,5,12,0.817,0.589,0.601,0.29,0.558,1.0,0.649,Evening Saver,High
+U0393,Phường Thông Tây Hội,Millennial,32,False,48,Bún bò,53000,0.27,3,11,0.4,0.34,0.66,True,4,6,0.445,0.242,0.342,0.34,0.51,0.61,0.409,Midday Saver,Medium
+U0394,Phường Thủ Đức,Gen Z,19,True,55,Bún riêu,23000,0.77,4,16,0.4,0.43,0.57,True,3,4,0.834,0.528,0.416,0.43,0.452,0.61,0.512,Evening Saver,High
+U0395,Phường Tân Sơn Nhì,Other,58,False,1,Hủ tiếu,63000,0.25,3,19,1.4,0.05,0.95,False,0,0,0.389,0.232,0.133,0.05,0.0,1.0,0.309,New User,Low
+U0396,Phường Tăng Nhơn Phú,Millennial,33,False,89,Bánh mì,84000,0.21,2,14,0.3,0.36,0.64,True,4,5,0.272,0.176,0.481,0.36,0.54,0.408,0.379,Occasional Saver,Medium
+U0397,Phường Tam Bình,Gen Z,26,True,66,Cơm tấm,25000,0.93,4,11,0.2,0.54,0.46,False,0,0,0.905,0.608,0.465,0.54,0.0,0.605,0.465,Explorer,High
+U0398,Phường Sài Gòn,Millennial,28,False,30,Cơm văn phòng,38000,0.43,6,17,2.3,0.16,0.84,False,0,0,0.595,0.429,0.39,0.16,0.0,1.0,0.431,Explorer,High
+U0399,Xã Tân Nhựt,Millennial,39,False,3,Cơm tấm,50000,0.36,5,19,2.0,0.33,0.67,False,0,0,0.504,0.359,0.228,0.33,0.0,1.0,0.394,New User,Low
+U0400,Phường Hòa Lợi,Gen Z,23,True,21,Bánh mì,39000,0.73,4,9,0.4,0.29,0.71,False,0,0,0.74,0.508,0.265,0.29,0.0,0.41,0.328,New User,Medium
+U0401,Phường Bình Lợi Trung,Other,49,False,89,Phở,73000,0.24,3,18,1.7,0.21,0.79,False,0,0,0.338,0.227,0.524,0.21,0.0,1.0,0.399,Casual,Low
+U0402,Xã Bà Điểm,Gen Z,25,True,84,Bún bò,36000,0.74,7,19,2.1,0.23,0.77,True,8,16,0.759,0.62,0.673,0.23,0.81,1.0,0.713,Deal Addict,High
+U0403,Phường Thuận An,Millennial,38,False,49,Phở,41000,0.45,6,14,0.2,0.06,0.94,True,8,14,0.591,0.439,0.475,0.06,0.811,0.405,0.484,Deal Addict,High
+U0404,Phường Cầu Ông Lãnh,Gen Z,23,True,86,Cơm tấm,34000,0.66,5,22,0.1,0.36,0.64,True,7,15,0.728,0.509,0.597,0.36,0.728,0.203,0.505,Deal Addict,High
+U0405,Phường Sài Gòn,Millennial,30,False,85,Cơm văn phòng,47000,0.6,3,18,2.3,0.27,0.73,True,1,1,0.638,0.407,0.506,0.27,0.372,1.0,0.536,Evening Saver,Medium
+U0406,Phường Đức Nhuận,Gen Z,25,True,62,Bún riêu,41000,0.51,4,18,3.8,0.36,0.64,False,0,0,0.621,0.398,0.447,0.36,0.0,1.0,0.456,Explorer,High
+U0407,Phường An Hội Đông,Gen Z,26,True,38,Cơm văn phòng,34000,0.62,4,18,2.8,0.24,0.76,False,0,0,0.708,0.453,0.34,0.24,0.0,1.0,0.441,Explorer,High
+U0408,Phường Bình Tân,Other,57,False,15,Bánh mì,54000,0.35,2,10,0.3,0.16,0.84,False,0,0,0.481,0.246,0.152,0.16,0.0,0.607,0.253,New User,Low
+U0409,Phường Tân Định,Gen Z,26,True,52,Bánh mì,19000,0.69,2,11,0.4,0.46,0.54,False,0,0,0.813,0.416,0.317,0.46,0.0,0.61,0.376,Casual,Low
+U0410,Phường Tân Sơn Nhất,Gen Z,23,True,79,Phở,17000,0.67,5,14,0.8,0.41,0.59,True,9,20,0.812,0.514,0.565,0.41,0.835,0.42,0.574,Deal Addict,High
+U0411,Phường Phú Nhuận,Other,60,False,46,Bún riêu,63000,0.28,2,11,0.2,0.22,0.78,True,3,3,0.404,0.211,0.29,0.22,0.518,0.605,0.378,Occasional Saver,Medium
+U0412,Phường Bảy Hiền,Other,41,False,25,Phở,58000,0.38,2,12,0.2,0.13,0.87,False,0,0,0.477,0.261,0.197,0.13,0.0,0.605,0.262,New User,Low
+U0413,Phường Bình Tân,Gen Z,27,True,21,Bún bò,35000,0.61,7,20,4.3,0.6,0.4,True,6,16,0.699,0.555,0.393,0.6,0.648,1.0,0.642,New User,Medium
+U0414,Phường Tân Sơn Nhất,Millennial,35,False,88,Hủ tiếu,54000,0.35,3,19,1.6,0.14,0.86,False,0,0,0.481,0.282,0.52,0.14,0.0,1.0,0.413,Explorer,Medium
+U0415,Xã Xuân Thới Sơn,Gen Z,19,True,5,Bún riêu,26000,0.61,3,17,2.3,0.49,0.51,False,0,0,0.74,0.412,0.151,0.49,0.0,1.0,0.419,New User,Medium
+U0416,Phường Nhiêu Lộc,Gen Z,18,True,70,Hủ tiếu,22000,0.66,7,19,3.5,0.6,0.4,False,0,0,0.784,0.58,0.611,0.6,0.0,1.0,0.566,Explorer,High
+U0417,Phường Đức Nhuận,Gen Z,19,True,47,Cơm văn phòng,21000,0.81,2,18,2.0,0.49,0.51,False,0,0,0.863,0.476,0.295,0.49,0.0,1.0,0.47,Explorer,Medium
+U0418,Phường Tân Khánh,Millennial,28,False,87,Bún bò,73000,0.27,5,13,0.2,0.26,0.74,True,6,12,0.353,0.314,0.601,0.26,0.645,0.605,0.492,Deal Addict,High
+U0419,Phường Đông Hòa,Millennial,28,False,68,Hủ tiếu,43000,0.35,5,10,0.0,0.22,0.78,False,0,0,0.531,0.354,0.517,0.22,0.0,0.6,0.36,Casual,Low
+U0420,Phường Thủ Dầu Một,Millennial,36,False,18,Cơm tấm,60000,0.36,3,15,0.2,0.4,0.6,False,0,0,0.458,0.287,0.209,0.4,0.0,0.405,0.257,New User,Low
+U0421,Phường Tân Đông Hiệp,Millennial,40,False,21,Cơm văn phòng,70000,0.38,5,18,2.0,0.11,0.89,True,3,7,0.421,0.369,0.308,0.11,0.386,1.0,0.463,New User,Low
+U0422,Phường An Lạc,Gen Z,18,True,86,Hủ tiếu,34000,0.57,5,13,0.2,0.27,0.73,False,0,0,0.683,0.464,0.597,0.27,0.0,0.605,0.418,Explorer,High
+U0423,Phường Thủ Dầu Một,Gen Z,21,True,23,Bún bò,42000,0.45,4,17,3.6,0.36,0.64,True,7,13,0.586,0.368,0.274,0.36,0.729,1.0,0.558,New User,Medium
+U0424,Xã Bà Điểm,Gen Z,27,True,64,Hủ tiếu,28000,0.88,2,9,1.0,0.61,0.39,False,0,0,0.866,0.511,0.37,0.61,0.0,0.425,0.391,Casual,Low
+U0425,Phường Đức Nhuận,Gen Z,23,True,67,Bánh mì,48000,0.41,4,18,3.1,0.48,0.52,True,6,12,0.538,0.348,0.469,0.48,0.645,1.0,0.585,Evening Saver,High
+U0426,Phường Bảy Hiền,Gen Z,24,True,40,Phở,22000,0.66,8,19,2.9,0.27,0.73,True,8,16,0.784,0.616,0.521,0.27,0.81,1.0,0.686,Deal Addict,High
+U0427,Phường Tân Bình,Millennial,29,False,10,Cơm tấm,36000,0.49,3,17,1.8,0.24,0.76,True,2,4,0.634,0.352,0.173,0.24,0.315,1.0,0.441,New User,Low
+U0428,Phường Tân Sơn Nhất,Gen Z,23,True,89,Bánh mì,35000,0.59,5,21,0.1,0.33,0.67,False,0,0,0.689,0.474,0.61,0.33,0.0,0.602,0.428,Explorer,High
+U0429,Xã Vĩnh Lộc,Gen Z,24,True,52,Bánh mì,47000,0.55,5,19,4.2,0.31,0.69,True,6,11,0.613,0.454,0.445,0.31,0.649,1.0,0.594,Deal Addict,High
+U0430,Phường Thủ Đức,Gen Z,27,True,72,Bún bò,40000,0.65,5,20,3.0,0.57,0.43,True,5,6,0.695,0.504,0.534,0.57,0.622,1.0,0.649,Pickup Commuter,High
+U0431,Phường Phú Lợi,Millennial,37,False,75,Phở,34000,0.24,2,20,1.8,0.12,0.88,False,0,0,0.518,0.191,0.419,0.12,0.0,1.0,0.369,Casual,Low
+U0432,Phường Bình Thạnh,Millennial,29,False,61,Phở,45000,0.29,3,18,2.2,0.47,0.53,False,0,0,0.492,0.252,0.4,0.47,0.0,1.0,0.415,Explorer,Medium
+U0433,Phường An Lạc,Gen Z,19,True,64,Bún riêu,46000,0.57,6,17,3.1,0.54,0.46,True,8,16,0.628,0.499,0.542,0.54,0.81,1.0,0.681,Deal Addict,High
+U0434,Phường Chợ Quán,Gen Z,27,True,5,Cơm văn phòng,25000,0.64,3,6,0.6,0.58,0.42,True,4,7,0.76,0.427,0.151,0.58,0.491,0.215,0.374,New User,Medium
+U0435,Phường Bình Tân,Millennial,34,False,53,Cơm tấm,68000,0.3,3,14,0.0,0.22,0.78,False,0,0,0.391,0.257,0.364,0.22,0.0,0.4,0.259,Casual,Low
+U0436,Xã Đông Thạnh,Gen Z,18,True,55,Cơm văn phòng,41000,0.61,2,16,0.8,0.4,0.6,True,6,15,0.671,0.376,0.33,0.4,0.645,0.62,0.487,Occasional Saver,Medium
+U0437,Phường Nhiêu Lộc,Millennial,35,False,37,Bún bò,53000,0.16,3,11,0.6,0.11,0.89,False,0,0,0.39,0.187,0.293,0.11,0.0,0.615,0.259,Casual,Low
+U0438,Phường Nhiêu Lộc,Millennial,38,False,56,Cơm tấm,49000,0.52,6,11,0.4,0.22,0.78,True,4,5,0.589,0.474,0.506,0.22,0.54,0.61,0.501,Midday Saver,High
+U0439,Phường Tân Hòa,Gen Z,20,True,59,Bún riêu,30000,0.6,2,21,1.0,0.49,0.51,False,0,0,0.717,0.371,0.348,0.49,0.0,0.625,0.372,Casual,Low
+U0440,Phường An Khánh,Gen Z,23,True,69,Hủ tiếu,24000,0.6,3,20,2.4,0.61,0.39,True,2,4,0.744,0.407,0.435,0.61,0.315,1.0,0.55,Pickup Commuter,High
+U0441,Phường Tăng Nhơn Phú,Other,49,False,73,Bánh mì,96000,0.05,2,19,1.3,0.09,0.91,True,1,4,0.136,0.096,0.41,0.09,0.178,1.0,0.357,Occasional Saver,Medium
+U0442,Phường Tăng Nhơn Phú,Gen Z,23,True,59,Cơm tấm,30000,0.66,6,12,0.6,0.37,0.63,False,0,0,0.747,0.544,0.519,0.37,0.0,0.615,0.437,Explorer,High
+U0443,Phường Gia Định,Gen Z,26,True,2,Cơm văn phòng,43000,0.7,5,7,0.6,0.4,0.6,True,6,12,0.706,0.529,0.223,0.4,0.645,0.215,0.424,New User,Medium
+U0444,Phường An Hội Đông,Millennial,34,False,65,Bánh mì,36000,0.49,3,9,0.2,0.11,0.89,False,0,0,0.634,0.352,0.417,0.11,0.0,0.405,0.295,Casual,Low
+U0445,Phường An Phú,Other,49,False,60,Bún bò,112000,0.06,3,11,0.1,0.26,0.74,False,0,0,0.067,0.137,0.395,0.26,0.0,0.602,0.263,Casual,Low
+U0446,Phường Bến Thành,Other,58,False,51,Cơm văn phòng,66000,0.11,2,7,0.1,0.13,0.87,False,0,0,0.305,0.126,0.312,0.13,0.0,0.203,0.163,Casual,Low
+U0447,Phường Sài Gòn,Millennial,39,False,30,Hủ tiếu,32000,0.5,6,7,0.2,0.26,0.74,False,0,0,0.657,0.464,0.39,0.26,0.0,0.205,0.294,Casual,Low
+U0448,Xã Tân Nhựt,Gen Z,25,True,11,Bún bò,17000,0.61,7,20,2.4,0.35,0.65,False,0,0,0.782,0.555,0.349,0.35,0.0,1.0,0.483,New User,Medium
+U0449,Phường Hiệp Bình,Gen Z,25,True,76,Hủ tiếu,38000,0.62,4,17,3.8,0.3,0.7,True,5,10,0.69,0.453,0.509,0.3,0.562,1.0,0.592,Evening Saver,High
+U0450,Phường Xóm Chiếu,Millennial,29,False,39,Hủ tiếu,61000,0.32,3,11,0.1,0.28,0.72,True,4,4,0.433,0.267,0.302,0.28,0.59,0.602,0.415,Midday Saver,Medium
+U0451,Phường Bến Thành,Gen Z,21,True,90,Bánh mì,40000,0.58,3,10,0.1,0.39,0.61,True,7,15,0.66,0.397,0.529,0.39,0.728,0.602,0.543,Midday Saver,High
+U0452,Phường Thủ Dầu Một,Gen Z,24,True,77,Bún bò,21000,0.69,4,15,0.6,0.36,0.64,True,5,10,0.803,0.488,0.514,0.36,0.562,0.415,0.496,Occasional Saver,High
+U0453,Phường Khánh Hội,Other,51,False,72,Bún bò,40000,0.42,4,6,0.2,0.13,0.87,False,0,0,0.58,0.353,0.491,0.13,0.0,0.205,0.269,Casual,Low
+U0454,Phường Hiệp Bình,Gen Z,21,True,63,Cơm tấm,31000,0.48,4,20,4.0,0.47,0.53,False,0,0,0.652,0.383,0.451,0.47,0.0,1.0,0.466,Explorer,High
+U0455,Phường Bàn Cờ,Gen Z,21,True,64,Cơm văn phòng,28000,0.57,3,12,0.6,0.67,0.33,True,8,15,0.711,0.392,0.413,0.67,0.81,0.615,0.568,Pickup Commuter,High
+U0456,Phường Bình Thạnh,Gen Z,23,True,61,Bún bò,30000,0.65,6,12,0.3,0.44,0.56,False,0,0,0.742,0.539,0.528,0.44,0.0,0.607,0.443,Explorer,High
+U0457,Phường Bình Lợi Trung,Gen Z,27,True,54,Cơm tấm,52000,0.41,5,12,0.8,0.57,0.43,True,7,16,0.52,0.384,0.454,0.57,0.729,0.62,0.54,Deal Addict,High
+U0458,Phường Cầu Kiệu,Gen Z,23,True,73,Phở,49000,0.55,3,9,0.5,0.21,0.79,False,0,0,0.604,0.382,0.453,0.21,0.0,0.413,0.32,Casual,Low
+U0459,Xã Hiệp Phước,Gen Z,27,True,58,Phở,47000,0.55,4,17,2.2,0.44,0.56,False,0,0,0.613,0.418,0.429,0.44,0.0,1.0,0.465,Explorer,High
+U0460,Xã Hưng Long,Gen Z,20,True,85,Phở,39000,0.46,4,18,3.4,0.26,0.74,True,4,9,0.605,0.373,0.549,0.26,0.473,1.0,0.554,Evening Saver,High
+U0461,Phường Bình Trưng,Millennial,36,False,56,Bún riêu,48000,0.25,5,17,2.6,0.1,0.9,False,0,0,0.458,0.304,0.463,0.1,0.0,1.0,0.402,Explorer,Medium
+U0462,Phường Thông Tây Hội,Millennial,39,False,34,Bún bò,50000,0.13,2,10,0.2,0.19,0.81,False,0,0,0.389,0.136,0.237,0.19,0.0,0.605,0.241,Casual,Low
+U0463,Phường Tân Đông Hiệp,Gen Z,27,True,31,Bún riêu,32000,0.52,4,16,0.3,0.6,0.4,False,0,0,0.667,0.403,0.309,0.6,0.0,0.607,0.377,Casual,Low
+U0464,Phường Chợ Quán,Other,54,False,52,Cơm văn phòng,90000,0.07,2,16,0.1,0.3,0.7,False,0,0,0.174,0.106,0.317,0.3,0.0,0.602,0.249,Casual,Low
+U0465,Phường Cầu Kiệu,Gen Z,19,True,89,Bún bò,19000,0.73,4,19,2.4,0.46,0.54,True,4,11,0.833,0.508,0.567,0.46,0.469,1.0,0.622,Evening Saver,High
+U0466,Phường Tân Sơn Nhì,Gen Z,23,True,76,Cơm tấm,29000,0.68,5,12,0.4,0.19,0.81,True,5,11,0.761,0.519,0.552,0.19,0.559,0.61,0.531,Midday Saver,High
+U0467,Phường Hòa Lợi,Millennial,39,False,1,Bún riêu,35000,0.39,4,12,0.4,0.26,0.74,True,4,7,0.589,0.338,0.176,0.26,0.491,0.61,0.395,New User,Low
+U0468,Phường Cát Lái,Gen Z,24,True,55,Bún riêu,31000,0.64,4,17,2.2,0.47,0.53,True,3,6,0.732,0.463,0.416,0.47,0.397,1.0,0.562,Evening Saver,High
+U0469,Phường Phước Long,Other,52,False,22,Cơm văn phòng,97000,0.07,4,17,1.7,0.22,0.78,True,3,3,0.141,0.178,0.269,0.22,0.518,1.0,0.431,New User,Low
+U0470,Phường Cầu Ông Lãnh,Gen Z,26,True,40,Bún riêu,39000,0.47,5,14,0.8,0.14,0.86,True,7,13,0.61,0.414,0.392,0.14,0.729,0.42,0.456,Deal Addict,High
+U0471,Phường Hạnh Thông,Other,53,False,1,Hủ tiếu,56000,0.27,1,13,0.2,0.11,0.89,False,0,0,0.431,0.171,0.047,0.11,0.0,0.605,0.206,New User,Low
+U0472,Phường Dĩ An,Gen Z,20,True,65,Cơm tấm,50000,0.6,5,15,0.8,0.41,0.59,False,0,0,0.624,0.479,0.503,0.41,0.0,0.42,0.377,Casual,Low
+U0473,Phường An Hội Đông,Millennial,37,False,63,Phở,61000,0.28,5,19,1.3,0.34,0.66,True,6,6,0.413,0.319,0.494,0.34,0.735,1.0,0.58,Deal Addict,High
+U0474,Phường Bình Thạnh,Gen Z,20,True,54,Cơm tấm,15000,0.84,6,14,0.5,0.09,0.91,True,6,12,0.906,0.634,0.497,0.09,0.645,0.413,0.524,Deal Addict,High
+U0475,Phường Tam Bình,Other,54,False,42,Hủ tiếu,57000,0.2,1,20,1.0,0.18,0.82,False,0,0,0.392,0.136,0.23,0.18,0.0,1.0,0.318,Casual,Low
+U0476,Phường Tân Phú,Gen Z,21,True,21,Cơm văn phòng,25000,0.59,8,15,0.8,0.44,0.56,True,11,22,0.735,0.581,0.436,0.44,0.85,0.42,0.567,New User,Medium
+U0477,Phường Phú Thọ Hòa,Gen Z,25,True,79,Cơm văn phòng,19000,0.77,4,21,0.8,0.55,0.45,True,6,13,0.853,0.528,0.523,0.55,0.643,0.62,0.587,Pickup Commuter,High
+U0478,Phường Bình Lợi Trung,Other,59,False,81,Bún bò,106000,0.18,1,19,1.0,0.27,0.73,True,1,2,0.155,0.126,0.403,0.27,0.232,1.0,0.393,Casual,Low
+U0479,Phường Bảy Hiền,Gen Z,19,True,22,Cơm tấm,30000,0.66,3,12,0.9,0.51,0.49,False,0,0,0.747,0.437,0.226,0.51,0.0,0.622,0.367,New User,Medium
+U0480,Phường Linh Xuân,Millennial,33,False,38,Cơm văn phòng,76000,0.31,2,19,1.4,0.18,0.82,False,0,0,0.359,0.226,0.255,0.18,0.0,1.0,0.343,Casual,Low
+U0481,Phường Bình Thạnh,Millennial,29,False,80,Bún riêu,47000,0.35,5,9,0.5,0.05,0.95,True,4,4,0.513,0.354,0.57,0.05,0.59,0.413,0.434,Occasional Saver,Medium
+U0482,Phường Cát Lái,Gen Z,20,True,8,Cơm văn phòng,21000,0.58,3,20,3.0,0.36,0.64,False,0,0,0.748,0.397,0.164,0.36,0.0,1.0,0.405,New User,Medium
+U0483,Phường An Nhơn,Millennial,33,False,62,Cơm văn phòng,53000,0.39,2,17,1.5,0.4,0.6,False,0,0,0.505,0.266,0.361,0.4,0.0,1.0,0.404,Explorer,Medium
+U0484,Phường Đông Hòa,Gen Z,22,True,47,Cơm văn phòng,21000,0.73,7,8,0.7,0.63,0.37,False,0,0,0.823,0.615,0.509,0.63,0.0,0.217,0.403,Explorer,High
+U0485,Phường Tân Sơn Hòa,Other,49,False,17,Cơm văn phòng,68000,0.15,2,17,0.8,0.27,0.73,False,0,0,0.316,0.146,0.161,0.27,0.0,1.0,0.312,New User,Low
+U0486,Phường Xuân Hòa,Gen Z,20,True,17,Phở,45000,0.63,2,21,0.4,0.48,0.52,False,0,0,0.662,0.386,0.161,0.48,0.0,0.61,0.332,New User,Medium
+U0487,Phường Tân Sơn Nhì,Gen Z,27,True,90,Phở,31000,0.58,2,9,0.5,0.48,0.52,True,2,3,0.702,0.361,0.486,0.48,0.355,0.413,0.424,Occasional Saver,Medium
+U0488,Phường Khánh Hội,Other,59,False,13,Bún bò,75000,0.06,1,16,0.2,0.14,0.86,True,1,3,0.238,0.066,0.101,0.14,0.192,0.605,0.222,New User,Low
+U0489,Xã Hiệp Phước,Millennial,30,False,17,Cơm văn phòng,39000,0.56,3,18,2.6,0.26,0.74,False,0,0,0.655,0.387,0.204,0.26,0.0,1.0,0.396,New User,Low
+U0490,Phường Phú Nhuận,Gen Z,23,True,38,Cơm tấm,17000,0.83,5,19,3.7,0.67,0.33,False,0,0,0.892,0.594,0.383,0.67,0.0,1.0,0.537,Explorer,High
+U0491,Xã Bình Hưng,Millennial,28,False,81,Hủ tiếu,37000,0.4,2,12,0.3,0.17,0.83,False,0,0,0.584,0.271,0.446,0.17,0.0,0.607,0.325,Casual,Low
+U0492,Phường Linh Xuân,Gen Z,24,True,78,Bún bò,33000,0.81,3,10,0.8,0.66,0.34,False,0,0,0.808,0.512,0.475,0.66,0.0,0.62,0.453,Explorer,Medium
+U0493,Phường Hạnh Thông,Gen Z,18,True,45,Cơm tấm,20000,0.68,6,8,1.0,0.37,0.63,False,0,0,0.803,0.554,0.457,0.37,0.0,0.225,0.352,Casual,Low
+U0494,Phường Lái Thiêu,Gen Z,22,True,6,Cơm văn phòng,28000,0.67,6,16,0.0,0.62,0.38,True,9,18,0.761,0.549,0.284,0.62,0.83,0.6,0.58,New User,Medium
+U0495,Xã Vĩnh Lộc,Gen Z,27,True,35,Bánh mì,32000,0.63,4,13,1.0,0.21,0.79,False,0,0,0.722,0.458,0.327,0.21,0.0,0.625,0.362,Casual,Low
+U0496,Phường Thuận Giao,Gen Z,25,True,14,Cơm văn phòng,28000,0.71,5,21,0.1,0.51,0.49,False,0,0,0.781,0.534,0.277,0.51,0.0,0.602,0.399,New User,Medium
+U0497,Phường Bến Thành,Gen Z,21,True,72,Phở,23000,0.72,4,9,0.8,0.31,0.69,False,0,0,0.809,0.503,0.491,0.31,0.0,0.42,0.379,Casual,Low
+U0498,Phường An Lạc,Other,45,False,61,Hủ tiếu,58000,0.27,2,17,1.1,0.06,0.94,False,0,0,0.422,0.206,0.357,0.06,0.0,1.0,0.35,Casual,Low
+U0499,Phường Tân Khánh,Other,44,False,15,Bún riêu,101000,0.05,2,7,0.1,0.22,0.78,False,0,0,0.113,0.096,0.152,0.22,0.0,0.203,0.123,New User,Low
