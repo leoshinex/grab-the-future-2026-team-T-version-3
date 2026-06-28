@@ -91,6 +91,45 @@ Mỗi deal được giải cứu đều tốt cho con người, tốt cho doanh 
             └── users.json
 ```
 
+## Kiến trúc dự án
+
+Dự án gồm 1 pipeline dữ liệu và 2 ứng dụng độc lập cùng tiêu thụ dữ liệu đó — chưa có backend/API, dữ liệu được sinh sẵn (mock) ở dạng file tĩnh.
+
+```
+┌─────────────────────┐
+│  generate_users.py   │   Sinh 500 user giả lập (Python/NumPy/Pandas)
+│  (data/)             │   → tính behavior score → phân segment + priority
+└──────────┬───────────┘
+           │ xuất ra
+           ▼
+   data/users.csv  ───────────────────────┐
+           │                              │
+           │ convert_to_json.py            │ đọc trực tiếp
+           │ (lọc field cần dùng)          │
+           ▼                              ▼
+web-app/src/app/data/users.json   dashboard/app.py (Streamlit)
+           │                              │
+           ▼                              ▼
+   web-app (React/Vite)          Dashboard phân tích segment
+   — UI người dùng cuối           — minh họa chiến lược notify
+   — demo notification theo       cho giám khảo/nhà đầu tư
+     segment, đặt hàng, thanh
+     toán mô phỏng
+```
+
+**Luồng dữ liệu:**
+1. `data/generate_users.py` sinh dữ liệu hành vi giả lập cho 500 user (tần suất đặt hàng, giờ peak, pickup rate, voucher usage...), từ đó tính các điểm số tổng hợp (`giovang_score`, `deal_seeking_score`...) và gán **segment** + **notify_priority** theo rule-based logic → xuất ra `data/users.csv`.
+2. `data/convert_to_json.py` đọc `users.csv`, chỉ giữ lại các field cần cho frontend (`user_id`, `segment`, `is_gen_z`, `notify_priority`, `favorite_category`, `avg_order_value`, `age_group`) → xuất ra `web-app/src/app/data/users.json`.
+3. **`web-app`** (React + TypeScript + Vite) là ứng dụng demo chính: toàn bộ UI/UX của người dùng cuối (Home, Food Rescue, Merchant Detail, Detail/Checkout) và module `NotificationDemo` đọc trực tiếp `users.json` để demo nội dung thông báo cá nhân hóa theo segment.
+4. **`dashboard`** (Streamlit) đọc trực tiếp `data/users.csv`, dùng để trực quan hóa phân bố segment, priority, và minh họa chiến lược notify cho mục đích thuyết trình/phân tích — độc lập với web-app, không chia sẻ runtime.
+
+**Đặc điểm kiến trúc hiện tại:**
+- Toàn bộ là **client-side / static** — không có server, database, hay API thực sự. Dữ liệu là file tĩnh (`csv`/`json`) được generate trước, không cập nhật real-time.
+- `web-app` và `dashboard` là 2 ứng dụng tách biệt, deploy riêng (Vercel và Streamlit Cloud), chỉ dùng chung nguồn dữ liệu gốc (`users.csv`).
+- Logic phân segment/priority chạy 1 lần ở bước generate data (Python), không chạy lại ở runtime trên web-app — web-app chỉ đọc kết quả đã tính sẵn.
+
+**Hướng mở rộng (chưa làm):** thay file tĩnh bằng database + API thực (vd Node/Express hoặc Supabase), tính segment/score theo thời gian thực từ hành vi thật của user, và hợp nhất notify engine thành 1 service dùng chung cho cả web-app và các kênh khác (push notification thật, email...).
+
 ## Công nghệ sử dụng
 
 - **Frontend:** React + TypeScript + Vite
