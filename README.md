@@ -7,6 +7,16 @@ Một sản phẩm trong hệ sinh thái Grab nhằm giải quyết bài toán l
 - 🌐 **Web App:** https://grabthefuturehackathon-teamt.vercel.app/
 - 📊 **Dashboard (Streamlit):** https://grab-the-future-2026-team-t-version-3-dashboard.streamlit.app/
 
+## Tài nguyên thiết kế
+
+- 🎨 **Figma (bản sơ khởi):** https://curse-bamboo-77075215.figma.site/
+
+## AI sử dụng trong dự án
+
+- **Figma AI** — vẽ UI bản sơ khởi.
+- **Claude Code** — code phần generate data, deploy Streamlit, notification trong web-app.
+- **GitHub Copilot** — code phần nền, chuyển trang, các chức năng cơ bản của web-app.
+
 ## Vấn đề
 
 Mỗi ngày, hàng nghìn suất ăn còn tốt bị bỏ đi, trong khi người tiêu dùng ngày càng khó tiếp cận những bữa ăn vừa túi tiền.
