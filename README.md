@@ -10,6 +10,7 @@ Một sản phẩm trong hệ sinh thái Grab nhằm giải quyết bài toán l
 ## Tài nguyên thiết kế
 
 - 🎨 **Figma (bản sơ khởi):** https://curse-bamboo-77075215.figma.site/
+- 📑 **Pitch Deck:** https://canva.link/3rbz5b8z81bq8fc
 
 ## AI sử dụng trong dự án
 
