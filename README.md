@@ -104,8 +104,8 @@ Dự án gồm 1 pipeline dữ liệu và 2 ứng dụng độc lập cùng tiê
            ▼
    data/users.csv  ───────────────────────┐
            │                              │
-           │ convert_to_json.py            │ đọc trực tiếp
-           │ (lọc field cần dùng)          │
+           │ convert_to_json.py           │ đọc trực tiếp
+           │ (lọc field cần dùng)         │
            ▼                              ▼
 web-app/src/app/data/users.json   dashboard/app.py (Streamlit)
            │                              │
