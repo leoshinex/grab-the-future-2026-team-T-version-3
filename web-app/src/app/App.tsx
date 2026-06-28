@@ -5,6 +5,7 @@ import {
   X, Star, Plus, TrendingUp, BarChart3, Zap, CheckCircle,
   Heart, Share2, Info, SlidersHorizontal, UtensilsCrossed, ChefHat, CarFront, Bike, Store, Gift, ShoppingBag, Map, Coins,
 } from "lucide-react";
+import { useNotificationDemo, NotificationDemoButton, NotificationDemoOverlay } from "./components/NotificationDemo";
 
 // ─── Types ────────────────────────────────────────────────────────────────────
 
@@ -369,170 +370,183 @@ function HomeTab({
   onClosePopup: () => void;
   isNight: boolean;
 }) {
+  const [activeFilter, setActiveFilter] = useState("nearest");
+  const [activeCategory, setActiveCategory] = useState("All");
+
+  const filteredFoods = activeCategory === "All"
+    ? FOODS
+    : FOODS.filter((f) => f.category === activeCategory);
+
   return (
-    <div className="flex-1 flex flex-col overflow-hidden relative">
-      {/* Top bar */}
-      <div className="bg-white px-3 pt-2 pb-2 flex items-center gap-2 flex-shrink-0 border-b border-gray-100">
-        <button className="w-8 h-8 flex items-center justify-center">
-          <div className="grid grid-cols-2 gap-0.5">
-            {[...Array(4)].map((_, i) => <div key={i} className="w-1.5 h-1.5 bg-gray-400 rounded-sm" />)}
+    <div className="flex-1 flex flex-col overflow-hidden relative bg-[#eaf5f5]">
+
+      {/* ── Header ── */}
+      <div className="bg-white px-4 pt-3 pb-3 flex items-center justify-between flex-shrink-0">
+        <div className="flex items-center gap-3">
+          <div className="w-10 h-10 rounded-full bg-[#078282] flex items-center justify-center shadow-sm">
+            <Leaf size={20} className="text-white fill-white" />
           </div>
+          <div>
+            <p className="font-bold text-[15px] text-gray-900 leading-tight">Food Rescue</p>
+            <p className="text-[11px] text-gray-400 flex items-center gap-0.5 mt-0.5">
+              <MapPin size={10} className="text-gray-400" /> Bến Thành, Hồ Chí Minh
+            </p>
+          </div>
+        </div>
+        <button className="relative w-9 h-9 bg-gray-100 rounded-full flex items-center justify-center">
+          <Bell size={18} className="text-gray-600" />
+          <span className="absolute top-1.5 right-1.5 w-2 h-2 bg-red-500 rounded-full border border-white" />
         </button>
-        <div className="flex-1 flex items-center gap-2 bg-gray-100 rounded-full px-3 py-2">
-          <Search size={13} className="text-gray-400" />
-          <span className="text-gray-400 text-sm">Tìm kiếm món ăn</span>
-        </div>
-        <div className="w-8 h-8 rounded-full bg-[#078282] flex items-center justify-center">
-          <span className="text-white font-bold text-sm">N</span>
-        </div>
-        <div className="w-8 h-8 rounded-full bg-gray-200 flex items-center justify-center text-lg">👤</div>
       </div>
 
-      {/* Scrollable */}
+      {/* ── Search bar ── */}
+      <div className="bg-white px-4 pb-3">
+        <div className="h-11 rounded-full bg-white border border-gray-200 flex items-center gap-2 px-4 shadow-sm">
+          <Search size={16} className="text-gray-400 flex-shrink-0" strokeWidth={2} />
+          <span className="text-[14px] text-gray-400">Tìm món ăn, cửa hàng...</span>
+        </div>
+      </div>
+
+      {/* ── Scrollable content ── */}
       <div className="flex-1 overflow-y-auto" style={{ scrollbarWidth: "none" }}>
 
-        {/* ── Service icon grid ── */}
-        <div className="px-3 py-3">
-          <div className="grid grid-cols-6 gap-y-3">
-            {[...SERVICES_ROW1, ...SERVICES_ROW2].map((s) => (
-              <button
-                key={s.label}
-                onClick={s.rescue ? onRescue : undefined}
-                className="flex flex-col items-center gap-1 group"
-              >
-                <div
-                  className="w-11 h-11 rounded-full flex items-center justify-center text-xl shadow-sm border transition-transform group-active:scale-90"
-                  style={{
-                    backgroundColor: s.rescue ? "#078282" : "#f5f5f5",
-                    borderColor: s.rescue ? "#078282" : "#ebebeb",
-                  }}
-                >
-                  {s.rescue
-                    ? <Leaf size={20} className="text-white" />
-                    : s.icon}
-                </div>
-                <span
-                  className="text-[9px] font-semibold"
-                  style={{ color: s.rescue ? "#078282" : "#555" }}
-                >
-                  {s.label}
-                </span>
-                {/* Red dot on Rescue icon when night */}
-                {s.rescue && isNight && (
-                  <span className="absolute mt-0 w-2.5 h-2.5 bg-red-500 rounded-full border-2 border-white" style={{ marginTop: "-30px", marginLeft: "22px" }} />
-                )}
-              </button>
-            ))}
+        {/* Community Impact Card */}
+        <div className="mx-3 mt-3 mb-3 bg-[#078282] rounded-3xl p-4 relative overflow-hidden">
+          {/* Decorative leaf illustration */}
+          <div className="absolute right-3 top-0 bottom-0 flex items-center pointer-events-none">
+            <svg width="70" height="90" viewBox="0 0 70 90" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <ellipse cx="35" cy="35" rx="28" ry="35" fill="#4CAF8A" opacity="0.35" transform="rotate(-15 35 35)" />
+              <ellipse cx="48" cy="28" rx="18" ry="28" fill="#56C896" opacity="0.45" transform="rotate(10 48 28)" />
+              <ellipse cx="22" cy="45" rx="14" ry="22" fill="#3DA877" opacity="0.3" transform="rotate(-25 22 45)" />
+              <line x1="35" y1="20" x2="35" y2="80" stroke="#4CAF8A" strokeWidth="1.5" opacity="0.5" />
+              <line x1="35" y1="35" x2="55" y2="20" stroke="#4CAF8A" strokeWidth="1" opacity="0.4" />
+              <line x1="35" y1="50" x2="18" y2="38" stroke="#4CAF8A" strokeWidth="1" opacity="0.4" />
+            </svg>
           </div>
-          {/* Page dots */}
-          <div className="flex justify-center gap-1 mt-2">
-            <div className="w-3 h-1 bg-[#078282] rounded-full" />
-            <div className="w-1 h-1 bg-gray-300 rounded-full" />
+
+          <p className="text-white/70 text-[9px] font-bold uppercase tracking-widest mb-1">Cộng đồng đã cứu được</p>
+          <p className="text-white text-[28px] font-black leading-tight">34 suất ăn</p>
+          <p className="text-white/75 text-[11px] mt-0.5">= 6.8 kg CO₂ giảm thiểu hôm nay</p>
+
+          {/* Stats */}
+          <div className="mt-3 pt-3 border-t border-white/20 grid grid-cols-3 divide-x divide-white/20">
+            <div className="text-center pr-2">
+              <p className="text-white font-black text-[15px]">7+</p>
+              <p className="text-white/65 text-[9px] mt-0.5">Cửa hàng</p>
+            </div>
+            <div className="text-center px-2">
+              <p className="text-white font-black text-[15px]">đến 67%</p>
+              <p className="text-white/65 text-[9px] mt-0.5">Tiết kiệm</p>
+            </div>
+            <div className="text-center pl-2">
+              <p className="text-white font-black text-[15px]">0.4 km</p>
+              <p className="text-white/65 text-[9px] mt-0.5">Gần nhất</p>
+            </div>
           </div>
         </div>
 
-        {/* ── Rescue in-feed banner after 21:00 ── */}
-        {isNight && (
-          <button
-            onClick={onRescue}
-            className="mx-3 mb-3 w-[calc(100%-24px)] rounded-2xl overflow-hidden bg-gradient-to-r from-[#078282] to-[#078282] flex items-center gap-3 px-4 py-3 active:opacity-90 transition-opacity"
-          >
-            <div className="w-9 h-9 bg-white/20 rounded-xl flex items-center justify-center flex-shrink-0">
-              <Leaf size={18} className="text-white" />
-            </div>
-            <div className="flex-1 text-left">
-              <p className="text-yellow-300 text-[9px] font-bold uppercase tracking-wider">Rescue · Sau 21:00</p>
-              <p className="text-white font-bold text-[13px] leading-tight">Đồ ăn ngon, giảm đến 67%</p>
-              <p className="text-cyan-100 text-[10px]">Đặt trước khi cửa hàng đóng cửa</p>
-            </div>
-            <ChevronRight size={14} className="text-white/70" />
+        {/* ── Filter chips ── */}
+        <div className="px-3 mb-2 flex items-center gap-2 overflow-x-auto" style={{ scrollbarWidth: "none" }}>
+          {[
+            { id: "nearest", label: "Gần nhất", icon: <MapPin size={10} /> },
+            { id: "expiring", label: "Sắp hết", icon: <Clock size={10} /> },
+            { id: "discount", label: "Giảm sâu", icon: <Zap size={10} /> },
+          ].map((chip) => (
+            <button
+              key={chip.id}
+              onClick={() => setActiveFilter(chip.id)}
+              className="flex-shrink-0 flex items-center gap-1 px-3 py-1.5 rounded-full text-[11px] font-semibold border transition-all"
+              style={{
+                backgroundColor: activeFilter === chip.id ? "#078282" : "white",
+                color: activeFilter === chip.id ? "white" : "#555",
+                borderColor: activeFilter === chip.id ? "#078282" : "#e2e8f0",
+              }}
+            >
+              {chip.icon} {chip.label}
+            </button>
+          ))}
+          <button className="flex-shrink-0 w-8 h-8 rounded-full border border-gray-200 bg-white flex items-center justify-center text-gray-500 ml-auto">
+            <SlidersHorizontal size={13} />
           </button>
-        )}
+        </div>
 
-        {/* ── Buy Now ── */}
-        <div className="px-3">
-          <div className="flex items-center gap-1.5 mb-2">
-            <h2 className="font-bold text-[15px] text-gray-900">Buy Now</h2>
-            <Info size={12} className="text-gray-400" />
-          </div>
+        {/* ── Category tabs ── */}
+        <div className="px-3 mb-3 flex items-center gap-2 overflow-x-auto" style={{ scrollbarWidth: "none" }}>
+          {["All", ...CATEGORIES].map((cat) => (
+            <button
+              key={cat}
+              onClick={() => setActiveCategory(cat)}
+              className="flex-shrink-0 px-4 py-2 rounded-full text-[12px] font-semibold border transition-all"
+              style={{
+                backgroundColor: activeCategory === cat ? "#078282" : "white",
+                color: activeCategory === cat ? "white" : "#555",
+                borderColor: activeCategory === cat ? "#078282" : "#e2e8f0",
+              }}
+            >
+              {cat === "All" ? "Tất cả" : cat}
+            </button>
+          ))}
+        </div>
 
-          {/* Wide ad */}
-          <div className="rounded-2xl overflow-hidden mb-2 relative h-32 bg-gradient-to-r from-[#1a6b3a] to-[#2d9e57]">
-            <img src="https://images.unsplash.com/photo-1558857563-b371033873b8?w=700&h=300&fit=crop&auto=format" alt="Deal" className="absolute inset-0 w-full h-full object-cover opacity-40" />
-            <div className="relative p-3 flex flex-col justify-between h-full">
-              <div className="flex gap-1.5">
-                <span className="bg-white/20 text-white text-[8px] font-bold px-1.5 py-0.5 rounded-full">Food</span>
-                <span className="bg-yellow-400 text-cyan-900 text-[8px] font-bold px-1.5 py-0.5 rounded-full">Mua 1 Tặng 1</span>
-              </div>
-              <div>
-                <p className="text-yellow-300 text-[10px] font-bold uppercase tracking-widest">Deal</p>
-                <p className="text-white text-xl font-black leading-tight">MẮT XIMUM</p>
-                <p className="text-cyan-100 text-[10px]">Mua 1 nhận 1 &amp; tặng thêm nữa</p>
-              </div>
-            </div>
-          </div>
+        {/* ── Section title ── */}
+        <div className="px-3 mb-2">
+          <p className="text-[13px] font-semibold text-gray-600">{filteredFoods.length} ưu đãi gần bạn</p>
+        </div>
 
-          {/* Small ads */}
-          <div className="grid grid-cols-2 gap-2 mb-3">
-            <div className="rounded-2xl overflow-hidden bg-red-50 border border-red-100">
-              <div className="relative h-20 bg-red-100 flex items-center justify-center">
-                <span className="text-4xl">🍔</span>
-                <span className="absolute top-1 left-1 bg-orange-500 text-white text-[8px] font-bold px-1 py-0.5 rounded-md">Ad</span>
-                <span className="absolute bottom-1 left-1 bg-red-600 text-white text-[8px] font-bold px-1 py-0.5 rounded-md">35.000₫ off</span>
-              </div>
-              <div className="p-2"><p className="font-bold text-[11px]">Jollibee</p><p className="text-[9px] text-gray-400 truncate">EC Nguyễn Trãi – Bình Dương</p></div>
-            </div>
-            <div className="rounded-2xl overflow-hidden bg-amber-50 border border-amber-100">
-              <div className="relative h-20 overflow-hidden">
-                <img src="https://images.unsplash.com/photo-1540189549336-e6e99c3679fe?w=200&h=120&fit=crop&auto=format" alt="Bún Bò Huế" className="w-full h-full object-cover" />
-                <span className="absolute top-1 left-1 bg-orange-500 text-white text-[8px] font-bold px-1 py-0.5 rounded-md">Ad</span>
-                <span className="absolute bottom-1 left-1 bg-cyan-600 text-white text-[8px] font-bold px-1 py-0.5 rounded-md">Ưu đãi 5k</span>
-              </div>
-              <div className="p-2"><p className="font-bold text-[11px]">Bún Bò Huế</p><p className="text-[9px] text-gray-400 truncate">Sông Hương 5</p></div>
-            </div>
-          </div>
-
-          {/* ── Rescue horizontal strip inside Buy Now ── */}
-          <div className="mb-4">
-            <div className="flex items-center justify-between mb-2">
-              <div className="flex items-center gap-1.5">
-                <Leaf size={13} className="text-[#078282]" />
-                <span className="font-bold text-[13px] text-gray-900">Rescue</span>
-                {isNight && <span className="bg-[#078282] text-white text-[8px] font-bold px-1.5 py-0.5 rounded-full animate-pulse">LIVE</span>}
-              </div>
-              <button onClick={onRescue} className="text-[#078282] text-[11px] font-semibold flex items-center gap-0.5">
-                Xem tất cả <ChevronRight size={10} />
-              </button>
-            </div>
-            <div className="flex gap-2 overflow-x-auto pb-1" style={{ scrollbarWidth: "none" }}>
-              {FOODS.map((food) => (
-                <div
-                  key={food.id}
-                  onClick={() => onDetail(food)}
-                  className="flex-shrink-0 w-32 bg-white rounded-2xl overflow-hidden border border-gray-100 shadow-sm cursor-pointer active:scale-95 transition-transform"
-                >
-                  <div className="relative h-20 bg-gray-100">
-                    <img src={`https://images.unsplash.com/${food.image}?w=200&h=150&fit=crop&auto=format`} alt={food.name} className="w-full h-full object-cover" />
-                    <div className="absolute top-1 left-1 bg-[#078282] text-white text-[7px] font-bold px-1.5 py-0.5 rounded-full flex items-center gap-0.5">
-                      <Leaf size={5} /> Rescue
-                    </div>
-                    <div className="absolute top-1 right-1 bg-red-500 text-white text-[7px] font-bold px-1 py-0.5 rounded">-{food.discount}%</div>
+        {/* ── 2-column food grid ── */}
+        <div className="px-3 grid grid-cols-2 gap-3 pb-4">
+          {filteredFoods.map((food) => (
+            <div
+              key={food.id}
+              onClick={() => onDetail(food)}
+              className="bg-white rounded-2xl overflow-hidden shadow-sm cursor-pointer active:scale-95 transition-transform"
+            >
+              {/* Image area */}
+              <div className="relative h-28 bg-gray-100">
+                <img
+                  src={`https://images.unsplash.com/${food.image}?w=300&h=200&fit=crop&auto=format`}
+                  alt={food.name}
+                  className="w-full h-full object-cover"
+                />
+                {/* Rescue badge */}
+                <div className="absolute top-1.5 left-1.5 bg-[#078282] text-white text-[8px] font-bold px-1.5 py-0.5 rounded-full flex items-center gap-0.5">
+                  <Leaf size={7} className="fill-white" /> Rescue
+                </div>
+                {/* Discount badge */}
+                <div className="absolute top-1.5 right-1.5 bg-[#FF5733] text-white text-[10px] font-bold px-1.5 py-0.5 rounded-md">
+                  -{food.discount}%
+                </div>
+                {/* Quantity overlay */}
+                <div className="absolute bottom-1.5 left-1.5 bg-black/55 text-white text-[8px] font-semibold px-1.5 py-0.5 rounded flex items-center gap-0.5">
+                  <Clock size={7} /> {food.quantity} còn lại
+                </div>
+                {/* Sắp hết (for low stock) */}
+                {food.quantity <= 3 && (
+                  <div className="absolute bottom-1.5 right-1.5 bg-[#FF5733] text-white text-[8px] font-bold px-1.5 py-0.5 rounded flex items-center gap-0.5">
+                    <Zap size={7} /> Sắp hết
                   </div>
-                  <div className="p-2">
-                    <p className="font-bold text-[10px] leading-tight truncate">{food.name}</p>
-                    <p className="text-[8px] text-gray-400 mb-1">{food.store}</p>
-                    <p className="text-[#078282] font-bold text-[10px]">{vnd(food.discountedPrice)}</p>
-                    <p className="text-gray-400 text-[8px] line-through">{vnd(food.originalPrice)}</p>
-                    <div className="flex items-center gap-0.5 mt-1 text-[8px] text-orange-500 font-semibold">
-                      <Clock size={7} /> {food.deadline}
-                    </div>
+                )}
+              </div>
+
+              {/* Info area */}
+              <div className="p-2.5">
+                <p className="font-bold text-[13px] text-gray-900 leading-tight truncate">{food.name}</p>
+                <p className="text-[11px] text-gray-400 mb-1.5 truncate">{food.store}</p>
+                <p className="text-[#078282] font-bold text-[14px] leading-tight">{vnd(food.discountedPrice)}</p>
+                <p className="text-gray-400 text-[11px] line-through mb-1">{vnd(food.originalPrice)}</p>
+                <div className="flex items-center justify-between">
+                  <div className="flex items-center gap-0.5 text-[10px] text-orange-500 font-semibold">
+                    <Clock size={9} /> {food.deadline}
+                  </div>
+                  <div className="flex items-center gap-0.5 text-[10px] text-gray-400">
+                    <MapPin size={9} /> {food.distance}
                   </div>
                 </div>
-              ))}
+              </div>
             </div>
-          </div>
+          ))}
         </div>
-        <div className="h-2" />
+
       </div>
 
       {showPopup && (
@@ -619,17 +633,17 @@ function FoodRescueEventScreen({
         </div>
 
         {/* Search input */}
-        <div className="bg-gray-100 rounded-2xl flex items-center gap-2 px-3 py-2 mt-2 border border-transparent focus-within:border-cyan-400 focus-within:bg-white transition-all">
-          <Search size={14} className="text-gray-400" />
+        <div className="mt-2 h-11 rounded-full bg-white border border-gray-200 flex items-center gap-2 px-4 transition-colors focus-within:border-gray-300 shadow-sm">
+          <Search size={16} className="text-gray-400 flex-shrink-0" strokeWidth={2} />
           <input
             type="text"
             value={searchTerm}
             onChange={(e) => setSearchTerm(e.target.value)}
-            placeholder="Tìm kiếm ưu đãi FoodRescue..."
-            className="bg-transparent text-xs w-full outline-none text-gray-800"
+            placeholder="Tìm món ăn, cửa hàng..."
+            className="bg-transparent w-full outline-none text-[14px] leading-none text-gray-700 placeholder:text-gray-400"
           />
           {searchTerm && (
-            <button onClick={() => setSearchTerm("")} className="text-gray-400 hover:text-gray-600">
+            <button onClick={() => setSearchTerm("")} className="text-[#A1ACB2] hover:text-[#8F9BA1]">
               <X size={14} />
             </button>
           )}
@@ -796,7 +810,7 @@ function FoodRescueEventScreen({
                     </div>
 
                     <p className="text-[8.5px] text-gray-400 mt-0.5 truncate">
-                       {merchant.rating} ({merchant.reviewsCount}) • {merchant.cuisines.join(", ")}
+                      {merchant.rating} ({merchant.reviewsCount}) • {merchant.cuisines.join(", ")}
                     </p>
 
                     <p className="text-[8.5px] text-gray-500 mt-1 flex items-center gap-0.5">
@@ -1492,6 +1506,7 @@ export default function App() {
   const [simTime, setSimTime] = useState<number>(new Date().getHours());
   const [showPopup, setShowPopup] = useState(false);
   const popupTriggered = useRef(false);
+  const notifDemo = useNotificationDemo();
 
   const isNight = simTime >= 21;
 
@@ -1532,6 +1547,10 @@ export default function App() {
             <span className="text-xs font-bold px-2 py-0.5 rounded-full" style={{ backgroundColor: isNight ? "#078282" : "#f3f4f6", color: isNight ? "white" : "#6b7280" }}>
               {String(simTime).padStart(2, "0")}:00 {isNight ? "Giờ Rescue!" : "Ban ngày"}
             </span>
+          </div>
+          <div className="flex items-center justify-between mb-1.5">
+            <span className="text-xs font-bold text-gray-700"> Notification Demo</span>
+            <NotificationDemoButton activeUser={notifDemo.activeUser} onTrigger={notifDemo.triggerDemo} />
           </div>
           <input type="range" min={6} max={23} value={simTime} onChange={(e) => setSimTime(Number(e.target.value))} className="w-full accent-[#078282]" />
           <div className="flex justify-between text-[9px] text-gray-400 mt-0.5">
@@ -1590,9 +1609,9 @@ export default function App() {
                 {activeTab === "home" && (
                   <HomeTab
                     onRescue={openRescue}
-                    onDetail={(food) => openDetail(food, "rescue-list")}
+                    onDetail={(food) => openDetail(food, null)}
                     showPopup={showPopup}
-                    onClosePopup={() => { setShowPopup(false); openRescue(); }}
+                    onClosePopup={() => setShowPopup(false)}
                     isNight={isNight}
                   />
                 )}
@@ -1609,6 +1628,12 @@ export default function App() {
           </div>
 
           <div className="absolute bottom-1.5 left-1/2 -translate-x-1/2 w-24 h-1 bg-black/15 rounded-full z-50" />
+
+          <NotificationDemoOverlay
+            activeUser={notifDemo.activeUser}
+            variant={notifDemo.variant}
+            onClose={notifDemo.closeDemo}
+          />
         </div>
 
         <p className="text-[11px] text-[#078282]/50 text-center">Food · Rescue Integration · Concept UI</p>
